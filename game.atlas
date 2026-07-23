@@ -4,7 +4,14 @@ size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/America
+NationIcons/Ashanti
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Assyria
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -25,10 +32,10 @@ NationIcons/Brazil
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Dahomey
+NationIcons/Mali
   rotate: false
-  xy: 600, 0
-  size: 200, 200
+  xy: 0, 600
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -130,9 +137,9 @@ BuildingIcons/Hanse
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Ordu
+BuildingIcons/Royal Library
   rotate: false
-  xy: 200, 1400
+  xy: 800, 1400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -190,6 +197,34 @@ UnitIcons/Shieldman
   rotate: false
   xy: 100, 400
   size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Siege Tower
+  rotate: false
+  xy: 200, 1400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sofa
+  rotate: false
+  xy: 1200, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Berber Cavalry
+  rotate: false
+  xy: 800, 1200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Agojie
+  rotate: false
+  xy: 1000, 1200
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -277,13 +312,6 @@ UnitIcons/Guerrilla
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Agojie
-  rotate: false
-  xy: 1000, 800
-  size: 200, 200
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Oromo Cavalry
   rotate: false
   xy: 1400, 0
@@ -336,6 +364,13 @@ UnitIcons/Llaneiro
 ImprovementIcons/Chateau
   rotate: false
   xy: 600, 400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Longhouse
+  rotate: false
+  xy: 200, 200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -398,84 +433,84 @@ PolicyIcons/Volunteer Army
   index: -1
 PolicyIcons/Mercenary Army
   rotate: false
-  xy: 1200, 1000
+  xy: 800, 1000
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Exploration
   rotate: false
-  xy: 0, 600
+  xy: 100, 600
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Infrastructure
   rotate: false
-  xy: 100, 600
+  xy: 0, 700
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Navigation School
   rotate: false
-  xy: 0, 700
+  xy: 100, 700
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Treasure Fleets
   rotate: false
-  xy: 100, 700
+  xy: 500, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Aesthetics
   rotate: false
-  xy: 1000, 0
+  xy: 600, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Consulates
   rotate: false
-  xy: 1100, 0
+  xy: 500, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Merchant Confederacy
   rotate: false
-  xy: 1000, 100
+  xy: 600, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Centers
   rotate: false
-  xy: 1100, 100
+  xy: 700, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Fine Arts
   rotate: false
-  xy: 800, 1200
+  xy: 800, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 900, 1200
+  xy: 700, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Artistic Genius
   rotate: false
-  xy: 800, 1300
+  xy: 800, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
