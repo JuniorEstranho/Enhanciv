@@ -719,7 +719,7 @@
 	},
 	{
 		"name": "Change Port",
-		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [8] tiles away <in [City center] tiles>"]
+		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [12] tiles away <in [City center] tiles>"]
 	},
 	{
 		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
@@ -731,7 +731,7 @@
 	},
 	{
 		"name": "Fiel a la Patria", //Only for Voltigeurs Guard and subsequent upgrades
-		"uniques": ["[This Unit] gains [15] XP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers a [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
+		"uniques": ["[This Unit] heals [100] HP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers a [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
@@ -796,7 +796,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "[Foreign Legion] ability",
@@ -809,6 +809,10 @@
 	{
 		"name": "[Mohawk Warrior] ability",
 		"uniques": ["[+15]% Strength <when attacking>", "[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>"]
+	},
+	{
+		"name": "[Llaneiro] ability",
+		"uniques": ["[+25]% Strength <when fighting in [Farm] tiles>"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
