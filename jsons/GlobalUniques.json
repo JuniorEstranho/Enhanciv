@@ -10,20 +10,19 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled>",
+        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled> <when number of [Remaining [Major] Civilizations] is less than [5]>",
         // City-States debuff
-        "[-20]% [Science] [in all cities] <for [City-States] Civilizations>",
-        "[+20]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
+        "[-15]% [Science] [in all cities] <for [City-States] Civilizations>",
+        "[+15]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
         // Romania
-        "[+200]% Gold cost of acquiring tiles [in all cities] <within [3] tiles of a [Romania]>"
+        "[+200]% Gold cost of acquiring tiles [in all cities] <within [3] tiles of a [Romania]> <for [non-[Romania]] Civilizations>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
-        // France
-        "[-100]% to Flank Attack bonuses <vs [France] units>",
-        "Ignores Zone of Control <for [France] Civilizations>",
         // The Tupi
         "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "[+1] Range <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
+        "Ranged attacks may be performed over obstacles <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations>", 
         // Romania
