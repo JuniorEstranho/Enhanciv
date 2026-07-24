@@ -60,8 +60,9 @@
 		"innerColor": [223, 38, 38],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
-		"uniques": ["Can build [all] improvements at a [+25]% rate",
-			"[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+1 Happiness] [in capital] <upon signing a peace treaty with [Major] Civilizations>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -90,7 +91,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Last Prophet",
-		"uniques": ["Free [Great Prophet] appears <upon discovering [Writing] technology>", "[-50]% Natural religion spread [in foreign cities] <upon founding a Religion> <for [25] turns>"],
+		"uniques": ["Free [Great Prophet] appears <upon discovering [Writing] technology>", "[-50]% Natural religion spread [in foreign cities] <upon founding a Religion> <for [20] turns>"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -226,7 +227,7 @@
 		"uniqueName": "Homeland Beloved",
 		"uniques": ["[+1 Culture] [in all cities]",
 			"[+1 Culture, +1 Happiness] [in all cities] <after discovering [Acoustics]>",
-			"[-75]% Gold cost of acquiring tiles [in all cities]"],
+			"[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Rio de Janeiro","São Paulo","Brasília","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
@@ -536,7 +537,7 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Spirit of Adwa",
 		"uniques": ["Comment [Gain a [Production] boost for constructing [Military] units, upon a Major Civilization declares war on you (during the time you cant make agreement peace with them)]",
-			"[+25]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>"],
+			"[+30]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -802,7 +803,7 @@
 		"startIntroPart2": "",
 
 		"declaringWar": "I decided, your reign is unholy, we don't need your unfaith mind in this world.",
-		"attacked": "You? attacking me? Well, now is impossible to forgive it!",
+		"attacked": "You? attacking me? Well, now is impossible to forgive now!",
 		"denounced": "May the heavens grant me patience.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"introduction": "Good day, my friend. You're come here to share your enlightening?",
@@ -810,7 +811,7 @@
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "Oh, it's you.",
 
-		"tradeRequest": "The Kongo Kingdom will cover all costs of this agreement.",
+		"tradeRequest": "The Kongo will cover all costs of this agreement.",
 
 		"outerColor": [255, 231, 225],
 		"innerColor": [168, 120, 21],
@@ -1222,8 +1223,8 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [94, 54, 116],
-		"innerColor": [189, 171, 231],
+		"outerColor": [84, 172, 238],
+		"innerColor": [246, 214, 77],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["[+3 Science] [in all cities] <after discovering [Writing]>",
@@ -1327,7 +1328,7 @@
 		"innerColor": [19, 96, 87],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Anti-Imperium",
-		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",			
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
@@ -1852,7 +1853,7 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [110, 0, 177],
-		"cities": ["Dublin"],
+		"cities": ["Kumasi"],
 	},
 	{
 		"name": "Palmares", //Brazilian historically 'kilombo'
