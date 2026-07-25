@@ -212,7 +212,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [50]% of killed [Military] unit's [Cost] as [Golden Age points]",
+                    "Earn [10]% of killed [Military] unit's [Strength] as [Gold]",
                     "Get the leader title of [[leaderName] the Great]"
                 ]
             }
@@ -220,19 +220,21 @@
     },
     {
         "name": "Piety",
-        "era": "Ancient era",
+        "era": "Classical era",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 0,
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5,
             "Religious": 10
         },
         "uniques": [
             "[+50]% Production when constructing [Shrine] buildings [in all cities]",
             "[+50]% Production when constructing [Temple] buildings [in all cities]",
-            "[-100]% weight to this choice for AI decisions <when religion is disabled>"
+            "Only available <before adopting [Rationalism]>",
+            "[-100]% weight to this choice for AI decisions <when religion is disabled>",
+            "[+100]% weight to this choice for AI decisions <after founding a religion>"
         ],
         "policies": [
             {
@@ -272,7 +274,7 @@
             {
                 "name": "Free Religion",
                 "uniques": ["[-10]% Culture cost of adopting new Policies",
-                    "[+1 Happiness] [in all cities] <in cities with a [foreign] religion>"],
+                    "[+2 Happiness] [in all cities] <in cities with a [foreign] religion>"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4
@@ -440,22 +442,25 @@
             "Diplomatic": 5,
             "Domination": 5,
             "Scientific": 5,
-            "Religious": 5
+            "Religious": 0
         },
         "uniques": [
             "[+1] Movement <for [Embarked] units>",
             "[+1] Movement <for [Water] units>",
             "[+1] Sight <for [Water] units>",
-            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [3]>"
+            "[-100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is less than [2]>",
+            "[+50]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [1]>",
+            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [2]>"
         ],
         "policies": [
             {
                 "name": "Maritime Infrastructure",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]"
+                    "[+3 Production] [in all coastal cities]",
+                    "[+50]% Production when constructing [Harbor] buildings [in all coastal cities]"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Naval Tradition",
@@ -470,13 +475,13 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+1 Gold] from every [Lighthouse]",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[+2 Gold] from every [Lighthouse]",
+                    "[+2 Gold] from every [Harbor]",
+                    "[+2 Gold] from every [Seaport]"   
                 ],
                 "requires": ["Maritime Infrastructure", "Naval Tradition"],
                 "row": 2,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Navigation School",
@@ -492,11 +497,12 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+3 Gold] [in all coastal cities]"
+                    "[+2 Gold] [in all coastal cities]",
+                    "[+1 Gold] from every [Fishing Boats]"
                 ],
                 "requires": ["Merchant Navy"],
                 "row": 3,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Exploration Complete",
@@ -526,8 +532,7 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "May buy [Landsknecht] units with [Gold] [in all cities]",
-                    "May buy [Guerrilla] units with [Gold] [in all cities]",
-                    "[-50]% maintenance costs <for [Mercenary Unit] units>"
+                    "May buy [Guerrilla] units with [Gold] [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
