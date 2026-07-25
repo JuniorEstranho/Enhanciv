@@ -559,7 +559,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"uniques": ["[+15]% Strength <vs [Siege] units> <when attacking>"],
-		"promotions": ["Accuracy I"],
+		"promotions": ["Accuracy I", "Quick Study"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -639,6 +639,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Jagas Warrior",
+		"uniqueTo": "Angola",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Civil Service",
+		"uniques": ["Heals [25] damage if it kills a unit"],
+		"promotions": ["City Plunder", "[Jagas Warrior] ability"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Impi",
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
@@ -647,7 +662,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","[1] additional attacks per turn"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","Before engaging in combat performs an extra ranged attack with [100]% of melee combat strength"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -663,21 +678,6 @@
 		"promotions": ["City Plunder"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Jagas Warrior",
-		"uniqueTo": "Angola",
-		"replaces": "Landsknecht",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["Can move immediately once bought","No movement cost to pillage", "Mercenary Unit", "Heals [25] damage if it kills a unit","[-50]% production cost <after adopting [Mercenary Army]>"],
-		"promotions": ["City Plunder", "[Jagas Warrior] ability"],
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
 	},
 	{
@@ -733,7 +733,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs [Gunpowder] units>"],
 		"promotions": ["March"],
 		"attackSound": "horse"
 	},
@@ -744,7 +744,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 15,
-		"rangedStrength": 12,
+		"rangedStrength": 13,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -775,7 +775,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -864,13 +864,13 @@
 		"replaces": "Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 26,
+		"strength": 12,
+		"rangedStrength": 28,
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["No damage penalty for wounded units","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["Ranged attacks may be performed over obstacles","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
@@ -959,7 +959,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Can move after attacking","Transfer Movement to [Civilian]"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Transfer Movement to [Civilian]"],
 		"promotions": ["Boarding Party I", "Great Admirals I"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
@@ -1190,7 +1190,8 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "Withdraws before melee combat <with [50]% chance>"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "cannon"
 	},
 
@@ -1303,8 +1304,8 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Clamberer"],
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Drill I", "Drill II"],
 		"attackSound": "cavalry"
 	},
 	{
