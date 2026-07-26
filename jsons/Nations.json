@@ -92,7 +92,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Last Prophet",
 		"uniques": ["Free [Great Prophet] appears <upon discovering [Philosophy] technology>",
-			"[+100] [Oil] resource production",
+			"[+100]% [Oil] resource production",
 			"[-50]% Natural religion spread [in foreign cities] <upon founding a Religion> <for [15] turns> <hidden from users>"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -402,7 +402,7 @@
 		"innerColor": [16, 54, 124],
 		"favoredReligion": "Christianity",
 		"uniqueName": "El Libertador",
-		"uniques": ["[+1 Happiness] <for every [5] [[Military] Units]",
+		"uniques": ["[+1 Happiness] <for every [5] [[Military] Units]>",
 			"[+1] Movement <for [All] units> <during a Golden Age>",
 			"Empire enters a [8]-turn Golden Age <upon gaining a [Great General] unit>"],
 		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
@@ -1194,7 +1194,7 @@
 		"uniqueName": "Glories of the New World",
 		"uniques": ["[+100]% [Iron] resource production",
 			"[+100]% Yield from every [Natural Wonder]",
-			"[-50]% Unhappiness from the number of cities",
+			"[-50]% unhappiness from the number of cities",
 			"[+1] Sight <for [Water] units>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
@@ -1224,7 +1224,7 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [132, 132, 132],
+		"outerColor": [232, 232, 232],
 		"innerColor": [62, 117, 250],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
