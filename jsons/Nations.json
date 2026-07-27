@@ -1292,8 +1292,8 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [116, 77, 154],
-		"innerColor": [241, 168, 0],
+		"outerColor": [101, 77, 152],
+		"innerColor": [224, 66, 49],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["[+2 Science] from every [Great Improvement]",
@@ -2084,6 +2084,6 @@
 		"innerColor": [185, 12, 12]
 		"uniques": ["Can only heal by pillaging","Excluded from map editor",
 			"[Water] units gain the [Unable to pillage tiles] promotion", //Angola unique
-			"[{Military} {Land}] units gain the [Jagas Tribe] promotion <with [66]% chance> <when number of [Remaining [Angola] Civilizations] is more than 0>"]
+			"[{Military} {Land}] units gain the [Jagas Tribe] promotion <with [66]% chance> <when number of [Remaining [Angola] Civilizations] is more than [0]>"]
   }
 ]
