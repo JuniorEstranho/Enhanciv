@@ -892,11 +892,10 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 21,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Metal Casting",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["Double movement in [Water]"],
 		"promotions": ["Amphibious"],
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -1015,7 +1014,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Formation I"],
 		"attackSound": "shot"
 	},
 	{
@@ -1089,10 +1088,26 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Lancer",
+		"name": "Jong",
+		"uniqueTo": "Indonesia",
+		"replaces": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredTech": "Navigation",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>"],
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Lancer", //Buff, +4 Strength
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 25,
+		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
@@ -1108,7 +1123,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 25,
+		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can pass through impassable tiles"],
@@ -1123,7 +1138,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 5,
-		"strength": 28,
+		"strength": 31,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
@@ -1139,7 +1154,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 25,
+		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
@@ -1155,7 +1170,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 5,
-		"strength": 25,
+		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
@@ -1260,6 +1275,18 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["March"],
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Guerrilla",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 125,
+		"requiredTech": "Rifling",
+		"uniques": ["No movement cost to pillage","Ignores Zone of Control","Can move immediately once bought", "Mercenary Unit","Unbuildable"],
+		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -1493,17 +1520,6 @@
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Ignores Zone of Control"],
 		"promotions": ["[Pracinha] ability"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Guerrilla",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 60,
-		"cost": 200,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["Ignores terrain cost","Can move immediately once bought", "Mercenary Unit","Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
@@ -1753,15 +1769,15 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Guided Missile",
+		"name": "Guided Missile", //Buff, against Helicopter and Armored units. Nerf, +33% production cost
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
 		"range": 8,
-		"cost": 150,
+		"cost": 200,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs"],
+		"uniques": ["[+100]% Strength <vs [Helicopter] units> <when attacking>","[+100]% Strength <vs [Armored] units> <when attacking>", "[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	{
@@ -1778,9 +1794,7 @@
 		"attackSound": "nuke"
 	},
 	{
-		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
-		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Helicopter Gunship",
+		"name": "Helicopter Gunship", //Buff, Hovering unit, more unitType abilities
 		"unitType": "Helicopter",
 		"movement": 6,
 		"strength": 60,
@@ -1912,6 +1926,21 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Merchant] group",
+			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
+			"Great Person - [Gold]", "Unbuildable", "Comment [Uncapturable]"],
+		"movement": 2
+	},
+	{
+		"name": "Merchant of Venice",
+		"uniqueTo": "Venice",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Double movement in [Water]",
+			"Invisible to non-adjacent units <when [Embarked]>",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Merchant] group",
