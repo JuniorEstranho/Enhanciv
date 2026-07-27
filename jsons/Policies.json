@@ -27,7 +27,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [5] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -65,7 +65,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free",
+                    "Provides a [Aqueduct] in your first [5] cities for free",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
             }
@@ -85,10 +85,10 @@
         "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
             {
-               "name": "Collective Rule",
+                "name": "Republic",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears"
+                    "[+1 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 1 
@@ -104,12 +104,12 @@
                 "column": 4
             },
             {
-                "name": "Republic",
+                "name": "Collective Rule",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
+                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "Free [Settler] appears"
                 ],
-                "requires": ["Collective Rule"],
+                "requires": ["Republic"],
                 "row": 2,
                 "column": 1  
             },
@@ -222,11 +222,11 @@
         "name": "Piety",
         "era": "Classical era",
         "priorities": {
-            "Neutral": 5,
+            "Neutral": 0,
             "Cultural": 5,
             "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 5,
+            "Domination": 0,
+            "Scientific": 0,
             "Religious": 10
         },
         "uniques": [
@@ -298,7 +298,7 @@
             "Diplomatic": 5,
             "Domination": 5,
             "Scientific": 5,
-            "Religious": 0
+            "Religious": 5
         },
         "uniques": [
             "[Great Artist] is earned [50]% faster"
@@ -346,7 +346,11 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[+20]% [Culture] [in all cities]"
+                    "[+1 Happiness] from every [Monument]",
+                    "[+1 Happiness] from every [Amphitheater]",
+                    "[+1 Happiness] from every [Opera House]",
+                    "[+1 Happiness] from every [Museum]",
+                    "[+1 Happiness] from every [Broadcast Tower]"
                 ],
                 "requires": ["Flourishing of the Arts"],
                 "row": 3,
@@ -356,8 +360,6 @@
                 "name": "Aesthetics Complete",
                 "uniques": [
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //Sweden unique
-                    "May buy [Great Artist] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Master]"
                 ]
             }
@@ -448,9 +450,7 @@
             "[+1] Movement <for [Embarked] units>",
             "[+1] Movement <for [Water] units>",
             "[+1] Sight <for [Water] units>",
-            "[-100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is less than [2]>",
-            "[+50]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [1]>",
-            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [2]>"
+            "[+100]% weight to this choice for AI decisions <on water maps>",
         ],
         "policies": [
             {
@@ -497,8 +497,9 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+2 Gold] [in all coastal cities]",
-                    "[+1 Gold] from every [Fishing Boats]"
+                    "[+1 Gold] from every [Pearls]",
+                    "[+1 Gold] from every [Crab]",
+                    "[+1 Gold] from every [Whales]"
                 ],
                 "requires": ["Merchant Navy"],
                 "row": 3,
@@ -508,8 +509,6 @@
                 "name": "Exploration Complete",
                 "uniques": [
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //Sweden unique
-                    "May buy [Great Admiral] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Captain]"
                 ]
             }
@@ -577,8 +576,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>", //Sweden unique
-                    "May buy [Great Merchant] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
             }
@@ -648,8 +646,6 @@
                 "uniques": [
                     "Free Technology",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //Sweden unique
-                    "May buy [Great Scientist] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Wise]"
                 ]
             }
@@ -679,8 +675,9 @@
                 "column": 1
             },
             {
-                "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
+                "name": "Volunteer Army",
+                "uniques": ["[6] free [Foreign Legion] units appear",
+                    "May buy [Foreign Legion] units with [Gold] [in all cities]"],
                 "row": 1,
                 "column": 3
             },
@@ -700,10 +697,9 @@
                 "column": 1,
             },
             {
-                "name": "Volunteer Army",
-                "uniques": ["[6] free [Foreign Legion] units appear",
-                    "May buy [Foreign Legion] units with [Gold] [in all cities]"],
-                "requires": ["Universal Suffrage"],
+                "name": "Universal Suffrage",
+                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
+                "requires": ["Volunteer Army"],
                 "row": 2,
                 "column": 3
             },
@@ -792,8 +788,6 @@
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //Sweden unique
-                    "May buy [Great General] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
             }
@@ -865,10 +859,7 @@
                 "name": "Order Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    //Sweden unique
-                    "May buy [Great Engineer] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
-                    "Get the leader title of [Chairman [leaderName]]"
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
