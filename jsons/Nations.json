@@ -25,7 +25,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Roosevelt Corollary",
 		"uniques": ["[+1] Sight <for [{Military} {Land}] units>",
-			"Gifts of Gold to City-States generate [+25]% more Influence",
+			"Gifts of Gold to City-States generate [+33]% more Influence",
 			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
@@ -262,7 +262,7 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["May choose [1] additional belief(s) of any type when [enhancing] a religion",
-			"[+2 Faith] from every specialist [in holy cities]",
+			"[+3 Faith] from every specialist [in holy cities]",
 			"[+100]% Natural religion spread [in annexed cities]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna", "Ohrid","Nicomedia","Trebizond","Cherson", "Sardica",
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
@@ -434,9 +434,9 @@
 		"innerColor": [255, 255, 102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["No defensive terrain penalty <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>",
-			"[1] Movement point cost to disembark <for [All] units>"],
+		"uniques": ["No movement cost to pillage <for [Melee] units>",
+			"[1] Movement point cost to disembark <for [All] units>",
+			"[+1] Movement <for [Embarked] units>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso", 
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore", 
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers", 
@@ -457,7 +457,7 @@
     
 		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
 		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
-		"denounced": "",
+		"denounced": "How dare you stab your majesty!",
 		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
 		"introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
 
@@ -518,7 +518,7 @@
 		"leaderName": "Menelik II",
 		"adjective": ["Ethiopian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 		"personality": "Menelik II",
 
 		"startIntroPart1": "",
@@ -528,7 +528,7 @@
 		"attacked": "What!? With mercy or not, you will be crushed!",
 		"denounced": "I will remain firm in my decisions.",
 		"defeated": "We will stand firm until the end. Have a good day.",
-		"introduction": "Good morning. I am the great Emperor of Ethiopia, Menelik II. Have you come with mercy or with wrath?",
+		"introduction": "Good morning. I am the great Emperor of Ethiopia, Menelik II. Have you come here to stay or get out?",
 		
 		"neutralHello": "Good day.",
 		"hateHello": "Oh, it's you.",
@@ -538,11 +538,8 @@
 		"outerColor": [18, 66, 22],
 		"innerColor": [255, 56, 56],
 		"favoredReligion": "Orthodoxy",
-		"uniqueName": "Aksumite Spirit",
-		"uniques": ["Comment [May buy [{Military} {Land}] units with [Faith] [in all cities] <when at war>]",
-			"May buy [{Military} {Land} {non-[Mercenary Unit]}] units with [Faith] [in all cities] <when at war> <hidden from users>",
-			"[Gold] cost of purchasing [{Military} {Land}] units [-33]% <when at war>",
-			"[-33]% maintenance costs <for [Military] units> <when at war>"],
+		"uniqueName": "Solomonic Dysnaty",
+		"uniques": ["Free Social Policy <upon entering a new era>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -892,6 +889,40 @@
 		"spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
 	},
 	{
+		"name": "Morocco",
+		"leaderName": "Ahmad al-Mansur",
+		"adjective": ["Moroccan"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Ahmad al-Mansur",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The gain from the war, what will you get out of it?",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"denounced": "Weren't safe? Well.",
+		"defeated": "The gain is having a clean system from corruption.",
+		"introduction": "I am the Sultan of Marrakesh al-Mansur, in the name of my people I welcome you!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "I came hopeful that we can reach an agreement.",
+
+		"outerColor": [193, 39, 45],
+		"innerColor": [0, 98, 51],
+		"favoredReligion": "Islam",
+		"uniqueName": "Trade Caravans",
+		"uniques": ["[+1 Gold, +3 Culture] from each Trade Route",
+			"[+2 Gold, +1 Culture] [in all cities connected to capital] <before discovering [Railroads]>"],
+		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
+			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
+			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
+			"Chefchaouen","Ben Guerir","Eli Kelaa des Sraghna","Erfoud"],
+		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj, Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"]
+	},
+	{
 		"name": "Persia",
 		"leaderName": "Cyrus II",
 		"adjective": ["Persian"],
@@ -926,6 +957,42 @@
 			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
 			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka"],
 		"spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
+	},
+	{
+		"name": "Poland",
+		"leaderName": "Casimir III",
+		"adjective": ["Polish"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Casimir III",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I have decided to end you!",
+		"attacked": "My armies will grind you to dust!",
+		"denounced": "You will not earn nothing!",
+		"defeated": "Celebrate your victory well...it might be your last one.",
+		"introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
+
+		"neutralHello": "Welcome.",
+		"hateHello": "What do YOU want?",
+
+		"tradeRequest": "How do you like my offer?",
+
+		"outerColor": [245, 0, 0],
+		"innerColor": [16, 16, 16],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Solidarity",
+		"uniques": ["Gain [250] [Gold] <upon declaring friendship> <(modified by game speed)>",
+			"Gain [500] [Culture] <upon signing a peace treaty with [Major] Civilizations> <(modified by game speed)>",
+			"Gain [750] [Gold] <upon losing a city> <(modified by game speed)>",
+			"Gain [1000] [Culture] <upon declaring a defensive pact> <(modified by game speed)>"],
+		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
+			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
+			"Bytom","Olsztyn","Rzeszow","Ruda Slaska","Bielsko-Biala","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
+			"Leczyca","Walbrzych","Zielona Gora","Wloclawek"],
+		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"]
 	},
 	{
 		"name": "Polynesia",
@@ -1224,12 +1291,11 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [232, 232, 232],
-		"innerColor": [62, 117, 250],
+		"outerColor": [37, 96, 119],
+		"innerColor": [17, 44, 77],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
-		"uniques": ["[+25]% [Science] [in this city] <during We Love The King Day>",
-			"Starts with [Pottery]",
+		"uniques": ["Starts with [Pottery]",
 			"Starts with [Writing]"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
 			"El Obeid","Shuruppak","Abu Salabikh","Kish","Kutha","Djemdet-Nasr","Tell Agrab","Tutub",
@@ -1329,7 +1395,7 @@
 		"innerColor": [19, 96, 87],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Anti-Imperium",
-		"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
 		"cities": ["Olisipo","Viseo","Aeminium","Coninbriga","Caurium","Norba","Ammaia","Lacinimurga","Emerita","Scallabis",			
 			"Caetobriga","Metellinum","Igaeditanorum"]
 	},
