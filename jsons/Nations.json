@@ -57,12 +57,13 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [85, 2, 2],
-		"innerColor": [223, 38, 38],
+		"outerColor": [219, 39, 54],
+		"innerColor": [68, 37, 23],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"],
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]",
+			"Comment [Most [Barbarian] units gain the [Imbangala Tribe] promotion, giving [+20]% Strength vs others nations]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -93,7 +94,7 @@
 		"uniqueName": "Last Prophet",
 		"uniques": ["Free [Great Prophet] appears <upon discovering [Philosophy] technology>",
 			"[+100]% [Oil] resource production",
-			"[-50]% Natural religion spread [in foreign cities] <upon founding a Religion> <for [15] turns> <hidden from users>"],
+			"[-50]% Natural religion spread [in foreign cities] <upon founding a Religion> <for [10] turns> <hidden from users>"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -227,7 +228,7 @@
 		"innerColor": [38, 115, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Homeland Beloved",
-		"uniques": ["[+1 Culture] [in all cities]",
+		"uniques": ["[+1 Culture, +1 Happiness] [in all cities]",
 			"[+1 Culture, +1 Happiness] [in all cities] <after discovering [Acoustics]>",
 			"[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Rio de Janeiro","São Paulo","Brasília","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -334,7 +335,8 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Druidic Lore",
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"],
+			"[+2 Faith] [in all cities] <with [3] to [4] neighboring [{unimproved} {Forest}] tiles>",
+			"[+3 Faith] [in all cities] <with [5] to [6] neighboring [{unimproved} {Forest}] tiles>"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
@@ -571,10 +573,10 @@
 		"outerColor": [38, 98, 255],
 		"innerColor": [239, 236, 148],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Ancien Régime",
-		"uniques": ["Comment [[+1 Happiness] in capital from each new era]",
-			"[+100]% [Culture] [in capital] <during a Golden Age>",
-			"[+1 Happiness] [in capital] <upon entering a new era> <hidden from users>"],
+		"uniqueName": "City of Light",
+		"uniques": ["[+100]% [Culture] [in capital] <during a Golden Age>",
+			"[+50]% [Science] [in capital] <during a Golden Age>",
+			"[+50]% Yield from every [Great Improvement] <in [Capital] cities>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -814,8 +816,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Foreign Missionaries",
 		"uniques": ["[Faith] cost of purchasing [Missionary] units [-50]%",
-			"[+50]% Faith cost of generating Great Prophet equivalents <after founding a religion>",
-			"[+2] Movement <for [Religious Unit] units>",],
+			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
 	},
@@ -1291,11 +1292,12 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [37, 96, 119],
-		"innerColor": [17, 44, 77],
+		"outerColor": [116, 77, 154],
+		"innerColor": [241, 168, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
-		"uniques": ["Starts with [Pottery]",
+		"uniques": ["[+2 Science] from every [Great Improvement]",
+			"Starts with [Pottery]",
 			"Starts with [Writing]"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
 			"El Obeid","Shuruppak","Abu Salabikh","Kish","Kutha","Djemdet-Nasr","Tell Agrab","Tutub",
@@ -1328,7 +1330,8 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Nobel Prize",
 		"uniques": ["Gain [100] Influence with a [Great Person] gift to a City-State",
-			"Comment [May buy [Great Person] units with [Gold] (after adopt the complete social policies of each Great Person)]"],
+			"[+25]% Great Person generation [in all cities] <after discovering [Dynamite]>",
+			"[+25]% Great Person generation [in all cities] <during a Golden Age>"],
 		"cities":  ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
 			"Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
 			"Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping", 
@@ -1437,7 +1440,7 @@
 		"name": "The Netherlands",
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
-		"startBias": ["Coast"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 		"personality": "William of Orange",
 
@@ -2080,6 +2083,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [185, 12, 12]
 		"uniques": ["Can only heal by pillaging","Excluded from map editor",
-			"[Water] units gain the [Unable to pillage tiles] promotion"]
+			"[Water] units gain the [Unable to pillage tiles] promotion", //Angola unique
+			"[{Military} {Land}] units gain the [Imbangala Tribe] promotion <with [66]% chance> <when number of [Remaining [Angola] Civilizations] is more than 0>"]
   }
 ]
