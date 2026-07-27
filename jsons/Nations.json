@@ -63,7 +63,7 @@
 		"uniqueName": "Mwene Ngola",
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]",
-			"Comment [Most [Barbarian] units gain the [Imbangala Tribe] promotion, giving [+20]% Strength vs others nations]"],
+			"Comment [Most [Barbarian] units gain the [Jagas Tribe] promotion, giving [+20]% Strength vs others nations]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -2084,6 +2084,6 @@
 		"innerColor": [185, 12, 12]
 		"uniques": ["Can only heal by pillaging","Excluded from map editor",
 			"[Water] units gain the [Unable to pillage tiles] promotion", //Angola unique
-			"[{Military} {Land}] units gain the [Imbangala Tribe] promotion <with [66]% chance> <when number of [Remaining [Angola] Civilizations] is more than 0>"]
+			"[{Military} {Land}] units gain the [Jagas Tribe] promotion <with [66]% chance> <when number of [Remaining [Angola] Civilizations] is more than 0>"]
   }
 ]
