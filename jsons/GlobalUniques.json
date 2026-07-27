@@ -2,20 +2,20 @@
     "name": "Global Uniques",
     "uniques": [
         "Requires establishing embassies to conduct advanced diplomacy",
-        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "[-66]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
-        "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled> <when number of [Remaining [Major] Civilizations] is less than [5]>",
+        "Nullifies [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
+        "[-25]% Natural religion spread [in foreign cities] <when [Religious] Victory is enabled> <when number of [Remaining [Major] Civilizations] is less than [5]>",
         // City-States debuff
-        "[-15]% [Science] [in all cities] <for [City-States] Civilizations>",
-        "[+15]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
+        "[-10]% [Science] [in all cities] <for [City-States] Civilizations>",
+        "[+10]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
         // Romania
-        "[+200]% Gold cost of acquiring tiles [in all cities] <within [3] tiles of a [Romania]> <for [non-[Romania]] Civilizations>"
+        "[+200]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
