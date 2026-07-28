@@ -352,6 +352,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Jagas Warrior",
+		"uniqueTo": "Angola",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 46,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Can move immediately once bought"],
+		"promotions": ["[Jagas Warrior] ability"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pictish Warrior",
 		"uniqueTo": "Celts",
 		"replaces": "Spearman",
@@ -638,21 +653,6 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
-	},
-	{
-		"name": "Jagas Warrior",
-		"uniqueTo": "Angola",
-		"replaces": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 75,
-		"requiredTech": "Civil Service",
-		"uniques": ["Heals [25] damage if it kills a unit"],
-		"promotions": ["City Plunder", "[Jagas Warrior] ability"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Impi",
