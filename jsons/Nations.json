@@ -57,13 +57,13 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [139, 43, 19],
-		"innerColor": [243, 221, 213],
+		"outerColor": [115, 90, 69],
+		"innerColor": [238, 1, 45],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mercenaries Tribes",
 		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [your] tiles>",
-			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+15]% Strength vs others nations]",
-			"Notified of new Barbarian encampments"],
+			"Gain a free [Kilombo] [in this city] <upon founding a city> <within [3] tiles of a [Barbarian encampment]>",
+			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+15]% Strength vs others nations]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -1252,12 +1252,12 @@
 
 		"tradeRequest": "From Spain to you, We requires you help.",
 
-		"outerColor": [222, 0, 0],
-		"innerColor": [239, 197, 54],
+		"outerColor": [239, 197, 54],
+		"innerColor": [222, 0, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Glories from New World",
 		"uniques": ["[+1 Gold] from every [Luxury resource]",
-			"[+2 Gold, +1 Happiness] from every known Natural Wonder",
+			"[+2 Gold, +1 Happiness] for every known Natural Wonder",
 			"[+100]% Yield from every [Natural Wonder]"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
