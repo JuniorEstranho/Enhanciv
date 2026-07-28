@@ -723,7 +723,7 @@
 	},
 	{
 		"name": "Jagas Tribe", //Only for Barbarian, if Angola are in the game
-		"uniques": ["[+20]% Strength <vs [non-[Angola]] units>"]
+		"uniques": ["[+15]% Strength <vs [non-[Angola]] units>"]
 	},
 	{
 		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
@@ -771,11 +771,11 @@
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles", "May capture killed [Jagas Tribe] units"]
+		"uniques": ["[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
-		"uniques": ["Heals [33] damage if it kills a unit"]
+		"uniques": ["Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Cossack] ability",
