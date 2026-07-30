@@ -26,7 +26,7 @@
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
 		"culture": 2,
-		"faith": 1,
+		"faith": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -55,7 +55,8 @@
 		"name": "Nzo Nkisi",
 		"uniqueTo": "Kongo",
 		"replaces": "Shrine",
-		"cost": 30,
+		"culture": 1,
+		"cost": 40,
 		"maintenance": 1,
 		"uniques": ["[+1 Faith] from each Trade Route", "Only available <when religion is enabled>"],
 		"requiredTech": "Pottery",
@@ -288,10 +289,9 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 			"New [Mounted] units start with [15] XP [in this city]",
-			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]",
-			"[+2 Gold] from [Pasture] tiles [in this city]"],
+			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -419,11 +419,10 @@
 		"uniqueTo": "Arabia",
 		"replaces": "Market",
 		"gold": 2,
-		"culture": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+1 Gold] from [Oasis] tiles [in this city]", "[+1 Gold] from [Oil] tiles [in this city]"],
+			"[+2 Gold] from [Oasis] tiles [in this city]", "[+2 Gold] from [Oil] tiles [in this city]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
@@ -493,10 +492,20 @@
 		"requiredTech": "Theology"
 	},
 	{
+		"name": "Candi",
+		"uniqueTo": "Indonesia",
+		"replaces": "Garden",
+		"faith": 3,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
 		"name": "Ziggurat",
 		"uniqueTo": "Sumer",
 		"replaces": "Garden",
-		"production": 1,
+		"production": 2,
 		"percentStatBonus": {"science": 25},
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
@@ -583,6 +592,18 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Longhouse",
+		"uniqueTo": "Iroquois",
+		"replaces": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+5]% [Production] [in all cities]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -778,6 +799,7 @@
 		"specialistSlots": {"Merchant": 1, "Engineer": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25, "production": 10},
+		"uniques": ["[+1 Production] from each Trade Route"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
