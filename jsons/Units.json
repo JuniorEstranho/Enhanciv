@@ -37,11 +37,11 @@
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 7,
-		"cost": 35,
+		"strength": 8,
+		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Gain [25] [Gold] <upon discovering a [Ancient ruins] tile>"],
 		"promotions": ["Survivalism I", "Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -81,7 +81,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
-		"cost": 36,
+		"cost": 40,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
@@ -358,7 +358,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
-		"cost": 46,
+		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -392,7 +392,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores Zone of Control"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -421,7 +421,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Can only attack [City] units","No defensive terrain bonus","[-33]% Strength <vs [Melee] units> <when defending>","[-1] Sight"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Can only attack [City] units","No defensive terrain bonus","[-25]% Strength <when defending>","[-1] Sight"],
+		"promotions": ["Cover I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -530,7 +531,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+30]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>","[+30]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -781,7 +782,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"promotions": ["[Mandekalu Cavalry] ability"],
+		"promotions": ["[Mandekalu Cavalry] ability", "City Plunder"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
@@ -1972,7 +1973,7 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
             "Is part of Great Person group [Prophet]",
             "[This Unit] gets a name from the [Prophet] group",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"May enter foreign tiles without open borders <when [Religious] Victory is disabled>", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
