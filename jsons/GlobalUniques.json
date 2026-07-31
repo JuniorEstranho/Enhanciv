@@ -9,26 +9,24 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
-        "Nullifies [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
+        "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
         // City-States debuff
         "[-25]% [Science] [in all cities] <for [City-States] Civilizations>",
-        "[+10]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
         // Romania
         "[+200]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations>",
+        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations>",
         // Morocco
-        "[+1 Gold] [in all cities] <within [4] tiles of a [Morocco]> <for [non-[Morocco]] Civilizations>",
-        // Shoshone
-        "[+33]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Shoshone]> <for [non-[Shoshone]] Civilizations>"
+        "[+1 Gold] [in all cities] <within [4] tiles of a [Morocco]> <for [non-[Morocco]] Civilizations>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
         // The Tupi
-        "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "[+1] Range <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
-        "Ranged attacks may be performed over obstacles <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "[3] additional attacks per turn <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
-        "[+1] Range <in [{your} {Citadel}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
-        "Ranged attacks may be performed over obstacles <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
+        "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
+        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "[3] additional attacks per turn <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
+        "[+1] Range <when [Land]> <in [{your} {Citadel}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
+        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations>", 
         // Romania
