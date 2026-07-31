@@ -1129,7 +1129,8 @@
 		"innerColor": [16, 16, 16],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Mother Russia",
-		"uniques": ["Gain control over [5] tiles [in this city] <upon founding a city>",
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]",
+			"[Great Engineer] is earned [50]% faster",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -1145,28 +1146,32 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Vlad III",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Great Vlad Tepes! born to be the third Dragon! the Empaler! During the Ottomans expasion, you became aprisoned with your brother into Ottoman court and live entire your young age studing and plan your revenge against to your dad traitors and the Ottomans. After years of conflicts, you turn the Prince of Principality of Wallachia, fighting against the Ottomans and Foreign oppressios. Years after, the king Carol I, founds the Romania kingdom.",
+		"startIntroPart2": "Great Wallachia Dragon! Scourge of Ottomans! Your wrath against to you enemies has show with the empaled bodies forest. You can survive to the foreigners opression? You can survive to the test of time?",
 		
-		"declaringWar": "We were already at war, but now it's official!",
-		"attacked": "The wallachia skirmishes will never leave you in peace now!",
-		"denounced": "You don't know who you're messing with!",
+		"declaringWar": "Will be glorius empale all your mens!",
+		"attacked": "Hahaha, You really don't know who you're messing with!",
+		"denounced": "I still waiting for something happen.",
 		"defeated": "I don't kneel before tyrants like you, kill me now!",
 		"introduction": "Am I seeing a king? Well, you look like one, but you wouldn't come close to me. Welcome to Wallachia, come on, I'll prepare a feast.",
 
 		"neutralHello": "Hello, again.",
 		"hateHello": "Ahh... you...",
 
-		"tradeRequest": "No one would offer you anything better!",
+		"tradeRequest": "No one would offer you anything better.",
 
 		"outerColor": [0, 11, 83],
 		"innerColor": [205, 85, 0],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Dragon of Wallachia",
-		"uniques": ["Comment [Foreign units dont have defensive terrain bonus and dont have flank attack bonuses in your territory and Enemy units heal less half HP by pillaging your tiles. Foreign cities near to your cities has triple [Gold] cost to acquiring tiles]"],
+		"uniques": ["Comment [Foreign units dont have defensive terrain bonus in your territory]",
+			"Comment [Enemy units dont have flank attack bonuses in your territory]",
+			"Comment [Enemy units heal less half HP by pillaging your tiles]",
+			"Comment [Foreign cities near to your cities has triple [Gold] cost to acquiring tiles and [+25]% penalty to natural border growth]"],
 		"cities": ["Tirgoviste","Bucharest","Cluj-Napoca","Iasi","Constanta","Timisoara","Caralasi","Slobozia",
 			"Giurgiu","Pitesti","Slatina","Braila","Tulcea","Galati","Focsani","Sfontu","Gheorgha","Brasov","Romnicu Volcea",
-			"Craiova","Sibui","Miercurea","Bacau","Vaslui","Botosani","Suceava","Oradea","Zalau","Arad","Torgu Mures"]
+			"Craiova","Sibui","Miercurea","Bacau","Vaslui","Botosani","Suceava","Oradea","Zalau","Arad","Torgu Mures"],
+		"spyNames": ["Mihai","Stephen","Carol","Eminescu","Radu","Constanti","Decebalus","Corneliu","Nicolae"]
 	},
 	{
 		"name": "Rome",
@@ -1179,7 +1184,7 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "Some empires need's to fall, to other's became more stronger.",
+		"declaringWar": "Some empires needs to fall, to others became more stronger.",
 		"attacked": "Really?",
 		"denounced": "I think you are my enemy.",
 		"defeated": "Empires don't die, they just traform on others.",
@@ -1225,13 +1230,12 @@
 
 		"tradeRequest": "This is 'nice' for you?",
 
-		"outerColor": [110, 53, 37],
+		"outerColor": [65, 10, 12],
 		"innerColor": [16, 182, 249],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Great Expanse",
-		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-			"[+2] population [in this city] <upon founding a city>",
-			"Comment [Foreign cities near to your cities receive a penalty in his border growth]"],
+		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [your] tiles>",
+			"Gain control over [8] tiles [in this city] <upon founding a city>"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1585,25 +1589,26 @@
 		"startIntroPart2": "",
 
 		"declaringWar": "If you bother my tribe, you mess with me!",
-		"attacked": "This will not happen with my people!",
+		"attacked": "This will not happen with our people!",
 		"denounced": "You definitely need a lesson.",
-		"defeated": "Monster! I curse you, i curse all your generation line!",
+		"defeated": "Monster! I curse you! I curse all your generation line!",
 		"introduction": "Greetings, warrior. I am Cunhambebe, Tamoios leader. You come here for good or evil?",
 
 		"neutralHello": "Welcome.",
 		"hateHello": "What do YOU want?",
 
 		"tradeRequest": "I've heard rumors that you're a great negotiator. Want to prove it to me?",
+		"declaringFriendship": "It's time to you join.",
 
-		"outerColor": [46, 144, 41],
+		"outerColor": [40, 232, 54],
 		"innerColor": [5, 84, 227],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pindorama Home",
 		"uniques": ["Comment [[Ranged] units in the garrison function like a city bombardment, with multiple additional attacks ([Melee] units have just the additional attacks)]",
 			"[-50]% maintenance costs <for [Archery] units>",
 			"Starts with [Archery]"],
-		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz","Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma",
-			"Awetí","Mondé","Tuparí"]
+		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz",
+			"Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma","Awetí","Mondé","Tuparí"]
 	},
 	{
 		"name": "Venice",
@@ -1633,10 +1638,10 @@
 		"uniqueName": "Serenissima",
 		"uniques": ["[+100]% [Gold] [in capital]",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
-			"Comment [Cannot gain settlers nor annex cities]",
+			"Comment [Cannot build settlers nor annex cities]",
 			"Cannot build [Settler] units <hidden from users>",
 			"May not annex cities <hidden from users>",
-			"May buy items in puppet cities <hidden from users>"],
+			"May buy items in puppet cities"],
 		"cities": ["Venice"],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"]
 	},
