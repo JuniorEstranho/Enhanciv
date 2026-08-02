@@ -32,13 +32,6 @@ NationIcons/Brazil
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Mali
-  rotate: false
-  xy: 0, 600
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 NationIcons/Kongo
   rotate: false
   xy: 0, 200
@@ -81,13 +74,6 @@ NationIcons/Byzantium
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Spain
-  rotate: false
-  xy: 1000, 600
-  size: 200, 200
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 NationIcons/Romania
   rotate: false
   xy: 0, 1200
@@ -116,17 +102,10 @@ NationIcons/Morocco
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nzo Nkinsi
+BuildingIcons/Nzo Nkisi
   rotate: false
   xy: 0, 400
   size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Emperor's Public School 
-  rotate: false
-  xy: 400, 200
-  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -207,7 +186,7 @@ UnitIcons/Siege Tower
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Sofa
+UnitIcons/Winged Hussar
   rotate: false
   xy: 1200, 600
   size: 200, 200
@@ -368,9 +347,9 @@ ImprovementIcons/Chateau
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Longhouse
+ImprovementIcons/Brazilwood Camp
   rotate: false
-  xy: 200, 200
+  xy: 400, 200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -536,7 +515,7 @@ ReligionIcons/Protestantism
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Christianity
+ReligionIcons/Catholicism
   rotate: false
   xy: 600, 1000
   size: 200, 200
