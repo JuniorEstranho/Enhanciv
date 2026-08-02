@@ -102,6 +102,43 @@
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 	},
 	{
+		"name": "Assyria",
+		"leaderName": "Ashurbanipal",
+		"adjective": ["Assyrian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Ashurbanipal",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I fear there is no other choice but to remove you from this world!",
+		"attacked": "You lowlife! You will regret this!",
+		"denounced": "Why you just dont said anything?",
+		"defeated": "You have bested my forces... perhaps it was I that underestimated you.",
+		"introduction": "I welcome you to the great kingdom of Assyria...have you come to view my library?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "So, out with it!",
+
+		"tradeRequest": "Will you consider a trade?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [255, 213, 15],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Warfare Machinery",
+		"uniques": ["Comment [Receive a sum of [Science] upon conquering a city]",
+			"Earn [50]% of killed [Military] unit's [Cost] as [Science]",
+			"[-50]% maintenance costs <for [Siege] units>",
+			"Upon capturing a city, receive [6] times its [Science] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [6] times its [Culture] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [6] times its [Gold] production as [Science] immediately <hidden from users>"],
+		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
+			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
+			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
+		"spyNames": ["Adapa", "Kubaba", "Nabu", "Nergal", "Ninlil", "Ninurta", "Nisroch", "Shamash", "Pazuzu", "Qingu"]
+	},
+	{
 		"name": "Austria",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"]
@@ -540,8 +577,8 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Solomonic Dysnaty",
 		"uniques": ["[+2 Faith] from every specialist [in all cities] <after enhancing a religion>",
-			"Comment [May buy [Spearman], [Swordsman], [Longswordsman], [Musketman], [Rifleman] and [Great War Infantry] units with [Faith] in all cities during a war",
-			"May buy [Amphitheater], [Opera House], [Museum] and [Broadcast Tower] buildings with [Faith] in all cities",
+			"Comment [May buy [Spearman], [Swordsman], [Longswordsman], [Musketman], [Rifleman] and [Great War Infantry] units with [Faith] in all cities during a war]",
+			"Comment [May buy [Amphitheater], [Opera House], [Museum] and [Broadcast Tower] buildings with [Faith] in all cities]",
 			"May buy [Spearman] units with [Faith] [in all cities] <when at war> <hidden from users>",
 			"May buy [Swordsman] units with [Faith] [in all cities] <when at war> <hidden from users>",
 			"May buy [Longswordsman] units with [Faith] [in all cities] <when at war> <hidden from users>",
@@ -1656,6 +1693,40 @@
 			"May buy items in puppet cities"],
 		"cities": ["Venice"],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"]
+	},
+	{
+		"name": "Zulu",
+		"leaderName": "Shaka",
+		"adjective": ["Zulus"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Shaka",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "None will slow our progress, not even you! Prepare for war!",
+		"attacked": "Your arrogance will only lead you to defeat!",
+		"denounced": "Dont be ironic. Declares war on me now!",
+		"defeated": "My warriors have failed, and so I failed them.",
+		"introduction": "I'm Shaka of Zulu. Don't try to move, warrior, or I'll destroy you.",
+
+		"neutralHello": "Hail.",
+		"hateHello": "Ahh... you.",
+
+		"tradeRequest": "Approve the closure sell.",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [52, 0, 0],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Ikwla",
+		"uniques": ["[-50]% maintenance costs <for [Melee] units>",
+			"[-25]% XP required for promotions <for [Military] units>"],
+		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
+			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
+			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela",
+			"Mthatha","Maseru","Lobamba","Qunu"],
+			"spyNames": ["Gumede", "Jama", "Mageba", "Malanda", "Mnguni", "Ndaba", "Phunga", "Senzangakhona", "Balungile", "Samkelisiwe"]
 	},
 	// City-States sorted by cityStateType, name
 	{
