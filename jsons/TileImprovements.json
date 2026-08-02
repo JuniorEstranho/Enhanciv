@@ -242,6 +242,20 @@
 	},
 	//Civilization unique improvements
 	{
+		"name": "Brazilwood Camp",
+		"uniqueTo": "Brazil",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Machinery"
+		"gold": 1,
+		"production": 1,
+		"uniques": ["[+2 Culture] <after discovering [Acoustics]>",
+			"[+1 Gold, +1 Production] <after discovering [Printing Press]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+16 Gold]"]
+	},
+	{
 		"name": "Chateau",
 		"uniqueTo": "France",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
