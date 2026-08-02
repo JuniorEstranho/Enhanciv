@@ -727,7 +727,7 @@
 	},
 	{
 		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+25]% Strength <when [Wounded]> <when attacking>"]
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when [Wounded]>"]
 	},
 	{
 		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
@@ -754,12 +754,32 @@
 		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"],
 	},
 	{
+		"name": "Buffalo Horns", //Only for Zulu Sword units and subsequent upgrades
+		"uniques": ["[+1] Movement",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "Buffalo Chest", //Only for Zulu Sword units and subsequent upgrades
+		"prerequisites": ["Buffalo Horns"],
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "Buffalo Loins", //Only for Zulu Sword units and subsequent upgrades
+		"prerequisites": ["Buffalo Chest"],
+		"uniques": ["[+10]% Strength",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
 		"name": "[Jaguar] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+12] HP when healing"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -771,7 +791,7 @@
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles"]
+		"uniques": ["Ignores Zone of Control", "[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
