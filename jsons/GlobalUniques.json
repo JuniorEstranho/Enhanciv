@@ -19,7 +19,7 @@
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
         // Angola
-        "Can instantly construct a [Customs house] improvement <by consuming this unit> <when [Sword]> <in [Unowned] tiles> <for [Angola] Civilizations> <hidden from users>",
+        "Can instantly construct a [Barbarian encampment] improvement <by consuming this unit> <when [Sword]> <in [Unowned] tiles> <for [Angola] Civilizations> <hidden from users>",
         // The Tupi
         "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
