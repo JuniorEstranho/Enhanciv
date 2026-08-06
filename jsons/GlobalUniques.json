@@ -11,30 +11,30 @@
         // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
         // City-States debuff
-        "[-25]% [Science] [in all cities] <for [City-States] Civilizations>",
+        "[-25]% [Science] [in all cities] <for [City-States] Civilizations> <hidden from users>",
         // Romania
-        "[+200]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations>",
-        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations>",
-        // Morocco
-        "[+1 Gold] [in all cities] <within [4] tiles of a [Morocco]> <for [non-[Morocco]] Civilizations>"
+        "[+200]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
+        // Angola
+        "Can instantly construct a [Customs house] improvement <by consuming this unit> <when [Sword]> <in [Unowned] tiles> <for [Angola] Civilizations> <hidden from users>",
         // The Tupi
-        "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
-        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "[3] additional attacks per turn <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
-        "[+1] Range <when [Land]> <in [{your} {Citadel}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations>",
-        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations>",
+        "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
+        "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
+        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
+        "[3] additional attacks per turn <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
+        "[+1] Range <when [Land]> <in [{your} {Citadel}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
+        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         // England
-        "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations>", 
+        "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations> <hidden from users>", 
         // Romania
-        "[-100]% to Flank Attack bonuses <vs [Romania] units> <when fighting in [Romania] tiles> <for [non-[Romania]] Civilizations>",
-        "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations>",
-        "[-50]% Health from pillaging tiles <in [Romania] tiles>",
+        "[-100]% to Flank Attack bonuses <vs [Romania] units> <when fighting in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[-50]% Health from pillaging tiles <in [Romania] tiles> <hidden from users>",
         // Persia
-        "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations>"], 
+        "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations> <hidden from users>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
