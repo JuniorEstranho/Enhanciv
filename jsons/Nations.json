@@ -57,13 +57,12 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [107, 60, 10],
+		"outerColor": [84, 40, 15],
 		"innerColor": [210, 210, 210],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
-		"uniques": ["Earn [20]% of killed [Barbarian] unit's [Strength] as [Gold]",
-			"Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
-			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+15]% Strength vs others nations]"],
+		"uniques": ["Earn [20]% of killed [Barbarian] unit's [Cost] as [Gold]",
+			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+20]% Strength vs others nations]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -123,16 +122,16 @@
 
 		"tradeRequest": "Will you consider a trade?",
 
-		"outerColor": [255, 255, 255],
-		"innerColor": [255, 213, 15],
+		"outerColor": [255, 255, 216],
+		"innerColor": [246, 207, 42],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Warfare Machinery",
 		"uniques": ["Comment [Receive a sum of [Science] upon conquering a city]",
-			"Earn [100]% of killed [Military] unit's [Cost] as [Science]",
 			"[-50]% maintenance costs <for [Siege] units>",
-			"Upon capturing a city, receive [6] times its [Science] production as [Science] immediately <hidden from users>",
-			"Upon capturing a city, receive [6] times its [Culture] production as [Science] immediately <hidden from users>",
-			"Upon capturing a city, receive [6] times its [Gold] production as [Science] immediately <hidden from users>"],
+			"[+50]% Production when constructing [Siege] units [in all cities]",
+			"Upon capturing a city, receive [5] times its [Science] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [5] times its [Culture] production as [Science] immediately <hidden from users>",
+			"Upon capturing a city, receive [5] times its [Gold] production as [Science] immediately <hidden from users>"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
@@ -393,7 +392,7 @@
 		"attacked": "I promise cut you in half!",
 		"denounced": "Why you do that? well, i'll take my army for precautions.",
 		"defeated": "How this going? with my empire, my gracious empire. My mandate is over.",
-		"introduction": "A foreigner? Hello, I am Qin Shin Huang, the First Emperor of China.",
+		"introduction": "A foreigner? Hello, I'm Qin Shin Huang, the First Emperor of China.",
 
 		"neutralHello": "Hello.",
 		"hateHello": "Ahh... you...",
@@ -406,7 +405,8 @@
 		"favoredReligion": "Taoism",
 		"uniqueName": "Art of War",
 		"uniques": ["Great General provides double combat bonus",
-			"[Great General] is earned [50]% faster"],
+			"[Great General] is earned [50]% faster",
+			"[Great Admiral] is earned [50]% faster"],
 		"cities": ["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -622,7 +622,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "City of Light",
 		"uniques": ["[+100]% [Culture] [in capital] <during a Golden Age>",
-			"[-100]% Unhappiness from [Population] [in capital]"],
+			"[-50]% Unhappiness from [Population] [in capital]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -878,8 +878,8 @@
 		"preferredVictoryType": "Religious",
 		"personality": "Mvemba a Nzinga",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "O Mvemba a Nzinga or however you like be called Alfonso I, The Apostle of Kongo. The Kongo Kingdom he was the greatest power in Western of Africa and became more stronger by the power of arquebus given by Portugueses. You're more known by your reforces to convert the Kongo to Catholicism and demand sum of Missionaries from Portugal. The Kongo faced unimaginable challenges to survive and was dismantled and annexed by those who called us a allies.",
+		"startIntroPart2": "Mvemba a Nzinga, Our incredible apostle. We needs your knowledge to govern the gracious and powered Kongo Kingdom! We can conquist everything like the old days? including the test of time?",
 
 		"declaringWar": "I decided, your reign is unholy, we don't need your unfaith mind in this world.",
 		"attacked": "You? attacking me? Well, now is impossible to forgive now!",
@@ -896,7 +896,8 @@
 		"innerColor": [168, 120, 21],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Foreign Missionaries",
-		"uniques": ["[Faith] cost of purchasing [Missionary] units [-50]%",
+		"uniques": ["[+1 Faith] from each Trade Route",
+			"[Faith] cost of purchasing [Missionary] units [-50]%",
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
@@ -916,7 +917,7 @@
 		"attacked": "You really want enter in war, you can't win?",
 		"denounced": "Truly mistake.",
 		"defeated": "I lost but not from my ingenuity, i lost from your knowledge.",
-		"introduction": "Welcome, foreigner.  I am Seondeok, Queen of Silla. You're come here to read and share some articles?",
+		"introduction": "Welcome, foreigner.  I,m Seondeok, Queen of Silla. You're come here to read and share some articles?",
 
 		"neutralHello": "Good day.",
 		"hateHello": "What do YOU want now?",
@@ -927,8 +928,7 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hwarang",
-		"uniques": ["[+2 Science] from each Trade Route",
-			"[+2 Science] from every specialist [in all cities]",
+		"uniques": ["[+2 Science] from every specialist [in all cities]",
 			"[-50]% Food consumption by [Specialists] [in all cities]",
 			"[-50]% Unhappiness from [Specialists] [in all cities]"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
@@ -996,10 +996,7 @@
 		"innerColor": [0, 98, 51],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+3 Gold, +1 Culture] from each Trade Route",
-			"Comment [[+1 Gold] for every city near to friendly foreign cities]",
-			"[+1 Gold] [in all cities] <within [4] tiles of a [{non-[your]} {Friendly Land}]> <hidden from users>",
-			"Comment [[+1 Gold] in foreign cities near to your cities]"],
+		"uniques": ["[+3 Gold, +1 Culture] from each Trade Route"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
@@ -1221,7 +1218,7 @@
 		"cities": ["Tirgoviste","Bucharest","Cluj-Napoca","Iasi","Constanta","Timisoara","Caralasi","Slobozia",
 			"Giurgiu","Pitesti","Slatina","Braila","Tulcea","Galati","Focsani","Sfontu","Gheorgha","Brasov","Romnicu Volcea",
 			"Craiova","Sibui","Miercurea","Bacau","Vaslui","Botosani","Suceava","Oradea","Zalau","Arad","Torgu Mures"],
-		"spyNames": ["Mihai","Stephen","Carol","Eminescu","Radu","Constanti","Decebalus","Corneliu","Nicolae"]
+		"spyNames": ["Mihai", "Stephen", "Carol", "Eminescu", "Radu", "Constanti", "Decebalus", "Corneliu", "Nicolae"]
 	},
 	{
 		"name": "Rome",
@@ -1421,7 +1418,7 @@
 		"innerColor": [187, 132, 104],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
-		"uniques": ["[+3 Science] from every [Great Improvement]",
+		"uniques": ["[+2 Science] from each Trade Route",
 			"Starts with [Pottery]",
 			"Starts with [Writing]"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
@@ -1455,7 +1452,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Nobel Prize",
 		"uniques": ["Gain [100] Influence with a [Great Person] gift to a City-State",
-			"[+25]% Great Person generation [in all cities] <during a Golden Age>",
+			"[+25]% Yield from every [Great Improvement]",
 			"[+25]% Great Person generation [in all cities] <after discovering [Dynamite]>"],
 		"cities":  ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
 			"Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
@@ -1467,8 +1464,8 @@
 	{
 		"name": "The Huns",
 		"leaderName": "Attila the Hun",
-		"adjective": ["Huns"]
-		"startBias": ["Avoid [Desert]","Avoid [Forest]","Avoid [Jungle]"],
+		"adjective": ["Hunnic"]
+		"startBias": ["Avoid [Forest]","Avoid [Jungle]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Attila the Hun",
 
@@ -1505,8 +1502,8 @@
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Viriathus",
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Great Leader Viriathus, the Lusitanians are so glad to fight next you! During the Empire of Rome expansion a true massacre happened in lusitania, Romans murdered and enslaved lusitanians but you will never forget that. You escaped from massacre and making a coalization of Celtics and Lusitanian tribes to fight against the Romans. We triumph over many battles using guerrilla tactics - but the Romans has to use a cowardly tactic to kill you.",
+		"startIntroPart2": "Viriathus, We are ready to protect our land - We are ready to triumph over the test of time!",
 
 		"declaringWar": "Our ideals are far apart, the sky will turn gray!",
 		"attacked": "I won't let anything you want happen.",
