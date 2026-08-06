@@ -561,7 +561,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"uniques": ["[+15]% Strength <vs [Siege] units> <when attacking>"],
-		"promotions": ["Accuracy I", "Quick Study"],
+		"promotions": ["Accuracy I"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -589,10 +589,10 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>","[-10]% Strength <when attacking>"],
-		"promotions": ["Woodsman"],
+		"promotions": ["Drill I", "Woodsman"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -734,7 +734,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["March"],
 		"attackSound": "horse"
 	},
@@ -745,7 +745,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 15,
-		"rangedStrength": 13,
+		"rangedStrength": 14,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -1016,7 +1016,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Formation I"],
+		"promotions": ["Formation I", "Formation II"],
 		"attackSound": "shot"
 	},
 	{
@@ -1516,11 +1516,10 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
-		"cost": 350,
+		"cost": 325,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Ignores Zone of Control"],
 		"promotions": ["[Pracinha] ability"],
 		"attackSound": "shot"
 	},
@@ -2003,7 +2002,7 @@
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Khan] group",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"movement": 5
 	},
 	{
 		"name": "Great Admiral",
