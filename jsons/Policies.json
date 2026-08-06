@@ -12,7 +12,8 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[-25]% Culture cost of natural border growth [in all cities]",
+            "[Hanging Gardens] is enabled"
         ],
         "policies": [
             {
@@ -82,7 +83,8 @@
             "Scientific": 10,
             "Religious": 10
         },
-        "uniques": ["[+1 Culture] [in all cities]"],
+        "uniques": ["[+1 Culture] [in all cities]",
+            "[The Pyramids] is enabled"],
         "policies": [
             {
                 "name": "Republic",
@@ -157,7 +159,8 @@
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
+            "Notified of new Barbarian encampments",
+            "[Statue of Zeus] is enabled"
         ],
         "policies": [
             {
@@ -232,9 +235,12 @@
         "uniques": [
             "[+50]% Production when constructing [Shrine] buildings [in all cities]",
             "[+50]% Production when constructing [Temple] buildings [in all cities]",
+            "[Great Prophet] units gain the [Pilgrim] promotion <when [Religious] Victory is disabled>",
+            "[Great Mosque of Djenne] is enabled",
             "Only available <before adopting [Rationalism]>",
+            "[-100]% weight to this choice for AI decisions <when [Religious] Victory is disabled>",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>",
-            "[+100]% weight to this choice for AI decisions <after founding a religion>"
+            "[+50]% weight to this choice for AI decisions <after founding a religion> <when [Religious] Victory is enabled>"
         ],
         "policies": [
             {
@@ -301,7 +307,8 @@
             "Religious": 5
         },
         "uniques": [
-            "[Great Artist] is earned [50]% faster"
+            "[Great Artist] is earned [50]% faster",
+            "[The Oracle] is enabled"
         ],
         "policies": [
             {
@@ -525,7 +532,8 @@
             "Scientific": 5,
             "Religious": 0
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[+25]% [Gold] [in capital]",
+            "[Notre Dame] is enabled"],
         "policies": [
             {
                 "name": "Mercenary Army",
