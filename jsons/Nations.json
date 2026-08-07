@@ -39,7 +39,7 @@
 		"name": "Angola",
 		"leaderName": "Nzinga Mbande",
 		"adjective": ["Angolan"]
-		"startBias": ["Forest"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Nzinga Mbande",
 
@@ -61,8 +61,10 @@
 		"innerColor": [210, 210, 210],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
-		"uniques": ["Earn [20]% of killed [Barbarian] unit's [Cost] as [Gold]",
-			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+20]% Strength vs others nations]"],
+		"uniques": ["Earn [15]% of killed [Barbarian] unit's [Cost] as [Gold]",
+			"Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
+			"Notified of new Barbarian encampments",
+			"Comment [Some [Barbarians] units gain the [Jagas Tribe] promotion, giving [+15]% Strength vs others nations]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -122,8 +124,8 @@
 
 		"tradeRequest": "Will you consider a trade?",
 
-		"outerColor": [255, 255, 216],
-		"innerColor": [246, 207, 42],
+		"outerColor": [255, 255, 219],
+		"innerColor": [165, 140, 33],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Warfare Machinery",
 		"uniques": ["Comment [Receive a sum of [Science] upon conquering a city]",
@@ -714,7 +716,7 @@
 		"innerColor": [3, 115, 86],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Can build [All Road] improvements at a [25]% rate",
+		"uniques": ["Can build [All Road] improvements at a [50]% rate",
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
@@ -982,10 +984,10 @@
 
 		"tradeRequest": "I came hopeful that we can reach an agreement.",
 
-		"outerColor": [193, 39, 45],
-		"innerColor": [0, 98, 51],
+		"outerColor": [214, 114, 18],
+		"innerColor": [5, 69, 39],
 		"favoredReligion": "Islam",
-		"uniqueName": "Trade Caravans",
+		"uniqueName": "Gateway to Africa",
 		"uniques": ["[+3 Gold, +1 Culture] from each Trade Route"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
@@ -1182,7 +1184,7 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Vlad III",
 
-		"startIntroPart1": "Great Vlad Tepes! born to be the third Dragon! the Empaler! During the Ottomans expasion, you became aprisoned with your brother into Ottoman court and live entire your young age studing and plan your revenge against to your dad traitors and the Ottomans. After years of conflicts, you turn the Prince of Principality of Wallachia, fighting against the Ottomans and Foreign oppressios. Years after, the king Carol I, founds the Romania kingdom.",
+		"startIntroPart1": "Great Vlad Tepes! born to be the third Dragon, the Empaler! During the Ottomans expasion, you became aprisoned with your brother into Ottoman court and live entire your young age studing and plan your revenge against to your dad traitors and the Ottomans. After years of conflicts, you turn the Prince of Principality of Wallachia, fighting against the Ottomans and Foreign oppressios. Years after, the king Carol I, founds the Romania kingdom.",
 		"startIntroPart2": "Great Wallachia Dragon! Scourge of Ottomans! Your wrath against to you enemies has show with the empaled bodies forest. You can survive to the foreigners opression? You can survive to the test of time?",
 		
 		"declaringWar": "Will be glorius empale all your mens!",
@@ -1404,8 +1406,8 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [101, 77, 152],
-		"innerColor": [187, 132, 104],
+		"outerColor": [88, 68, 131],
+		"innerColor": [197, 150, 126],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["[+2 Science] from each Trade Route",
@@ -2106,7 +2108,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [110, 0, 177],
+		"innerColor": [139, 51, 192],
 		"cities": ["Kumasi"],
 	},
 	{
