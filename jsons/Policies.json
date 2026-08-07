@@ -158,6 +158,7 @@
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
+            "[+15]% Strength <vs [Mercenary Unit]>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments",
             "[Statue of Zeus] is enabled"
@@ -533,7 +534,7 @@
             "Religious": 0
         },
         "uniques": ["[+25]% [Gold] [in capital]",
-            "[Notre Dame] is enabled"],
+            "[Big Ben] is enabled"],
         "policies": [
             {
                 "name": "Mercenary Army",
