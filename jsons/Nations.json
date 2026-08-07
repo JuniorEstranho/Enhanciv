@@ -578,7 +578,7 @@
 		"innerColor": [255, 56, 56],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Solomonic Dysnaty",
-		"uniques": ["[+1 Cultute, +2 Science, +1 Gold] <for every [6] [[Faith] Per Turn]>",
+		"uniques": ["[+1 Culture, +2 Science, +1 Gold] <for every [6] [[Faith] Per Turn]>",
 			"[+3 Culture, +6 Science, +3 Gold] from every [Holy site]"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
@@ -984,7 +984,7 @@
 
 		"tradeRequest": "I came hopeful that we can reach an agreement.",
 
-		"outerColor": [214, 114, 18],
+		"outerColor": [214, 114, 118],
 		"innerColor": [5, 69, 39],
 		"favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
