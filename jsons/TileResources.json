@@ -513,20 +513,35 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
-		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent.",
+		"civilopediaText": [ 
+			{
+				"text": "Luxury resource exclusive to Indonesia. Only can be earned by founding a city in a foreign continent.",
+				"link": "Nations/Indonesia"
+			},
+		],
 	},
 	{
 		"name": "Cloves",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
-		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent."
+		"civilopediaText": [ 
+			{
+				"text": "Luxury resource exclusive to Indonesia. Only can be earned by founding a city in a foreign continent.",
+				"link": "Nations/Indonesia"
+			},
+		],
 	},
 	{
 		"name": "Pepper",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
-		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent."
+		"civilopediaText": [ 
+			{
+				"text": "Luxury resource exclusive to Indonesia. Only can be earned by founding a city in a foreign continent.",
+				"link": "Nations/Indonesia"
+			},
+		],
 	}
 ]
