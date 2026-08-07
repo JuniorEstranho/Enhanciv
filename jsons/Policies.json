@@ -216,7 +216,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [10]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+50]% Strength <vs [Mercenary Unit] units>",
+                    "[+33]% Strength <vs [Mercenary Unit] units>",
                     "Get the leader title of [[leaderName] the Great]"
                 ]
             }
@@ -236,7 +236,7 @@
         "uniques": [
             "[+50]% Production when constructing [Shrine] buildings [in all cities]",
             "[+50]% Production when constructing [Temple] buildings [in all cities]",
-            "[Great Prophet] units gain the [Pilgrim] promotion <when [Religious] Victory is disabled>",
+            "[Great Prophet] units gain the [Pilgrim] promotion <when [Religious] Victory is enabled>",
             "Comment [[Great Mosque of Djenne] is enabled]",
             "Only available <before adopting [Rationalism]>",
             "[-100]% weight to this choice for AI decisions <when [Religious] Victory is disabled>",
@@ -354,11 +354,11 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[+1 Happiness] from every [Monument]",
-                    "[+1 Happiness] from every [Amphitheater]",
-                    "[+1 Happiness] from every [Opera House]",
-                    "[+1 Happiness] from every [Museum]",
-                    "[+1 Happiness] from every [Broadcast Tower]"
+                    "[+1 Culture, +1 Happiness] from every [Monument]",
+                    "[+1 Culture, +1 Happiness] from every [Amphitheater]",
+                    "[+1 Culture, +1 Happiness] from every [Opera House]",
+                    "[+1 Culture, +1 Happiness] from every [Museum]",
+                    "[+1 Culture, +1 Happiness] from every [Broadcast Tower]"
                 ],
                 "requires": ["Flourishing of the Arts"],
                 "row": 3,
@@ -517,6 +517,7 @@
                 "name": "Exploration Complete",
                 "uniques": [
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "[+50]% XP gained from combat <for [{Military} {Water}] units>",
                     "Get the leader title of [[leaderName] the Captain]"
                 ]
             }
