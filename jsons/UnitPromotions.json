@@ -714,7 +714,7 @@
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]
     },
 	{
-		"name": "Open borders",
+		"name": "Pilgrim",
 		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
@@ -723,7 +723,7 @@
 	},
 	{
 		"name": "Jagas Tribe", //Only for Barbarian, if Angola are in the game
-		"uniques": ["[+15]% Strength <vs [non-[Angola]] units>"]
+		"uniques": ["[+15]% Strength <vs [non-[Angola]] units> <when defending>"]
 	},
 	{
 		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
@@ -832,7 +832,7 @@
 	},
 	{
 		"name": "[Llaneiro] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Farm] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Farm] tiles>", "[+25]% Strength <when fighting in [Plantation] tiles>"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
