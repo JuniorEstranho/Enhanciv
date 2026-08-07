@@ -84,7 +84,7 @@
             "Religious": 10
         },
         "uniques": ["[+1 Culture] [in all cities]",
-            "Comment[[The Pyramids] is enabled]"],
+            "Comment [[The Pyramids] is enabled]"],
         "policies": [
             {
                 "name": "Republic",
