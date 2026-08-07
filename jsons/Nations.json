@@ -984,7 +984,7 @@
 
 		"tradeRequest": "I came hopeful that we can reach an agreement.",
 
-		"outerColor": [214, 114, 118],
+		"outerColor": [210, 30, 1],
 		"innerColor": [5, 69, 39],
 		"favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
@@ -1017,7 +1017,7 @@
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
 		"outerColor": [153, 5, 3],
-		"innerColor": [255, 255, 255],
+		"innerColor": [50, 23, 123],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+50]% Golden Age length",
