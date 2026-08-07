@@ -507,5 +507,26 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	{ //Indonesia exclusive luxury resources
+		"name": "Nutmeg",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
+		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent.",
+	},
+	{
+		"name": "Cloves",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
+		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent."
+	},
+	{
+		"name": "Pepper",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally", "Excluded from map editor"]
+		"civilopediaText": "Luxury resource exclusive to [Indonesia]. Only can be earned by founding a city in a foreign continent."
 	}
 ]
