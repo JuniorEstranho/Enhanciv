@@ -1309,5 +1309,41 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{ //Indonesia Exclusive luxury resources buildings
+		"name": "Nutmeg Seeds",
+		"uniqueTo": "Indonesia",
+		"cost": 0,
+		"replacementTextForUniques": "Provides [2] [Nutmeg]",
+		"uniques": ["Provides [2] [Nutmeg]",
+			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <in cities without a [Pepper Seeds]>",
+			"Only available <in cities without a [Cloves Seeds]>",
+			"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Cloves Seeds",
+		"uniqueTo": "Indonesia",
+		"cost": 0,
+		"replacementTextForUniques": "Provides [2] [Cloves]",
+		"uniques": ["Provides [2] [Cloves]",
+			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <in cities without a [Pepper Seeds]>",
+			"Only available <in cities without a [Nutmeg Seeds]>",
+			"Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Pepper Seeds",
+		"uniqueTo": "Indonesia",
+		"cost": 0,
+		"replacementTextForUniques": "Provides [2] [Pepper]",
+		"uniques": ["Provides [2] [Pepper]",
+			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <in cities without a [Nutmeg Seeds]>",
+			"Only available <in cities without a [Cloves Seeds]>",
+			"Limited to [1] per Civilization"]
 	}
 ]
