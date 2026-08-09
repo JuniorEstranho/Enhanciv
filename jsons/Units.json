@@ -650,6 +650,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"promotions": ["[Jagas Warrior] ability"],
+		"uniques": ["Instantly construct a [Kilombo] improvement <by consuming this unit>", "Free [Jagas Warrior] appears <after which this unit is consumed>"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -1016,7 +1017,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques" ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
 	{
