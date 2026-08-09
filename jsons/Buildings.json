@@ -134,6 +134,15 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Paper Maker",
+		"uniqueTo": "China",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
 		"name": "The Great Library",
 		"science": 3,
 		"culture": 1,
@@ -223,17 +232,6 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
-	},
-	{
-		"name": "Kilombo",
-		"uniqueTo": "Angola",
-		"replaces": "Barracks",
-		"gold": 2,
-		"production": 1,
-		"hurryCostModifier": 0,
-		"maintenance": 0,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
