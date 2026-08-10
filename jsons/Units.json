@@ -138,7 +138,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
-		"promotions": ["Slinger Withdraw"],
+		"promotions": ["Accuracy I", "Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
 	{
@@ -516,7 +516,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+25]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+50]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -647,10 +647,10 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 19,
-		"cost": 90,
+		"cost": 80,
 		"requiredTech": "Civil Service",
 		"promotions": ["[Jagas Warrior] ability"],
-		"uniques": ["Can instantly construct a [Kilombo] improvement <by consuming this unit>", "Free [Jagas Warrior] appears <after which this unit is consumed>"],
+		"uniques": ["May capture killed [Barbarian] units"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
