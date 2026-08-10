@@ -250,11 +250,12 @@
 		"production": 2,
 		"culture": 1,
 		"uniques": ["Gives a defensive bonus of [50]%",
+			"Adjacent enemy units ending their turn take [15] damage",
 			"Can be built outside your borders",
 			"Does not need removal of [Jungle]",
 			"Does not need removal of [Forest]",
-			"Marks a barbarian camp <in [Foreign Land] tiles>",
-			"Unavailable <within [2] tiles of a [Kilombo]>"]
+			"Unpillagable",
+			"Unavailable <within [3] tiles of a [Kilombo]>"]
 	},
 	{
 		"name": "Brazilwood Camp",
