@@ -25,7 +25,7 @@
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
-		"culture": 2,
+		"culture": 3,
 		"faith": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -59,7 +59,7 @@
 		"culture": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Only available <when religion is enabled>"],
+		"uniques": ["[+1 Happiness] <after discovering [Theology]>", "Only available <when religion is enabled>"],
 		"requiredTech": "Pottery",
 	},
 	{
@@ -285,6 +285,20 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Hatos",
+		"uniqueTo": "Gran Colombia",
+		"replaces": "Stable",
+		"food": 2,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 0,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -1314,8 +1328,8 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Nutmeg]",
 		"uniques": ["Provides [2] [Nutmeg]",
-			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
 			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <on foreign continents>",
 			"Only available <in cities without a [Pepper Seeds]>",
 			"Only available <in cities without a [Cloves Seeds]>",
 			"Limited to [1] per Civilization"]
@@ -1326,8 +1340,8 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Cloves]",
 		"uniques": ["Provides [2] [Cloves]",
-			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
 			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <on foreign continents>",
 			"Only available <in cities without a [Pepper Seeds]>",
 			"Only available <in cities without a [Nutmeg Seeds]>",
 			"Limited to [1] per Civilization"]
@@ -1338,8 +1352,8 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Pepper]",
 		"uniques": ["Provides [2] [Pepper]",
-			"Can be purchased for [0] [Gold] [in all cities] <on foreign continents>",
 			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Only available <on foreign continents>",
 			"Only available <in cities without a [Nutmeg Seeds]>",
 			"Only available <in cities without a [Cloves Seeds]>",
 			"Limited to [1] per Civilization"]
