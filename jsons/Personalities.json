@@ -23,6 +23,7 @@
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 6,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 4,
@@ -53,6 +54,7 @@
       "Commerce": 4,
       "Patronage": 3,
       "Piety": 6,
+      "Aesthetics": 3, //added (no accurated)
       "Rationalism": 7,
       "Freedom": 5,
       "Autocracy": 8,
@@ -88,6 +90,7 @@
       "Commerce": 4,
       "Patronage": 3,
       "Piety": 5,
+      "Aesthetics": 2, //added (not accurated)
       "Rationalism": 8,
       "Freedom": 5,
       "Autocracy": 7,
@@ -118,6 +121,7 @@
       "Commerce": 8,
       "Patronage": 4,
       "Piety": 8,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 4,
       "Autocracy": 7,
@@ -153,6 +157,7 @@
       "Commerce": 7,
       "Patronage": 3,
       "Piety": 5,
+      "Aesthetics": 3, //added (not  accurated)
       "Rationalism": 3,
       "Freedom": 5,
       "Autocracy": 8,
@@ -188,6 +193,7 @@
       "Commerce": 6,
       "Patronage": 3,
       "Piety": 7,
+      "Aesthetics": 5, //added
       "Rationalism": 6,
       "Freedom": 4,
       "Autocracy": 6,
@@ -218,6 +224,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 8,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 8,
       "Autocracy": 6,
@@ -253,6 +260,7 @@
       "Commerce": 7,
       "Patronage": 6,
       "Piety": 7,
+      "Aesthetics": 7, //added (not accurated)
       "Rationalism": 4,
       "Freedom": 6,
       "Autocracy": 7,
@@ -283,6 +291,7 @@
       "Commerce": 5,
       "Patronage": 8,
       "Piety": 5,
+      "Aesthetics": 4, //added
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 4,
@@ -313,6 +322,7 @@
       "Commerce": 3,
       "Patronage": 2,
       "Piety": 7,
+      "Aesthetics": 7, //added
       "Rationalism": 3,
       "Freedom": 4,
       "Autocracy": 2,
@@ -343,6 +353,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 4,
+      "Aesthetics": 3, //added
       "Rationalism": 5,
       "Freedom": 5, 
       "Autocracy": 6,
@@ -373,6 +384,7 @@
       "Commerce": 8,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 6,
@@ -403,6 +415,7 @@
       "Commerce": 8,
       "Patronage": 8,
       "Piety": 5,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 6,
       "Freedom": 5,
       "Autocracy": 4,
@@ -433,6 +446,7 @@
       "Commerce": 9,
       "Patronage": 8,
       "Piety": 7,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 3,
@@ -463,6 +477,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 7,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 4,
       "Freedom": 6,
       "Autocracy": 6,
@@ -493,6 +508,7 @@
       "Commerce": 4,
       "Patronage": 4,
       "Piety": 9,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 10,
       "Autocracy": 1,
@@ -523,6 +539,7 @@
       "Commerce": 6,
       "Patronage": 2,
       "Piety": 3,
+      "Aesthetics": 3, //added (not accurated)
       "Rationalism": 4,
       "Freedom": 5,
       "Autocracy": 8,
@@ -553,6 +570,7 @@
       "Commerce": 4,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 4, //added
       "Rationalism": 7,
       "Freedom": 3,
       "Autocracy": 4,
@@ -583,6 +601,7 @@
       "Commerce": 6,
       "Patronage": 6,
       "Piety": 5,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 6,
       "Autocracy": 7,
@@ -613,6 +632,7 @@
       "Commerce": 6,
       "Patronage": 6,
       "Piety": 4,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 5,
       "Autocracy": 6,
@@ -643,6 +663,7 @@
       "Commerce": 7,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 7,
@@ -673,6 +694,7 @@
       "Commerce": 5,
       "Patronage": 4,
       "Piety": 8,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 6,
       "Autocracy": 2,
@@ -703,6 +725,7 @@
       "Commerce": 6,
       "Patronage": 8,
       "Piety": 5,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 6,
       "Freedom": 5,
       "Autocracy": 4,
@@ -733,6 +756,7 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 5,
+      "Aesthetics": 7, //added (not accurated)
       "Rationalism": 4,
       "Freedom": 7,
       "Autocracy": 5,
@@ -763,6 +787,7 @@
       "Commerce": 8,
       "Patronage": 7,
       "Piety": 5,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 6,
       "Autocracy": 4,
@@ -793,6 +818,7 @@
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 6,
+      "Aesthetics": 6, //added
       "Rationalism": 6,
       "Freedom": 5,
       "Autocracy": 3,
@@ -823,6 +849,7 @@
       "Commerce": 5,
       "Patronage": 4,
       "Piety": 8,
+      "Aesthetics": 7, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 6,
       "Autocracy": 9,
@@ -836,23 +863,24 @@
     "gold": 6,
     "science": 5,
     "culture": 6,
-    "happiness": 6, 
+    "happiness": 5, 
     "faith": 7,
     "military": 6,
     "aggressive": 5,
-    "declareWar": 4,
+    "declareWar": 5,
     "commerce": 6,
     "diplomacy": 6,
     "loyal": 5,
     "expansion": 6,
-    "denounceWillingness": 8,
+    "denounceWillingness": 7,
     "priorities": {
-      "Tradition": 7,
-      "Liberty": 5,
-      "Honor": 4,
+      "Tradition": 5,
+      "Liberty": 6,
+      "Honor": 5,
       "Commerce": 6,
       "Patronage": 5,
-      "Piety": 9,
+      "Piety": 8,
+      "Aesthetics": 7, //added
       "Rationalism": 6,
       "Freedom": 7,
       "Autocracy": 5,
@@ -883,6 +911,7 @@
       "Commerce": 4,
       "Patronage": 7,
       "Piety": 3,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 4,
       "Autocracy": 9,
@@ -913,6 +942,7 @@
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 3, //added (not accurated)
       "Rationalism": 8,
       "Freedom": 5,
       "Autocracy": 5,
@@ -921,7 +951,7 @@
   },
   {
     "name": "Nzinga Mbande",
-    "production": 6,
+    "production": 4,
     "food": 7,
     "gold": 4,
     "science": 5,
@@ -943,6 +973,7 @@
       "Commerce": 6,
       "Patronage": 4,
       "Piety": 2,
+      "Aesthetics": 5, //added
       "Rationalism": 4,
       "Freedom": 4,
       "Autocracy": 5,
@@ -973,6 +1004,7 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 5,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 9,
@@ -1003,6 +1035,7 @@
       "Commerce": 5,
       "Patronage": 7,
       "Piety": 4,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 8,
       "Freedom": 5,
       "Autocracy": 5,
@@ -1033,6 +1066,7 @@
       "Commerce": 4,
       "Patronage": 4,
       "Piety": 8,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 8,
       "Freedom": 6,
       "Autocracy": 3,
@@ -1063,6 +1097,7 @@
       "Commerce": 9,
       "Patronage": 3,
       "Piety": 6,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 4,
       "Autocracy": 4,
@@ -1093,6 +1128,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 8, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 9,
       "Autocracy": 3,
@@ -1123,6 +1159,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 6,
+      "Aesthetics": 4, //added
       "Rationalism": 8,
       "Freedom": 5,
       "Autocracy": 4,
@@ -1153,6 +1190,7 @@
       "Commerce": 7,
       "Patronage": 5,
       "Piety": 7,
+      "Aesthetics": 5, //added
       "Rationalism": 6
       "Freedom": 6,
       "Autocracy": 4,
@@ -1183,6 +1221,7 @@
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 5,
+      "Aesthetics": 5, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 6,
       "Autocracy": 5,
@@ -1213,10 +1252,11 @@
       "Commerce": 4,
       "Patronage": 2,
       "Piety": 3,
+      "Aesthetics": 5, //added
       "Rationalism": 5,
       "Freedom": 2,
       "Autocracy": 5,
-      "Order": 3
+      "Order": 4
     }
   },
   {
@@ -1243,6 +1283,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 8,
+      "Aesthetics": 4, //added (not accurated)
       "Rationalism": 6,
       "Freedom": 6,
       "Autocracy": 4,
@@ -1273,6 +1314,7 @@
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 7,
+      "Aesthetics": 3, //added (not accurated)
       "Rationalism": 6,
       "Freedom": 6,
       "Autocracy": 5,
@@ -1295,16 +1337,17 @@
     "diplomacy": 5,
     "loyal": 7,
     "expansion": 6,
-    "denounceWillingness": 7,
+    "denounceWillingness": 6,
     "priorities": {
-      "Tradition": 8,
-      "Liberty": 5,
+      "Tradition": 5,
+      "Liberty": 6,
       "Honor": 5,
       "Commerce": 7,
       "Patronage": 5,
-      "Piety": 7,
-      "Rationalism": 6,
-      "Freedom": 3,
+      "Piety": 6,
+      "Aesthetics": 5, //added
+      "Rationalism": 7,
+      "Freedom": 4,
       "Autocracy": 5,
       "Order": 6
     }
@@ -1312,19 +1355,19 @@
   {
     "name": "Seondeok",
     "production": 5,
-    "food": 5,
-    "gold": 7,
+    "food": 6,
+    "gold": 5,
     "science": 8,
     "culture": 6,
     "happiness": 5,
     "faith": 6,
-    "military": 6,
+    "military": 7,
     "aggressive": 5,
     "declareWar": 4,
-    "commerce": 7,
+    "commerce": 6,
     "diplomacy": 7,
     "loyal": 6,
-    "expansion": 7,
+    "expansion": 6,
     "denounceWillingness": 7,
     "priorities": {
       "Tradition": 6,
@@ -1332,8 +1375,9 @@
       "Honor": 4,
       "Commerce": 5,
       "Patronage": 6,
-      "Piety": 6,
-      "Rationalism": 9,
+      "Piety": 5,
+      "Aesthetics": 6, //added
+      "Rationalism": 8,
       "Freedom": 7,
       "Autocracy": 5,
       "Order": 6,
@@ -1363,6 +1407,7 @@
       "Commerce": 6,
       "Patronage": 5,
       "Piety": 2,
+      "Aesthetics": 3, //added (not accurated)
       "Rationalism": 2,
       "Freedom": 6,
       "Autocracy": 9,
@@ -1376,7 +1421,7 @@
     "gold": 4,
     "science": 5,
     "culture": 6,
-    "happiness": 7,
+    "happiness": 5,
     "faith": 5,
     "military": 8,
     "aggressive": 5,
@@ -1387,15 +1432,16 @@
     "expansion": 8,
     "denounceWillingness": 7,
     "priorities": {
-      "Tradition": 5,
-      "Liberty": 9,
+      "Tradition": 4,
+      "Liberty": 8,
       "Honor": 6,
-      "Commerce": 6,
+      "Commerce": 5,
       "Patronage": 7,
       "Piety": 3,
-      "Rationalism": 7,
+      "Aesthetics": 5, //added
+      "Rationalism": 6,
       "Freedom": 7,
-      "Autocracy": 5,
+      "Autocracy": 6,
       "Order": 6,
     }
   },
@@ -1423,6 +1469,7 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 6,
+      "Aesthetics": 3, //added (not accurated)
       "Rationalism": 7,
       "Freedom": 4,
       "Autocracy": 8,
@@ -1453,6 +1500,7 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 4,
+      "Aesthetics": 3, //added
       "Rationalism": 7,
       "Freedom": 6,
       "Autocracy": 8,
@@ -1483,6 +1531,7 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 5,
+      "Aesthetics": 5, //added
       "Rationalism": 6,
       "Freedom": 7,
       "Autocracy": 5,
@@ -1503,8 +1552,8 @@
     "declareWar": 6,
     "commerce": 5, 
     "diplomacy": 5,
-    "loyal": 4,
-    "expansion": 5,
+    "loyal": 5,
+    "expansion": 4,
     "denounceWillingness": 5,
     "priorities": {
       "Tradition": 4,
@@ -1513,10 +1562,11 @@
       "Commerce": 4,
       "Patronage": 3,
       "Piety": 6,
+      "Aesthetics": 7, //added
       "Rationalism": 6,
       "Freedom": 5,
       "Autocracy": 6,
-      "Order": 7
+      "Order": 8
     }
   },
   {
@@ -1543,6 +1593,7 @@
       "Commerce": 7,
       "Patronage": 7,
       "Piety": 5,
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 7,
       "Autocracy": 4,
