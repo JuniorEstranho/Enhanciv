@@ -719,15 +719,11 @@
 	},
 	{
 		"name": "Change Port",
-		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [12] tiles away <in [City center] tiles>"]
-	},
-	{
-		"name": "Jagas Tribe", //Only for Barbarian, if Angola are in the game
-		"uniques": ["[+15]% Strength <vs [non-[Angola]] units> <when defending>"]
+		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [12] tiles away <in [City center] tiles>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when [Wounded]>"]
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when [Wounded]>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
@@ -735,7 +731,7 @@
 	},
 	{
 		"name": "Fiel a la Patria", //Only for Voltigeurs Guard and subsequent upgrades
-		"uniques": ["[This Unit] heals [100] HP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers a [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
+		"uniques": ["[This Unit] heals [100] HP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers a [Fiel a la Patria] event <upon conquering a city> <hidden from users>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
@@ -752,6 +748,14 @@
 	{
 		"name": "Desert Warrior", //Only for Berber Cavalry and subsequent upgrades
 		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"],
+	},
+	{
+		"name": "Full Moon Striker", //Only for Comanche Riders and subsequent upgrades
+		"uniques": ["[+1] Movement"]
+	},
+	{
+		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
+		"uniques": ["No damage penalty for wounded units", "[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <when attacking>"]
 	},
 	{
 		"name": "Buffalo Horns", //Only for Zulu Sword units and subsequent upgrades
@@ -806,6 +810,10 @@
 		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
+		"name": "[Rosiori] ability",
+		"uniques": ["[This Unit] gains [2] movement <upon entering combat>", "[+25]% Strength <when defending> <for [1] turns> <upon entering combat>"]
+	},
+	{
 		"name": "[Norwegian Ski Infantry] ability",
 		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
@@ -832,7 +840,7 @@
 	},
 	{
 		"name": "[Llaneiro] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Farm] tiles>", "[+25]% Strength <when fighting in [Plantation] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Farm] tiles>", "[+25]% Strength <when fighting in [Pasture] tiles>"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
@@ -845,5 +853,11 @@
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
+	},
+	{   // Negative status
+		"name": "Stunned", //Heavy Charge
+		"uniques": ["[-10]% Strength <when defending>","[-1] Movement","[-1] Sight","Rough terrain penalty", "Will not be displayed in Civilopedia"],
+		// "outerColor": [0, 0, 0]
+		"innerColor": [0, 0, 255]
 	}
 ]
