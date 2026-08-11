@@ -61,7 +61,7 @@
 		"innerColor": [210, 210, 210],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
-		"uniques": ["[+20]% Strength <for [{Military} {Land}] units <within [2] tiles of a [Kilombo]",
+		"uniques": ["[+20]% Strength <within [2] tiles of a [Kilombo]>",
 			"[Gold] cost of purchasing [Sword] units [-66]%",
 			"Notified of new Barbarian encampments"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
