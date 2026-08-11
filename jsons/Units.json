@@ -41,7 +41,7 @@
 		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "[This Unit] upgrades for free including special upgrades <upon discovering a [Ancient ruins] tile>"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "[This Unit] upgrades for free including special upgrades <upon discovering a [Ancient ruins] tile> <with [66]% chance>"],
 		"promotions": ["Survivalism I", "Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -516,7 +516,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+50]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+50]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy Land}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -591,7 +591,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>"],
+		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>", "Ignores Zone of Control"],
 		"promotions": ["Woodsman", "Sentry"],
 		"attackSound": "metalhit"
 	},
@@ -650,7 +650,6 @@
 		"cost": 80,
 		"requiredTech": "Civil Service",
 		"promotions": ["[Jagas Warrior] ability"],
-		"uniques": ["May capture killed [Barbarian] units"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -753,7 +752,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+25]% Strength <vs [Gunpowder] units>"],
-		"promotions": ["Accuracy I"],
+		"promotions": ["Sentry"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1003,7 +1002,7 @@
 		"requiredTech": "Gunpowder",
 		"promotions": ["Great Generals I"],
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
 	},
 	{
@@ -1032,7 +1031,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Excess Food converted to Production when under construction"],
-		"promotions": ["[Janissary] ability"],
+		"promotions": ["[Janissary] ability", "Besiege"],
 		"attackSound": "shot"
 	},
 	{
@@ -1130,7 +1129,7 @@
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can pass through impassable tiles"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Formation I", "[Llaneiro] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1147,7 +1146,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Formation I", "Formation II","Charge"],
+		"promotions": ["Formation I", "Formation II","Heavy Charge"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1225,8 +1224,8 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Voltigeurs Guard",
-		"uniqueTo": "Colombia",
+		"name": "Mehal Sefari",
+		"uniqueTo": "Ethiopia",
 		"replaces": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1235,7 +1234,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Besiege","Fiel a la Patria"],
+		"promotions": ["Drill I", "Home Sweet Home"],
 		"attackSound": "shot"
 	},
 	{
@@ -1308,22 +1307,6 @@
 		"attackSound": "cavalry"
 	},
 	{
-		"name": "Oromo Cavalry",
-		"uniqueTo": "Ethiopia",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Drill I", "Drill II"],
-		"attackSound": "cavalry"
-	},
-	{
 		"name": "Berber Cavalry",
 		"uniqueTo": "Morocco",
 		"replaces": "Cavalry",
@@ -1352,7 +1335,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Drill I", "Home Sweet Home"],
+		"promotions": ["Charge", "[Rosiori] ability"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1384,7 +1367,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Mobility"],
+		"promotions": ["Full Moon Striker"],
 		"attackSound": "cavalry"
 	},
 	{
