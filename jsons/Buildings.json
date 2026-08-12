@@ -25,7 +25,7 @@
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
-		"culture": 3,
+		"culture": 2,
 		"faith": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -57,9 +57,9 @@
 		"replaces": "Shrine",
 		"faith": 1,
 		"culture": 1,
+		"food": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Happiness] <after discovering [Theology]>", "Only available <when religion is enabled>"],
 		"requiredTech": "Pottery",
 	},
 	{
@@ -236,6 +236,16 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
+		"name": "Kilombo",
+		"uniqueTo": "Angola",
+		"replaces": "Barracks",
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]","[+15]% growth [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
 		"name": "Ikanda",
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
@@ -288,15 +298,14 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Hatos",
-		"uniqueTo": "Gran Colombia",
+		"name": "Hato",
+		"uniqueTo": "Colombia",
 		"replaces": "Stable",
-		"food": 2,
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-		"hurryCostModifier": 0,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
@@ -357,6 +366,17 @@
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu",
 	},
+	{
+		"name": "Great Zimbabwe", // OG wonder (idea and quote from Civ6)
+		"culture": 2,
+		"gold": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["[+1 Production] from [Quarry] tiles [in this city]"],
+		"requiredTech": "Construction",
+		"quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' - 1 Kings, 10:13"
+	},
 	// Column 4
 	{
 		"name": "Temple",
@@ -405,9 +425,18 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Free Social Policy", "Only available <after adopting [Aesthetics]>"],
+		"uniques": ["Free Social Policy"],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+    {
+		"name": "Kulumbimbi", // OG wonder
+		"culture": 2,
+		"faith": 2,
+		"isWonder": true,
+		"uniques": ["Gain a free [Cathedral] [in this city]", "[+4 Culture] <after discovering [Archaeology]>", "[Faith] cost of purchasing [Faith] buildings [-50]%"],
+		"requiredTech": "Philosophy",
+		"quote": "'I am the way and the truth and the life. No one comes to the Father except through me.' - The Bible, John 14:6"
 	},
 	{
 		"name": "Amphitheater",
@@ -426,6 +455,15 @@
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Parthenon", // BNW wonder
+		"culture": 4,
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
+		"isWonder": true,
+		"requiredTech": "Drama and Poetry",
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
 	},
 	{
 		"name": "Market",
@@ -576,6 +614,14 @@
 			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "[+100]% production cost <when [Religious] Victory is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
+	},
+	{
+		"name": "Borobudur", // BNW wonder
+		"faith": 5,
+		"isWonder": true,
+		"uniques": ["[3] free [Missionary] units appear", "Can only be built <in [Holy] cities>", "Only available <when religion is enabled>"],
+		"requiredTech": "Theology",
+		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
 	},
 	{
 		"name": "Chichen Itza",
@@ -859,6 +905,15 @@
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
 	},
 	{
+		"name": "Globe Theatre", // BNW wonder
+		"culture": 2,
+		"isWonder": true,
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["Free [Great Artist] appears"]
+		"requiredTech": "Printing Press",
+		"quote": "'Totus mundus agit histrionem.' - Inscription above main entrance to the Globe Theatre"
+	},
+	{
 		"name": "Himeji Castle",
 		"culture": 3,
 		"isWonder": true,
@@ -907,6 +962,15 @@
 		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
 	{
+		"name": "Uffizi", // BNW wonder
+		"culture": 2,
+		"isWonder": true,
+		"specialistSlots": {"Artist": 3},
+		"uniques": ["Free [Great Artist] appears", "Only available <after adopting [Aesthetics]>"],
+		"requiredTech": "Architecture",
+		"quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.' - Marcel Paquet"
+	},
+	{
 		"name": "Windmill",
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
@@ -938,13 +1002,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Kremlin",
-		"culture": 3,
+		"name": "Red Fort", //Red Fort replaces the Kremlin (BNW only)
+		"culture": 1,
 		"cityStrength": 12,
+		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"requiredTech": "Metallurgy",
-		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+		"quote": "'When we build, let us think that we build forever.' - John Ruskin",
 	},
 
 	// Industrial Era
@@ -1098,6 +1163,15 @@
         "requiredTech": "Radio"
     },
 	{
+		"name": "Broadway", // BNW wonder
+		"culture": 2,
+		"isWonder": true,
+		"specialistSlots": {"Artist": 3},
+		"uniques": ["Free [Great Artist] appears"],
+		"requiredTech": "Radio",
+		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery.' - Walter Winchell"
+	},
+	{
 		"name": "Military Base",
 		"cityStrength": 12,
 		"cityHealth": 25,
@@ -1111,9 +1185,17 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"uniques": ["[+1 Production] from every specialist [in all cities]", "Only available <after adopting [Freedom]>"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Prora", // BNW wonder
+		"happiness": 2,
+		"isWonder": true,
+		"uniques": ["[+1 Happiness] per [2] social policies adopted", "Free Social Policy", "Must be next to [Coast]", "Only available <after adopting [Autocracy]>"],
+		"requiredTech": "Flight",
+		"quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.' - A.N. Whitehead"
 	},
 	{
 		"name": "Neuschwanstein",
@@ -1126,6 +1208,15 @@
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+	},
+	{
+		"name": "Kremlin", // Vanilla and G&K reworked wonder (BNW only)
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[+50]% Production when constructing [Armored] units [in this city]", "Free Social Policy", "Only available <after adopting [Order]>"],
+		"requiredTech": "Railroads",
+		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
 	// Column 12
 	{
