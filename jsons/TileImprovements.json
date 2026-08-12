@@ -242,22 +242,6 @@
 	},
 	//Civilization unique improvements
 	{
-		"name": "Kilombo",
-		"uniqueTo": "Angola",
-		"terrainsCanBeBuiltOn": ["Grassland", "Desert", "Plains"]
-		"turnsToBuild": 6,
-		"techRequired": "Iron Working",
-		"production": 2,
-		"culture": 1,
-		"uniques": ["Gives a defensive bonus of [50]%",
-			"Adjacent enemy units ending their turn take [15] damage",
-			"Can be built outside your borders",
-			"Does not need removal of [Jungle]",
-			"Does not need removal of [Forest]",
-			"Unpillagable",
-			"Unavailable <within [3] tiles of a [Kilombo]>"]
-	},
-	{
 		"name": "Brazilwood Camp",
 		"uniqueTo": "Brazil",
 		"terrainsCanBeBuiltOn": ["Jungle"],
@@ -336,7 +320,7 @@
 		"uniques": ["Gives a defensive bonus of [50]%",
 			"[+1 Gold] for each adjacent [Luxury resource]",
 			"[+1 Gold] <after discovering [Flight]>",
-			"Gain control over [{resource} {Unowned}] tiles in a [1]-tile radius <on foreign continents>",
+			"Gain control over [{resource} {Unowned}] tiles in a [2]-tile radius <on foreign continents>",
 			"Tile provides yield without assigned population",
 			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>",
 			"Can be built outside your borders",
