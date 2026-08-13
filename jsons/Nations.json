@@ -57,8 +57,8 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [97, 24, 31],
-		"innerColor": [255, 188, 173],
+		"outerColor": [59, 5, 0],
+		"innerColor": [145, 101, 0],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
 		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
@@ -66,7 +66,7 @@
 			"[+1 Culture] <for every [3] [[Military] Units]>",
 			"Notified of new Barbarian encampments"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
-			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
+			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"],
 	},
 	{
 		"name": "Arabia",
@@ -272,7 +272,8 @@
 		"cities": ["Rio de Janeiro","São Paulo","Brasília","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
-			"Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
+			"Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"],
+		"spyNames": ["Antônio", "Bartolomeu", "Domingos", "Estêvão", "Fernão", "Francisco", "Pascoal", "Salvador", "Tomé", "Bianca"]
 	},
 	{
 		"name": "Byzantium",
@@ -440,12 +441,13 @@
 		"innerColor": [16, 54, 124],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "El Libertador",
-		"uniques": ["[+1 Happiness] <for every [3] [[Military] Units]>",
+		"uniques": ["[+1 Happiness] <for every [4] [[Military] Units]>",
 			"Free Social Policy <upon gaining a [Great General] unit>",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
 		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
-			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"]
+			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
+		"spyNames": ["Joaquín", "Juana", "José", "Márquez", "Mateos", "Ernesto", "García", "Pablo", "Túpac", "Javier"]
 	},
 	{
 		"name": "Denmark",
@@ -928,6 +930,37 @@
 		"spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
 	},
 	{
+		"name": "Mexico",
+		"leaderName": "Benito Juárez",
+		"adjective": "Mexican",
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Benito Juárez",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "We are happiness and peaceful people but we has one problem and the problem is you.",
+		"attacked": "Everyone will see your pathetic fail trying to destroy us.",
+		"denounced": "That makes no difference at all.",
+		"defeated": "It's time to leave. I need remember to you, no one will forget your brutality against us!",
+		"introduction": "Hello, welcome to Mexico. I'm President Benito Juárez. I here if you want help.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Will be good to everyone if you accept.",
+
+		"outerColor": [235, 255, 201],
+		"innerColor": [252, 66, 17],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Dia de los Muertos",
+		"uniques": ["Gain [100] [Culture] <upon expending a [Land] unit> <(modified by game speed)>"],
+		"cities" ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
+			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal",""],
+		"spyNames": ["Miguel", "Emiliano", "Lázaro", "Agustín", "Manuel", "Peréz", "Valentín", "Guadalupe", "Vicente", "López"]
+	},
+	{
 		"name": "Mongolia",
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
@@ -1016,7 +1049,7 @@
 
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
-		"outerColor": [255, 83, 36],
+		"outerColor": [255, 156, 36],
 		"innerColor": [146, 26, 0],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
@@ -1093,8 +1126,8 @@
 		
 		"tradeRequest": "Come, let our people feast together!",
 
-		"outerColor": [217, 89, 0],
-		"innerColor": [255, 255, 75],
+		"outerColor": [21, 239, 255],
+		"innerColor": [145, 0, 255],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
