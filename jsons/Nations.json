@@ -956,7 +956,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Dia de los Muertos",
 		"uniques": ["Gain [100] [Culture] <upon expending a [Land] unit> <(modified by game speed)>"],
-		"cities" ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
+		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal",""],
 		"spyNames": ["Miguel", "Emiliano", "Lázaro", "Agustín", "Manuel", "Peréz", "Valentín", "Guadalupe", "Vicente", "López"]
 	},
