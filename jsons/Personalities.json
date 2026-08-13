@@ -950,7 +950,7 @@
     }
   },
   {
-    "name": "Nzinga Mbande",
+    "name": "Nzinga Mbandi",
     "production": 4,
     "food": 7,
     "gold": 4,
@@ -963,7 +963,7 @@
     "declareWar": 5,
     "commerce": 6, 
     "diplomacy": 5,
-    "loyal": 5,
+    "loyal": 4,
     "expansion": 6,
     "denounceWillingness": 5,
     "priorities": {
@@ -971,12 +971,12 @@
       "Liberty": 5,
       "Honor": 7, 
       "Commerce": 6,
-      "Patronage": 4,
+      "Patronage": 3,
       "Piety": 2,
       "Aesthetics": 5, //added
       "Rationalism": 4,
       "Freedom": 4,
-      "Autocracy": 5,
+      "Autocracy": 6,
       "Order": 7,
     }
   },
