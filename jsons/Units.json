@@ -1897,6 +1897,45 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can generate a large amount of culture <in [{non-[your]} {Friendly Land}]> <by consuming this unit>",
+			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Musician]",
+			"[This Unit] gets a name from the [Musician] group",
+			"Uncapturable",
+            "Great Person - [Culture]", "Unbuildable"]
+		"movement": 2,
+	},
+	{
+		"name": "Mariachi Musician",
+		"uniqueTo": "Mexico",
+		"replaces": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can generate a large amount of culture <in [Friendly Land]> <by consuming this unit>",
+			"Can be purchased for [1500] [Culture] [in all cities] <while the empire is happy>",
+			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Musician]",
+			"[This Unit] gets a name from the [Musician] group",
+			"Uncapturable",
+            "Great Person - [Culture]", "Unbuildable"]
+		"movement": 2,
+	},
+	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Free Social Policy <by consuming this unit>",
+			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Writer]",
+			"[This Unit] gets a name from the [Writer] group",
+			"Uncapturable",
+            "Great Person - [Culture]", "Unbuildable"]
+		"movement": 2,
+	},
+	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
@@ -1904,8 +1943,8 @@
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Scientist] group",
-			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
-            "Great Person - [Science]", "Unbuildable", "Comment [Uncapturable]"],
+			"Uncapturable",
+            "Great Person - [Science]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1915,8 +1954,8 @@
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Merchant] group",
-			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
-			"Great Person - [Gold]", "Unbuildable", "Comment [Uncapturable]"],
+			"Uncapturable",
+			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1925,13 +1964,14 @@
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"[+100]% Gold from Great Merchant trade missions",
 			"Double movement in [Water]",
 			"Invisible to non-adjacent units <when [Embarked]>",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Merchant] group",
-			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
-			"Great Person - [Gold]", "Unbuildable", "Comment [Uncapturable]"],
+			"Uncapturable",
+			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1941,8 +1981,8 @@
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Engineer] group",
-			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
-            "Great Person - [Production]", "Unbuildable", "Comment [Uncapturable]"],
+			"Uncapturable",
+            "Great Person - [Production]", "Unbuildable"],
 		"movement": 2
 	},
 	{
