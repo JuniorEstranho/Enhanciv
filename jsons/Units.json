@@ -38,11 +38,11 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 8,
-		"cost": 36,
+		"cost": 45,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "[This Unit] upgrades for free including special upgrades <upon discovering a [Ancient ruins] tile> <with [66]% chance>"],
-		"promotions": ["Survivalism I", "Ignore terrain cost"],
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost", "Native Tongue"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1900,7 +1900,9 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"Can generate a large amount of culture",
+			"Triggers a [Perform Concert Tour] event <in [{non-[your]} {Friendly Land}] tiles> <for all movement>",
+			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [50]% chance> <before adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
+			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [75]% chance> <after adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
 			"May enter foreign tiles without open borders",
 			"Is part of Great Person group [Great Person]",
 			"Is part of Great Person group [Musician]",
@@ -1914,8 +1916,10 @@
 		"uniqueTo": "Mexico",
 		"replaces": "Great Musician",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>",
-			"Can generate a large amount of culture",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Triggers a [Perform Concert Tour] event <in [Friendly Land] tiles> <for all movement>",
+			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [50]% chance> <before adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
+			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [75]% chance> <after adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
 			"May enter foreign tiles without open borders",
 			"Is part of Great Person group [Great Person]",
 			"Is part of Great Person group [Musician]",
