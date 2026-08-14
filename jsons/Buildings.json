@@ -130,6 +130,7 @@
 		"replaces": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+		"specialistSlots": {"Writer": 1},
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Writing"
 	},
@@ -239,10 +240,9 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Barracks",
-		"culture": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+15]% Production when constructing [Military] units [in this city]","[+15]% growth [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]","[+15]% growth [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -303,7 +303,7 @@
 		"replaces": "Stable",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-		"percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 5},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
@@ -416,6 +416,7 @@
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
+		"specialistSlots": {"Writer": 1}, // added
 		"percentStatBonus": {"science": 50},
 		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Philosophy"
@@ -434,14 +435,14 @@
 		"culture": 2,
 		"faith": 2,
 		"isWonder": true,
-		"uniques": ["Gain a free [Cathedral] [in this city]", "[+4 Culture] <after discovering [Archaeology]>", "[Faith] cost of purchasing [Faith] buildings [-50]%"],
+		"uniques": ["Gain a free [Cathedral] [in this city]", "[+4 Culture] <after discovering [Archaeology]>", "[Faith] cost of purchasing [Faith] buildings [-50]%", "Only available <if religion is enabled>"],
 		"requiredTech": "Philosophy",
 		"quote": "'I am the way and the truth and the life. No one comes to the Father except through me.' - The Bible, John 14:6"
 	},
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Musician": 1}, // changed to Musician
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -459,8 +460,7 @@
 	{
 		"name": "Parthenon", // BNW wonder
 		"culture": 4,
-		"greatPersonPoints": {"Great Artist": 1},
-		"specialistSlots": {"Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"requiredTech": "Drama and Poetry",
 		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
@@ -807,7 +807,7 @@
 	{
 		"name": "Opera House",
 		"culture": 4,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Musician": 1}, // changed to Musician
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -820,7 +820,7 @@
 		"replaces": "Opera House",
 		"culture": 4,
 		"happiness": 3,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Musician": 2}, 
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -908,8 +908,8 @@
 		"name": "Globe Theatre", // BNW wonder
 		"culture": 2,
 		"isWonder": true,
-		"specialistSlots": {"Artist": 2},
-		"uniques": ["Free [Great Artist] appears"]
+		"specialistSlots": {"Writer": 2},
+		"uniques": ["Free [Great Writer] appears"]
 		"requiredTech": "Printing Press",
 		"quote": "'Totus mundus agit histrionem.' - Inscription above main entrance to the Globe Theatre"
 	},
@@ -1002,7 +1002,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Red Fort", //Red Fort replaces the Kremlin (BNW only)
+		"name": "Red Fort", // Red Fort replaces the Kremlin (BNW only)
 		"culture": 1,
 		"cityStrength": 12,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -1166,8 +1166,8 @@
 		"name": "Broadway", // BNW wonder
 		"culture": 2,
 		"isWonder": true,
-		"specialistSlots": {"Artist": 3},
-		"uniques": ["Free [Great Artist] appears"],
+		"specialistSlots": {"Musician": 3},
+		"uniques": ["Free [Great Musician] appears"],
 		"requiredTech": "Radio",
 		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery.' - Walter Winchell"
 	},
@@ -1214,7 +1214,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["[+50]% Production when constructing [Armored] units [in this city]", "Free Social Policy", "Only available <after adopting [Order]>"],
+		"uniques": ["[+50]% Production when constructing [Armored] units [in all cities]", "Free Social Policy", "Only available <after adopting [Order]>"],
 		"requiredTech": "Railroads",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
@@ -1283,7 +1283,7 @@
 	{
 		"name": "Sydney Opera House",
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Writer": 2}, // changed to Great Writer
 		"percentStatBonus": {"culture": 50},
 		"uniques": ["Free Social Policy","Must be next to [Coast]"],
 		"requiredTech": "Ecology",
@@ -1419,7 +1419,7 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Nutmeg]",
 		"uniques": ["Provides [2] [Nutmeg]",
-			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuilable","Will not be displayed in Civilopedia",
 			"Only available <on foreign continents>",
 			"Only available <in cities without a [Pepper Seeds]>",
 			"Only available <in cities without a [Cloves Seeds]>",
@@ -1431,7 +1431,7 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Cloves]",
 		"uniques": ["Provides [2] [Cloves]",
-			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuilable","Will not be displayed in Civilopedia",
 			"Only available <on foreign continents>",
 			"Only available <in cities without a [Pepper Seeds]>",
 			"Only available <in cities without a [Nutmeg Seeds]>",
@@ -1443,7 +1443,7 @@
 		"cost": 0,
 		"replacementTextForUniques": "Provides [2] [Pepper]",
 		"uniques": ["Provides [2] [Pepper]",
-			"Never destroyed when the city is captured","Unsellable","Shown while unbuildable","Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured","Unsellable","Shown while unbuilable","Will not be displayed in Civilopedia",
 			"Only available <on foreign continents>",
 			"Only available <in cities without a [Nutmeg Seeds]>",
 			"Only available <in cities without a [Cloves Seeds]>",
