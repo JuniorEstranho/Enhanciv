@@ -1,36 +1,72 @@
 [
 	{
-		"name": "Fiel a la Patria",
-		"text": "Fiel a la Patria",
-		"presentation": "None",
+		"name": "Native Tongue Event",
+		"text": "Choose your Ancient ruins bonus",
+		"presentation": "Alert",
 		"choices": [
 			{
-				"name": "Fiel a la Patria",
+				"name": "discover cultural artifacts",
 				"uniques": [
-					"Free [Rifleman] appears <before discovering [Replaceable Parts]>",
-					"Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
-					"Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
-					"Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]>"
+					"Gain [20] [Culture] <(modified by game speed)>",
+					"Play [policy] sound"
+				]
+			},
+			{
+				"name": "squatters willing to work for you",
+				"uniques": [
+					"[This Unit] gains [10] XP",
+					"Only available <after turn number [10]>",
+					"Play [promote] sound"
+				]
+			},
+			{
+				"name": "survivors (adds population to a city)",
+				"uniques": [
+					"[+1] population in a random city",
+					"Play [wagon] sound"
+				]
+			},
+			{
+				"name": "a stash of gold",
+				"uniques": [
+					"Gain [50]-[100] [Gold] <(modified by game speed)>",
+					"Play [coin] sound"
+				]
+			},
+			{
+				"name": "discover holy symbols",
+				"uniques": [
+					"Only available <when religion is enabled>",
+					"Gain enough Faith for a Pantheon",
+					"Only available <before founding a Pantheon>"
+				]
+			},
+			{
+				"name": "advanced weaponry for your explorer",
+				"uniques": [
+					"[This Unit] upgrades for free including special upgrades"
 				]
 			}
 		]
 	},
 	{
-		"name": "France Culture Amount",
-		"text": "France Culture Amount",
+		"name": "Perform Concert Tour",
+		"text": "Perform Concert Tour",
 		"presentation": "None",
 		"choices": [
 			{
-				"name": "France Culture Amount",
+				"name": "Perform Concert Tour",
 				"uniques": [
 					"Gain [250] [Culture] <during the [Ancient era]> <(modified by game speed)>",
-					"Gain [500] [Culture] <during the [Classical era]> <(modified by game speed)>",
-					"Gain [700] [Culture] <during the [Medieval era]> <(modified by game speed)>",
+					"Gain [400] [Culture] <during the [Classical era]> <(modified by game speed)>",
+					"Gain [600] [Culture] <during the [Medieval era]> <(modified by game speed)>",
 					"Gain [900] [Culture] <during the [Renaissance era]> <(modified by game speed)>",
-					"Gain [1200] [Culture] <during the [Industrial era]> <(modified by game speed)>",
-					"Gain [1600] [Culture] <during the [Modern era]> <(modified by game speed)>", 
-					"Gain [2000] [Culture] <during the [Information era]> <(modified by game speed)>",
-					"Gain [2500] [Culture] <during the [Future era]> <(modified by game speed)>"
+					"Gain [1000] [Culture] <during the [Industrial era]> <(modified by game speed)>",
+					"Gain [1300] [Culture] <during the [Modern era]> <(modified by game speed)>", 
+					"Gain [1800] [Culture] <during the [Information era]> <(modified by game speed)>",
+					"Gain [2200] [Culture] <during the [Future era]> <(modified by game speed)>",
+					"[This Unit] is destroyed",
+					"Play [WLTK] sound"
 				]
 			}
 		]
