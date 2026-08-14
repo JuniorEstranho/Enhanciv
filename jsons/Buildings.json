@@ -435,7 +435,7 @@
 		"culture": 2,
 		"faith": 2,
 		"isWonder": true,
-		"uniques": ["Gain a free [Cathedral] [in this city]", "[+4 Culture] <after discovering [Archaeology]>", "[Faith] cost of purchasing [Faith] buildings [-50]%", "Only available <if religion is enabled>"],
+		"uniques": ["Gain a free [Cathedral] [in this city]", "[+4 Culture] <after discovering [Archaeology]>", "[Faith] cost of purchasing [Faith] buildings [-50]%", "Only available <when religion is enabled>"],
 		"requiredTech": "Philosophy",
 		"quote": "'I am the way and the truth and the life. No one comes to the Father except through me.' - The Bible, John 14:6"
 	},
