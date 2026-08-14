@@ -731,7 +731,8 @@
 	},
 	{
 		"name": "Native Tongue", //Only for Pathfinder and subsequent upgrades
-		"uniques": ["Triggers a [Native Tongue Event] event <upon discovering a [Ancient ruins] tile>"]
+		"replacementTextForUniques": "Choose the [Ancient ruins] bonus when entering in it (Before discovering [Military Science])",
+		"uniques": ["Triggers a [Native Tongue Event] event <upon entering a [Ancient ruins] tile> <before discovering [Military Science]>", "[This Unit] loses the [Shoshone only] promotion <after discovering [Military Science]>"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
@@ -864,6 +865,41 @@
 		"name": "Stunned", //Heavy Charge
 		"uniques": ["[-10]% Strength <when defending>","[-1] Movement","[-1] Sight","Rough terrain penalty", "Will not be displayed in Civilopedia"],
 		// "outerColor": [0, 0, 0]
-		"innerColor": [0, 0, 255]
+		"innerColor": [0, 0, 200]
+	},
+	{   // Shoshone only (ignores it)
+		"name": "discover cultural artifacts",
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "squatters willing to work for you"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "your exploring unit receives training"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "a stash of gold"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "survivors"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "discover holy symbols"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
+	},
+	{
+		"name": "an ancient prophecy"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
 	}
 ]
