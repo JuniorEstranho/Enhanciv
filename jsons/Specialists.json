@@ -22,5 +22,17 @@
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
+	},
+	{ //BNW
+		"name": "Musician",
+		"culture": 2,
+		"greatPersonPoints": {"Great Musician":3},
+		"color": [160,32,240]
+	},
+	{
+		"name": "Writer",
+		"culture": 2,
+		"greatPersonPoints": {"Great Writer":3},
+		"color": [160,32,240]
 	}
 ]
