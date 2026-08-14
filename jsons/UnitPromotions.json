@@ -730,11 +730,6 @@
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
 	},
 	{
-		"name": "Native Tongue", //Only for Pathfinder and subsequent upgrades
-		"replacementTextForUniques": "Choose the [Ancient ruins] bonus when entering in it (Before discovering [Military Science])",
-		"uniques": ["Triggers a [Native Tongue Event] event <upon entering a [Ancient ruins] tile> <before discovering [Military Science]>", "[This Unit] loses the [Shoshone only] promotion <after discovering [Military Science]>"]
-	},
-	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
@@ -861,45 +856,63 @@
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
 	},
+	{   // Shoshone Stuff
+		"name": "Native Tongue", //Only for Pathfinder and subsequent upgrades
+		"replacementTextForUniques": "Choose the [Ancient ruins] bonus when entering in it (Before discovering [Military Science])",
+		"uniques": ["Triggers a [Native Tongue Event] event <upon entering a [Ancient ruins] tile> <before discovering [Military Science]>", 
+			"[This Unit] loses the [cultural artifacts] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [squatters willing to work for you] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [your exploring unit receives training] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [a stash of gold] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [survivors] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [discover holy symbols] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [an ancient prophecy] promotion <after discovering [Military Science]>",
+			"[This Unit] loses the [advanced weaponry for your explorer] promotion <after discovering [Military Science]>"]
+	},
+	{
+		"name": "discover cultural artifacts",
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "squatters willing to work for you"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "your exploring unit receives training"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "a stash of gold"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "survivors"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "discover holy symbols"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "an ancient prophecy"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "advanced weaponry for your explorer"
+		"replacementTextForUniques": "You cant choose this again with this unit",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
 	{   // Negative status
 		"name": "Stunned", //Heavy Charge
 		"uniques": ["[-10]% Strength <when defending>","[-1] Movement","[-1] Sight","Rough terrain penalty", "Will not be displayed in Civilopedia"],
 		// "outerColor": [0, 0, 0]
 		"innerColor": [0, 0, 200]
-	},
-	{   // Shoshone only (ignores it)
-		"name": "discover cultural artifacts",
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "squatters willing to work for you"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "your exploring unit receives training"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "a stash of gold"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "survivors"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "discover holy symbols"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
-	},
-	{
-		"name": "an ancient prophecy"
-		"replacementTextForUniques": "You cant choose this again with this unit",
-		"uniques": ["Will not be displayed in Civilopedia", "Shoshone only"]
 	}
 ]
