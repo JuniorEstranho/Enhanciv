@@ -751,7 +751,7 @@
 	},
 	{
 		"name": "Police Guard", //Only for Rurales and subsequent upgrades
-		"uniques": ["[+10]% Strength bonus for [Gunpowder] units within [2] tiles", "All adjacent units heal [+15] HP when healing", "Can see over obstacles"]
+		"uniques": ["[+25]% Strength <when fighting in [All Road] tiles>","[+15]% Strength bonus for [Military] units within [2] tiles", "All adjacent units heal [+15] HP when healing", "Can see over obstacles"]
 	},
 	{
 		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
