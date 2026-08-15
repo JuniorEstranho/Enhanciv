@@ -7,20 +7,20 @@
 			{
 				"text": "discover cultural artifacts",
 				"uniques": [
-					"Gain [20] [Culture] <(modified by game speed)>",
-					"Unavailable <for [discover cultural artifacts] units> <hidden from users>",
-					"[This Unit] gains the [discover cultural artifacts] promotion <hidden from users>",
+					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for [Cultural Artifacts] units> <hidden from users>",
+					"[This Unit] gains the [Cultural Artifacts] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"Play [policy] sound"
 				]
 			},
 			{
-				"text": "squatters willing to work for you",
+				"text": "your exploring unit receives training",
 				"uniques": [
-					"[This Unit] gains [10] XP",
-					"Only available <after turn number [10]>",
-					"Unavailable <for [squatters willing to work for you] units> <hidden from users>",
-					"[This Unit] gains the [squatters willing to work for you] promotion <hidden from users>",
+					"[This Unit] gains [10] XP <hidden from users> <hidden from users>",
+					"Only available <after turn number [10]> <hidden from users>",
+					"Unavailable <for [Trained by Tribes] units> <hidden from users>",
+					"[This Unit] gains the [Trained by Tribes] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"Play [promote] sound"
 				]
@@ -28,9 +28,9 @@
 			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
-					"[+1] population in a random city",
-					"Unavailable <for [survivors] units> <hidden from users>",
-					"[This Unit] gains the [survivors] promotion <hidden from users>",
+					"[+1] population in a random city <hidden from users>",
+					"Unavailable <for [Survivors] units> <hidden from users>",
+					"[This Unit] gains the [Survivors] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"Play [wagon] sound",
 					"[+100]% Weight to this choice for AI decisions",
@@ -39,9 +39,9 @@
 			{
 				"text": "a stash of gold",
 				"uniques": [
-					"Gain [50]-[100] [Gold] <(modified by game speed)>",
-					"Unavailable <for [a stash of gold] units> <hidden from users>",
-					"[This Unit] gains the [a stash of gold] promotion <hidden from users>",
+					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for [Stash of Gold] units> <hidden from users>",
+					"[This Unit] gains the [Stash of Gold] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"Play [coin] sound"
 				]
@@ -49,11 +49,11 @@
 			{
 				"text": "discover holy symbols",
 				"uniques": [
-					"Only available <when religion is enabled>",
-					"Gain enough Faith for a Pantheon",
-					"Only available <before founding a Pantheon>",
-					"Unavailable <for [discover holy symbols] units> <hidden from users>",
-					"[This Unit] gains the [discover holy symbols] promotion <hidden from users>",
+					"Only available <when religion is enabled> <hidden from users>",
+					"Gain enough Faith for a Pantheon <hidden from users>",
+					"Only available <before founding a Pantheon> <hidden from users>",
+					"Unavailable <for [Holy Symbols] units> <hidden from users>",
+					"[This Unit] gains the [Holy Symbols] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"Play [choir] sound"
 				]
@@ -61,11 +61,11 @@
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
-					"[This Unit] upgrades for free including special upgrades",
-					"Unavailable <for [advanced weaponry for your explorer] units> <hidden from users>",
-					"[This Unit] gains the [advanced weaponry for your explorer] promotion <hidden from users>",
+					"[This Unit] upgrades for free including special upgrades <hidden from users>",
+					"Unavailable <for [Advanced Weaponry] units> <hidden from users>",
+					"[This Unit] gains the [Advanced Weaponry] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
-					"[+50]% Weight to this choice for AI decisions",
+					"[+50]% weight to this choice for AI decisions",
 				]
 			}
 		]
@@ -78,14 +78,14 @@
 			{
 				"name": "Perform Concert Tour",
 				"uniques": [
-					"Gain [100] [Culture] <when number of [Completed Policy branches] is equal to [0]> <(modified by game speed)>",
-					"Gain [175] [Culture] <when number of [Completed Policy branches] is equal to [1]> <(modified by game speed)>",
-					"Gain [250] [Culture] <when number of [Completed Policy branches] is equal to [2]> <(modified by game speed)>",
-					"Gain [325] [Culture] <when number of [Completed Policy branches] is equal to [3]> <(modified by game speed)>",
-					"Gain [400] [Culture] <when number of [Completed Policy branches] is equal to [4]> <(modified by game speed)>",
-					"Gain [475] [Culture] <when number of [Completed Policy branches] is equal to [5]> <(modified by game speed)>",
-					"Gain [550] [Culture] <when number of [Completed Policy branches] is equal to [6]> <(modified by game speed)>",
-					"Gain [625] [Culture] <when number of [Completed Policy branches] is more than [6]> <(modified by game speed)>",
+					"Gain [175] [Culture] <when number of [Completed Policy branches] is equal to [0]> <(modified by game speed)>",
+					"Gain [275] [Culture] <when number of [Completed Policy branches] is equal to [1]> <(modified by game speed)>",
+					"Gain [375] [Culture] <when number of [Completed Policy branches] is equal to [2]> <(modified by game speed)>",
+					"Gain [475] [Culture] <when number of [Completed Policy branches] is equal to [3]> <(modified by game speed)>",
+					"Gain [575] [Culture] <when number of [Completed Policy branches] is equal to [4]> <(modified by game speed)>",
+					"Gain [675] [Culture] <when number of [Completed Policy branches] is equal to [5]> <(modified by game speed)>",
+					"Gain [775] [Culture] <when number of [Completed Policy branches] is equal to [6]> <(modified by game speed)>",
+					"Gain [875] [Culture] <when number of [Completed Policy branches] is more than [6]> <(modified by game speed)>",
 					"[This Unit] is destroyed",
 					"Play [WLTK] sound"
 				]
