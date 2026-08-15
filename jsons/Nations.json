@@ -63,7 +63,7 @@
 		"uniqueName": "Mercenaries Tribes",
 		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
 			"Earn [100]% of the damage done to [City] units as [Gold]",
-			"[+1 Culture] <for every [3] [[Military] Units]>",
+			"[+1 Culture] <for every [4] [[Military] Units]>",
 			"Notified of new Barbarian encampments"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"],
@@ -908,10 +908,10 @@
 		"startIntroPart2": "",
 		
 		"declaringWar": "I don't wanna see your face in this palace again! That's what you deserve.",
-		"attacked": "You really want enter in war, you can't win?",
-		"denounced": "Truly mistake.",
+		"attacked": "You really want to enter into a war be you can't win?",
+		"denounced": "I don't have words.",
 		"defeated": "I'll be defeated but not from my ingenuity, his from your knowledge.",
-		"introduction": "Welcome, foreigner.  I'm Seondeok, Queen of Silla. You're come here to read and share some articles?",
+		"introduction": "Welcome. I'm Seondeok, Queen of Silla. You're come here to read and share some articles?",
 
 		"neutralHello": "Good day.",
 		"hateHello": "What do YOU want now?",
@@ -950,14 +950,14 @@
 		"neutralHello": "Good day.",
 		"hateHello": "Oh, it's you.",
 
-		"tradeRequest": "Will be good to everyone if you accept.",
+		"tradeRequest": "This will be a progress to everyone if you accept.",
 
 		"outerColor": [62, 101, 44],
-		"innerColor": [244, 244, 244],
+		"innerColor": [32, 52, 32],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Cry of Dolores",
-		"uniques": ["[+30]% Food is carried over after population increases [in all cities]",
-			"Gain [50] [Culture] <upon expending a [Land] unit> <(modified by game speed)>",
+		"uniques": ["Gain [30] [Culture] <upon expending a [Land] unit> <(modified by game speed)>",
+			"[+1 Food] from every [Plantation]",
 			"Free [Mariachi Musician] appears <upon entering the [Industrial era]>"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal",""],
@@ -1020,8 +1020,8 @@
 
 		"tradeRequest": "I came hopeful that we can reach an agreement.",
 
-		"outerColor": [210, 30, 1],
-		"innerColor": [54, 168, 35],
+		"outerColor": [199, 15, 24],
+		"innerColor": [43, 122, 35],
 		"favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
 		"uniques": ["[+3 Gold, +1 Culture] from each Trade Route"],
@@ -1129,8 +1129,8 @@
 		
 		"tradeRequest": "Come, let our people feast together!",
 
-		"outerColor": [21, 239, 255],
-		"innerColor": [145, 0, 255],
+		"outerColor": [73, 191, 242],
+		"innerColor": [160, 98, 203],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
@@ -1260,13 +1260,13 @@
 		"startIntroPart2": "",
 
 		"declaringWar": "Some empires needs to fall, to others became more stronger.",
-		"attacked": "Really?",
+		"attacked": "Really? Well, will be gracious acquires your lands to mine!",
 		"denounced": "I think you are my enemy.",
-		"defeated": "Empires don't die, they just traform on others.",
+		"defeated": "Congratulations. I don't afraid because empires don't die, they just traform on others.",
 		"introduction": "Hail, I am Emperor Trajan. If you want a war, I'll give it, If you want be my friend, you're welcome.",
 
 		"neutralHello": "Hail.",
-		"hateHello": "Ahh... you...",
+		"hateHello": "It's you.",
 
 		"tradeRequest": "All roads lead to Rome.",
 		"declaringFriendship": "It’s not every day that I offer this to someone.",
@@ -1275,9 +1275,9 @@
 		"innerColor": [254, 234, 102],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Pax Romana",
-		"uniques": ["[-100]% unhappiness from the number of cities",
-			"[-50]% maintenance on road & railroads",
-			"Gain a free [Aqueduct] [in all cities connected to capital] <after discovering [Engineering]>"],
+		"uniques": ["[+100]% Production when constructing [Aqueduct] buildings [in all cities]",
+			"[-100]% unhappiness from the number of cities",
+			"[-50]% maintenance on road & railroads"],
 	  "cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 		  "Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 		  "Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1310,7 +1310,8 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Great Expanse",
 		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [your] tiles>",
-			"Gain control over [8] tiles [in this city] <upon founding a city>"],
+			"Gain control over [8] tiles [in this city] <upon founding a city>",
+			"Free [Pathfinder] appears"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
