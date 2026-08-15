@@ -564,10 +564,11 @@
 		"name": "Ziggurat",
 		"uniqueTo": "Sumer",
 		"replaces": "Garden",
-		"production": 1,
+		"faith": 1,
 		"percentStatBonus": {"science": 25},
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
+		"uniques": ["[+25]% Great Person generation [in this city]",
+			"[+15]% Production when constructing [Science] buildings [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 30,
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
@@ -633,16 +634,43 @@
 		"requiredTech": "Civil Service",
 		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
 	},
-	{
-		"name": "National Treasury",
+	{ // East India Company replaces the National Treasury (BNW only)
+		"name": "East India Company",
 		"cost": 125,
-		"gold": 8,
+		"gold": 4,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>","Only available <if [National Treasury] is not constructed>","Only available <after adopting [Commerce]>" , "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"
 	},
-	{
+    {
+		"name": "Artists' Guild", // BNW national wonder
+		"greatPersonPoints": {"Great Artist": 2},
+		"specialistSlots": {"Artist": 2},
+		"isNationalWonder": true,
+		"cost": 150,
+		"maintenance": 1,
+		"requiredTech": "Guilds",
+	},
+    {
+		"name": "Writers' Guild", // BNW national wonder
+		"greatPersonPoints": {"Great Writer": 1},
+		"specialistSlots": {"Writer": 2},
+		"isNationalWonder": true,
+		"cost": 100,
+		"maintenance": 1,
+		"requiredTech": "Guilds",
+	},
+    {
+		"name": "Musicians' Guild", // BNW national wonder
+		"greatPersonPoints": {"Great Musician": 3},
+		"specialistSlots": {"Musician": 2},
+		"isNationalWonder": true,
+		"cost": 200,
+		"maintenance": 1,
+		"requiredTech": "Guilds",
+	},
+    {
 		"name": "Machu Picchu",
 		"gold": 5,
 		"faith": 2,
