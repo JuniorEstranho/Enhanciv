@@ -751,7 +751,7 @@
 	},
 	{
 		"name": "Police Guard", //Only for Rurales and subsequent upgrades
-		"uniques": ["[+15]% Strength bonus for [Gunpowder] units within [2] tiles", "All adjacent units heal [+15] HP when healing", "Can see over obstacles"]
+		"uniques": ["[+10]% Strength bonus for [Gunpowder] units within [2] tiles", "All adjacent units heal [+15] HP when healing", "Can see over obstacles"]
 	},
 	{
 		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
@@ -861,36 +861,40 @@
 			"Triggers a [Native Tongue Event] event <upon entering a [Ancient ruins] tile> <hidden from users>"]
 	},
 	{
-		"name": "discover cultural artifacts", 
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Cultural Artifacts", 
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "squatters willing to work for you",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Trained by Tribes",
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "your exploring unit receives training",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Stash of Gold",
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "a stash of gold",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Survivors",
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "survivors",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Holy Symbols"
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "discover holy symbols"
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "an ancient prophecy",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "advanced weaponry for your explorer",
-		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"]
+		"name": "Advanced Weaponry",
+		"uniques": ["Comment [You cant choose this again with this unit]", "Will not be displayed in Civilopedia"],
+		"outerColor": [45, 10, 12],
+		"innerColor": [16, 182, 249]
 	},
 	{   // Negative status
 		"name": "Stunned", //Heavy Charge
