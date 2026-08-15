@@ -309,7 +309,9 @@
         },
         "uniques": [
             "[Great Artist] is earned [50]% faster",
-            "Comment [[The Oracle] is enabled]"
+            "[Great Musician] is earned [50]% faster",
+            "[Great Writer] is earned [50]% faster",
+            "Comment [[Uffizi] is enabled]"
         ],
         "policies": [
             {
@@ -327,7 +329,8 @@
             {
                 "name": "Fine Arts",
                 "uniques": [
-                    "[50]% of excess happiness converted to [Culture]"
+                    "[50]% of excess happiness converted to [Culture]",
+                    "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 4
@@ -354,11 +357,11 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[+1 Culture, +1 Happiness] from every [Monument]",
-                    "[+1 Culture, +1 Happiness] from every [Amphitheater]",
-                    "[+1 Culture, +1 Happiness] from every [Opera House]",
-                    "[+1 Culture, +1 Happiness] from every [Museum]",
-                    "[+1 Culture, +1 Happiness] from every [Broadcast Tower]"
+                    "[+1 Happiness] from every [Monument]",
+                    "[+1 Happiness] from every [Amphitheater]",
+                    "[+1 Happiness] from every [Opera House]",
+                    "[+1 Happiness] from every [Museum]",
+                    "[+1 Happiness] from every [Broadcast Tower]"
                 ],
                 "requires": ["Flourishing of the Arts"],
                 "row": 3,
@@ -368,6 +371,8 @@
                 "name": "Aesthetics Complete",
                 "uniques": [
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Get the leader title of [[leaderName] the Master]"
                 ]
             }
@@ -674,6 +679,7 @@
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
+            "Comment [[Statue of Liberty] is enabled]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>"
         ],
@@ -746,6 +752,7 @@
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Comment [[Prora] is enabled]",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -816,6 +823,7 @@
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
+            "Comment [[Kremlin] is enabled]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
