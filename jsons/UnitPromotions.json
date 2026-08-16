@@ -897,8 +897,8 @@
 		"innerColor": [16, 182, 249]
 	},
 	{
-		"name": "Completed Tongue",
-		"uniques": ["[+20]% Strength", "Comment [You completed the [Native Tongue]'s!]", "Will not be displayed in Civilopedia"],
+		"name": "Sacagawea's Legacy",
+		"uniques": ["[+30]% Strength", "Comment [You completed the [Native Tongue]'s!]", "Will not be displayed in Civilopedia"],
 		"outerColor": [45, 10, 12],
 		"innerColor": [16, 182, 249]
 	},
