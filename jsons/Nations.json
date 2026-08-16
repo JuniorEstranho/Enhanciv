@@ -303,7 +303,7 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["May choose [1] additional belief(s) of any type when [enhancing] a religion",
-			"Earn [100]% of the damage done to [City] units as [Faith]",
+			"[+2 Faith] from every specialist [in holy cities]",
 			"[+100]% Natural religion spread [in annexed cities]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson", "Sardica",
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
@@ -1086,7 +1086,7 @@
 		"introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
 
 		"neutralHello": "Welcome.",
-		"hateHello": "What do YOU want?",
+		"hateHello": "What do YOU want?!",
 
 		"tradeRequest": "How do you like my offer?",
 
@@ -1095,6 +1095,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Solidarity",
 		"uniques": ["Comment [Free social policy upon advances a new era]",
+			"Comment [+33% [Production] cost for [Utopia Project]]",
 			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
@@ -1169,9 +1170,9 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Mare Clausum",
-		"uniques": ["[+1 Gold] from each Trade Route",
-			"[+2 Gold] from every specialist [in all coastal cities]",
+		"uniqueName": "Casa da Índia",
+		"uniques": ["[+2 Gold] from every specialist [in all coastal cities]",
+			"[Great Merchant] is earned [100]% faster <during a Golden Age>",
 			"Free [Great Admiral] appears <upon discovering [Optics] technology>"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
@@ -1310,9 +1311,10 @@
 		"innerColor": [16, 182, 249],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Great Expanse",
-		"uniques": ["[+15]% Strength <for [Military] units> <when fighting in [your] tiles>",
+		"uniques": ["[+15]% Strength <for [{Military} {Land}] units> <when fighting in [your] tiles>",
 			"Gain control over [8] tiles [in this city] <upon founding a city>",
-			"Free [Pathfinder] appears"],
+			"Free [Pathfinder] appears",
+			"[{Cultural Artifacts} {Stash of Gold} {Trained by Tribes} {Holy Symbols} {Advanced Weaponry}] units gain the [Sacagawea's Legacy] promotion <hidden from users>"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1490,6 +1492,38 @@
 			"Södertälje","Mariestad","Östersund","Borås","Sundsvall","Vimmerby","Köping","Mora","Arboga","Växjö","Gränna",
 			"Kiruna","Borgholm","Strängnäs","Sveg"],
 		"spyNames": ["Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"]
+	},
+	{
+		"name": "The Franks",
+		"leaderName": "Charlemagne",
+		"adjective": "Franks",
+		"preferredVictoryType": "Domination",
+		"personality": "Charlemagne",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I requires your territories to myself!",
+		"attacked": "You will not get nothing from my territories!",
+		"denounced": "That's sound strangely good for us.",
+		"defeated": "You proved to be stronger than us. I need a time to think about this.",
+		"introduction": "Greetings from the Charlemagne. This is your empire? you're doing a good job.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+
+		"tradeRequest": "I requires it.",
+		
+		"outerColor": [65, 78, 79],
+		"innerColor": [207, 197, 129],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Feudality",
+		"uniques": ["[+1 Production] from every [Farm]",
+			"Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>",
+			"Gain a free [Courthouse] [in annexed cities] <in cities following our religion>"],
+		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
+			"Tournai","Bordeaux","Ultrecht","Paris","Orleans","Lyons","Barcelona","Tours","Poitiers","Plois","Nantes"]
+		"spyNames": ["Barbarossa","Clovis","Charles","Chlodio","Brunhilda","Dagobert"]
 	},
 	{
 		"name": "The Huns",
@@ -1749,8 +1783,7 @@
 		"innerColor": [76, 0, 0],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Ikwla",
-		"uniques": ["[-50]% maintenance costs <for [Sword] units>",
-			"[-50]% maintenance costs <for [Gunpowder] units>",
+		"uniques": ["[-50]% maintenance costs <for [Military] units>",
 			"[-25]% XP required for promotions <for [Military] units>"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
