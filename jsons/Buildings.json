@@ -144,6 +144,17 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Scriptorium" 
+		"uniqueTo": "The Franks",
+		"replaces": "Library",
+		"faith": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"specialistSlots": {"Writer": 2},
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+    {
 		"name": "The Great Library",
 		"science": 3,
 		"culture": 1,
@@ -640,7 +651,7 @@
 		"gold": 4,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+2 Gold] from each Trade Route", "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>","Only available <if [National Treasury] is not constructed>","Only available <after adopting [Commerce]>" , "Cost increases by [30] per owned city"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"
 	},
     {
