@@ -147,7 +147,7 @@
 		"name": "Scriptorium" 
 		"uniqueTo": "The Franks",
 		"replaces": "Library",
-		"faith": 1,
+		"faith": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"specialistSlots": {"Writer": 2},
@@ -370,6 +370,16 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "Mead Hall",
+		"uniqueTo": "Denmark",
+		"replaces": "Colosseum",
+		"gold": 1,
+		"happiness": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
 		"name": "Terracotta Army",
 		"culture": 6,
 		"isWonder": true,
@@ -380,10 +390,9 @@
 	{
 		"name": "Great Zimbabwe", // OG wonder (idea and quote from Civ6)
 		"culture": 2,
-		"gold": 2,
+		"gold": 4,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"specialistSlots": {"Merchant": 2},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["[+1 Production] from [Quarry] tiles [in this city]"],
 		"requiredTech": "Construction",
 		"quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' - 1 Kings, 10:13"
