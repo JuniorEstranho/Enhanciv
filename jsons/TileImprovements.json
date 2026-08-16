@@ -367,7 +367,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Comment [Provides a random bonus when entered]",
 			"Provides a random bonus when entered <for [non-[Native Tongue]] units> <hidden from users>",
-			"Provides a random bonus when entered <for [Native Tongue] units> <after discovering [Military Science]> <hidden from users>",
+			"Provides a random bonus when entered <for [Completed Tongue] units> <hidden from users>", //normal bonus for 'completed' Native Tongue units
 			"Unbuildable",
 			"Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
 	},
