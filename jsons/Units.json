@@ -626,6 +626,22 @@
 		"uniques": ["Can build [Road] improvements on tiles","Can build [Fort] improvements on tiles"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Axeman",
+		"uniqueTo": "The Franks",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"promotions": ["Shock I", "City Plunder"],
+		"attackSound": "metalhit"
+	},
 
 	// Medieval Era
 	{
@@ -781,8 +797,8 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"promotions": ["[Mandekalu Cavalry] ability", "City Plunder"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["[Mandekalu Cavalry] ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Earn [100]% of the damage done to [City] units as [Gold]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1270,9 +1286,9 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 125,
+		"cost": 100,
 		"requiredTech": "Rifling",
-		"uniques": ["Unable to capture cities","Ignores Zone of Control","Can move immediately once bought", "Mercenary Unit","Unbuildable"],
+		"uniques": ["Unable to capture cities","Ignores Zone of Control","Can move immediately once bought", "No defensive terrain bonus","Mercenary Unit","Unbuildable"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -1351,7 +1367,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Charge", "[Rosiori] ability"],
+		"promotions": ["Drill I", "[Rosiori] ability"],
 		"attackSound": "cavalry"
 	},
 	{
