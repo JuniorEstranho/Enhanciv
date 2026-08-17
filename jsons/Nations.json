@@ -886,7 +886,7 @@
 
 		"tradeRequest": "The Kongo will cover all costs of this agreement.",
 
-		"outerColor": [85, 225, 74],
+		"outerColor": [115, 173, 105],
 		"innerColor": [95, 65, 28],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Foreign Missionaries",
@@ -956,9 +956,9 @@
 		"innerColor": [16, 34, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Cry of Dolores",
-		"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
-			"Can build [Farm] improvements at a [+100]% rate",
+		"uniques": ["Can build [Farm] improvements at a [+100]% rate",
 			"Can build [Pasture] improvements at a [+100]% rate",
+			"[+10]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
 			"Free [Mariachi Musician] appears <upon entering the [Industrial era]>"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal",""],
@@ -1514,8 +1514,8 @@
 
 		"tradeRequest": "I requires it.",
 		
-		"outerColor": [35, 35, 35],
-		"innerColor": [245, 245, 245],
+		"outerColor": [16, 16, 16],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Feudality",
 		"uniques": ["[+1 Production] from every [Farm]",
