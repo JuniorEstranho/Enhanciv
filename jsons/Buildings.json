@@ -147,7 +147,8 @@
 		"name": "Scriptorium" 
 		"uniqueTo": "The Franks",
 		"replaces": "Library",
-		"faith": 2,
+		"science": 1,
+		"faith": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"specialistSlots": {"Writer": 2},
@@ -370,16 +371,6 @@
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Mead Hall",
-		"uniqueTo": "Denmark",
-		"replaces": "Colosseum",
-		"gold": 1,
-		"happiness": 2,
-		"food": 3,
-		"hurryCostModifier": 25,
-		"requiredTech": "Construction"
-	},
-	{
 		"name": "Terracotta Army",
 		"culture": 6,
 		"isWonder": true,
@@ -462,7 +453,7 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Musician": 1}, // changed to Musician
+		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -913,7 +904,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Happiness] <in [Annexed] cities>"],
+		"uniques": ["[+2 Gold, +2 Happiness] <in [Annexed] cities>"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
