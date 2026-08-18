@@ -726,8 +726,12 @@
 		"uniques": ["No movement cost to pillage", "[+20]% Strength <when [Wounded]>", "Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
+		"name": "City Plunder I",
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
+	},
+	{
+		"name": "City Plunder II",
+		"uniques": ["Earn [200]% of the damage done to [City] units as [Gold]"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
@@ -796,11 +800,7 @@
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["Ignores Zone of Control", "[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles"]
-	},
-	{
-		"name": "[Mandekalu Cavalry] ability",
-		"uniques": ["Heals [25] damage if it kills a unit"]
+		"uniques": ["[+200]% Yield from pillaging tiles", "[+50]% Health from pillaging tiles"]
 	},
 	{
 		"name": "[Cossack] ability",
@@ -898,7 +898,7 @@
 	},
 	{
 		"name": "Sacagawea's Legacy",
-		"uniques": ["[+30]% Strength", "Comment [You completed the [Native Tongue]'s!]", "Will not be displayed in Civilopedia"],
+		"uniques": ["[+50]% Strength", "Comment [You completed the [Native Tongue]'s!]"],
 		"outerColor": [45, 10, 12],
 		"innerColor": [16, 182, 249]
 	},
