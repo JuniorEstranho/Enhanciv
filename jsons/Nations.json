@@ -432,14 +432,14 @@
 		"attacked": "We motto is die for our country, and you're only making it even more heroic.",
 		"denounced": "My friend, I think we have less violent ways of dealing with this.",
 		"defeated": "Even after my defeat, know that my people are nationalists to the end. You will be terrified by our revolts!",
-		"introduction": "Welcome! I am Simon Bolivar, the greatest South American military leader. Have you come to see the riches of Latin America?",
+		"introduction": "Welcome! I'm Simon Bolivar, the greatest South American military leader. Have you come to see the riches of Latin America?",
 
 		"neutralHello": "Hello!",
 		"hateHello": "It's you.",
 
 		"tradeRequest": "Is it a beautiful day for a deal like this?",
 
-		"outerColor": [252, 219, 30],
+		"outerColor": [255, 198, 100],
 		"innerColor": [16, 54, 224],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "El Libertador",
@@ -1515,8 +1515,8 @@
 
 		"tradeRequest": "I requires it.",
 		
-		"outerColor": [239, 239, 239],
-		"innerColor": [96, 96, 96],
+		"outerColor": [36, 34, 51],
+		"innerColor": [194, 153, 163],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Feudality",
 		"uniques": ["[+1 Production] from every [Farm]",
