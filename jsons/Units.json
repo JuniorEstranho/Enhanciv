@@ -639,7 +639,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"uniques": ["[+33]% Strength <vs [Pikeman]", "[+50]% Strength <vs [Longswordsman] units>"],
+		"uniques": ["[+33]% Strength <vs [Pikeman] units>", "[+50]% Strength <vs [Longswordsman] units>"],
 		"promotions": ["City Plunder I"],
 		"attackSound": "metalhit"
 	},
