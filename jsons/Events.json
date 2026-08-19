@@ -93,15 +93,26 @@
 		]
 	},
 	{
-		"name": "Golden Stool Bless",
-		"text": "Choose your bless from Golden Stool (based on your adopted policies)",
+		"name": "Free Great Culture Person",
+		"text": "Choose your [Culture] [Great Person]",
 		"presentation": "Alert",
 		"choices": [
 			{
-				"name": "Fertility Rites"
-				"uniques": ["[+3] population in a random city",
-					"Only available <after adopting [Tradition]>",
+				"name": "[Great Artist]"
+				"uniques": ["Free [Great Artist] appears",
 					"Play [WLTK] sound "
+				]
+			},
+			{
+				"name": "[Great Writer]",
+				"uniques": ["Free [Great Writer] appears",
+				"Play [WLTK] sound"
+				]
+			},
+			{
+				"name": "[Great Musician]",
+				"uniques": ["Free [Great Musician] appears",
+					"Play [WLTK] sound"
 				]
 			}
 		]
