@@ -39,7 +39,7 @@
 		"name": "Angola",
 		"leaderName": "Nzinga Mbandi",
 		"adjective": ["Angolan"]
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Coast]"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Nzinga Mbandi",
 
@@ -102,6 +102,39 @@
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
+	},
+	{
+		"name": "Ashanti",
+		"leaderName": "Osei Tutu I",
+		"adjective": ["Ashanti"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Osei Tutu I",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You triggered the heaven's wrath - prepare to be destroyed!",
+		"attacked": "You will not take mine sacred lands - We will resist!",
+		"denounced": "I not came here to hear your lies!",
+		"defeated": "What's you will do with the golden stool, now?!",
+		"introduction": "Greetings, I'm the king choosen by the golden stool - I'll dont have mercy with bad neighbors.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "What is it now?",
+
+		"tradeRequest": "A gift from the heavens to you!",
+		"declaringFriendship": "Just imagine the all possibilities with this friendship declaration.",
+
+		"outerColor": [249, 131, 24],
+		"innerColor": [255, 238, 72],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Golden Stool",
+		"uniques": ["Comment [Can choose uniques [Pantheon]'s bonus (upon advances to a new era, after founding a [Pantheon])]",
+			"Triggers a [Golden Stool Bless] event <upon entering a new era> <after founding a Pantheon> <hidden from users>",
+			"May not generate great prophet equivalents naturally"],
+		"cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi"
+			,"Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
 	{
 		"name": "Assyria",
@@ -439,7 +472,7 @@
 
 		"tradeRequest": "Is it a beautiful day for a deal like this?",
 
-		"outerColor": [255, 198, 100],
+		"outerColor": [255, 212, 74],
 		"innerColor": [16, 54, 224],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "El Libertador",
@@ -1516,7 +1549,7 @@
 		"tradeRequest": "I requires it.",
 		
 		"outerColor": [36, 34, 51],
-		"innerColor": [194, 153, 163],
+		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Feudality",
 		"uniques": ["[+1 Production] from every [Farm]",
@@ -2050,17 +2083,17 @@
 		"cities": ["Colombo"]
 	},
 	{
-		"name": "Abomey",
-		"adjective": ["Dahomean"],
+		"name": "Mauritsstad",
+		"adjective": ["Mauritsstad"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [128, 128, 128],
-		"cities": ["Abomey"]
+		"innerColor": [246, 253, 160],
+		"cities": ["Mauritsstad"]
 	},
 	{
 		"name": "Genoa",
@@ -2174,16 +2207,16 @@
 		"cities": ["Budapest"]
 	},
 	{
-		"name": "Kumasi",
-		"adjective": ["Dubliner"],
+		"name": "Abomey",
+		"adjective": ["Dahomean"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "Let's have a nice little War, shall we?",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [139, 51, 192],
-		"cities": ["Kumasi"],
+		"innerColor": [172, 172, 172],
+		"cities": ["Abomey"],
 	},
 	{
 		"name": "Palmares", //Brazilian historically 'kilombo'
@@ -2195,7 +2228,7 @@
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [99, 177, 0],
+		"innerColor": [113, 227, 114],
 		"cities": ["Palmares"],
 	},
 	{
