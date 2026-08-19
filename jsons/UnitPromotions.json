@@ -722,10 +722,6 @@
 		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [12] tiles away <in [City center] tiles>", "Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when [Wounded]>", "Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "City Plunder I",
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
 	},
@@ -789,6 +785,10 @@
 	{
 		"name": "[Persian Immortal] ability",
 		"uniques": ["[+10] HP when healing"]
+	},
+	{
+		"name": "[Paladin] ability",
+		"uniques": ["[+20]% Strength <when [Wounded]>", "Ignores Zone of Control"]
 	},
 	{
 		"name": "[Conquistador] ability",
