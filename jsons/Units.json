@@ -580,6 +580,22 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Asafo Warrior",
+		"uniqueTo": "Ashanti",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
+		"promotions": ["Formation I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Shieldman",
 		"uniqueTo": "Kongo",
 		"replaces": "Swordsman",
@@ -624,23 +640,6 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Road] improvements on tiles","Can build [Fort] improvements on tiles"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Axeman",
-		"uniqueTo": "The Franks",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"uniques": ["[+33]% Strength <vs [Pikeman] units>", "[+50]% Strength <vs [Longswordsman] units>"],
-		"promotions": ["City Plunder I"],
 		"attackSound": "metalhit"
 	},
 
@@ -934,6 +933,21 @@
 		"promotions": ["Shock I","Great Generals II"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Paladin",
+		"uniqueTo": "The Franks",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 23,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["[Paladin] ability"],
+		"attackSound": "metalhit"
+	},
 
 	// Rennaisance Era
 
@@ -1109,12 +1123,12 @@
 		"uniqueTo": "Indonesia",
 		"replaces": "Frigate",
 		"unitType": "Ranged Water",
-		"movement": 6,
+		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredTech": "Navigation",
-		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
@@ -1236,6 +1250,20 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Ankobia",
+		"uniqueTo": "Ashanti",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["Homeland Guardian", "Amphibious"],
 		"attackSound": "shot"
 	},
 	{
