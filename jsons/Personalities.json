@@ -306,24 +306,24 @@
     "science": 5,
     "culture": 5,
     "happiness": 6,
-    "faith": 6,
+    "faith": 7,
     "military": 7,
-    "aggressive": 6,
+    "aggressive": 5,
     "declareWar": 7,
     "commerce": 5,
     "diplomacy": 5,
-    "loyal": 4,
-    "expansion": 8,
+    "loyal": 5,
+    "expansion": 7,
     "denounceWillingness": 5,
     "priorities": {
-      "Tradition": 5,
+      "Tradition": 6,
       "Liberty": 6,
       "Honor": 6,
-      "Commerce": 5,
-      "Patronage": 8,
+      "Commerce": 4,
+      "Patronage": 7,
       "Piety": 5,
       "Aesthetics": 4, //added
-      "Rationalism": 5,
+      "Rationalism": 6,
       "Freedom": 5,
       "Autocracy": 4,
       "Order": 6
@@ -1066,11 +1066,42 @@
       "Commerce": 5,
       "Patronage": 6,
       "Piety": 5,
-      "Aesthetics": 5, //added (not accurated)
+      "Aesthetics": 6, //added (not accurated)
       "Rationalism": 5,
       "Freedom": 5,
       "Autocracy": 9,
       "Order": 5
+    }
+  },
+  {
+    "name": "Osei Tutu I",
+    "production": 4,
+    "food": 6,
+    "gold": 5,
+    "science": 4,
+    "culture": 6,
+    "happiness": 5,
+    "faith": 7,
+    "military": 6,
+    "aggressive": 5,
+    "declareWar": 5,
+    "commerce": 7,
+    "diplomacy": 5,
+    "loyal": 5,
+    "expansion": 7,
+    "denounceWillingness": 5,
+    "priorities": {
+      "Tradition": 7,
+      "Liberty": 5,
+      "Honor": 7,
+      "Commerce": 6,
+      "Patronage": 4,
+      "Piety": 4,
+      "Aesthetics": 5, //added
+      "Rationalism": 6,
+      "Freedom": 3,
+      "Autocracy": 5,
+      "Order": 6
     }
   },
   {
