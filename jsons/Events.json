@@ -100,19 +100,22 @@
 			{
 				"name": "[Great Artist]"
 				"uniques": ["Free [Great Artist] appears",
-					"Play [WLTK] sound "
+					"Play [WLTK] sound",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"name": "[Great Writer]",
 				"uniques": ["Free [Great Writer] appears",
-				"Play [WLTK] sound"
+					"Play [WLTK] sound",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"name": "[Great Musician]",
 				"uniques": ["Free [Great Musician] appears",
-					"Play [WLTK] sound"
+					"Play [WLTK] sound",
+					"[+200]% weight to this choice for AI decisions <for [Mexico] Civilizations>"
 				]
 			}
 		]
