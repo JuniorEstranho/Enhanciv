@@ -28,7 +28,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [5] cities for free"
+                    "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -66,7 +66,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [5] cities for free",
+                    "Provides a [Aqueduct] in your first [4] cities for free",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
             }
@@ -241,7 +241,8 @@
             "Only available <before adopting [Rationalism]>",
             "[-100]% weight to this choice for AI decisions <when [Religious] Victory is disabled>",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>",
-            "[+50]% weight to this choice for AI decisions <after founding a religion> <when [Religious] Victory is enabled>"
+            "[+25]% weight to this choice for AI decisions <after founding a religion> <when [Religious] Victory is enabled>",
+            "[+25]% weight to this choice for AI decisions <after enhancing a religion> <when [Religious] Victory is enabled>"
         ],
         "policies": [
             {
@@ -280,7 +281,7 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-10]% Culture cost of adopting new Policies",
+                "uniques": ["[-15]% Culture cost of adopting new Policies",
                     "[+2 Happiness] [in all cities] <in cities with a [foreign] religion>"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
@@ -338,7 +339,7 @@
             {
                 "name": "Flourishing of the Arts",
                 "uniques": [
-                    "[+25]% [Culture] [in all cities with a world wonder]",
+                    "[+33]% [Culture] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Cultural Centers", "Fine Arts"],
@@ -348,7 +349,9 @@
             {
                 "name": "Artistic Genius",
                 "uniques": [
-                    "Free [Great Artist] appears"
+                    "Comment [Free [Great Artist] or [Great Writer] or [Great Musician] appear]",
+                    "Triggers a [Free Great Culture Person] event <hidden from users>",
+                    "[+100]% weight to this choice for AI decisions"
                 ],
                 "requires": ["Fine Arts"],
                 "row": 2,
@@ -463,7 +466,8 @@
             "[+1] Movement <for [Embarked] units>",
             "[+1] Movement <for [Water] units>",
             "[+1] Sight <for [Water] units>",
-            "[+100]% weight to this choice for AI decisions <on water maps>",
+            "[+50]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [6]>",
+            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [11]>"
         ],
         "policies": [
             {
@@ -546,7 +550,7 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "May buy [Landsknecht] units with [Gold] [in all cities]",
-                    "May buy [Guerrilla] units with [Gold] [in all cities]"
+                    "May buy [Guerrilla] units with [Gold] [in annexed cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -691,9 +695,8 @@
                 "column": 1
             },
             {
-                "name": "Volunteer Army",
-                "uniques": ["[6] free [Foreign Legion] units appear",
-                    "May buy [Foreign Legion] units with [Gold] [in all cities]"],
+                "name": "Universal Suffrage",
+                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
                 "row": 1,
                 "column": 3
             },
@@ -707,15 +710,16 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance"],
+                "uniques": ["[-10]% Culture cost of adopting new Policies"], // changed
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1,
             },
             {
-                "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
-                "requires": ["Volunteer Army"],
+                "name": "Volunteer Army",
+                "uniques": ["[6] free [Foreign Legion] units appear",
+                    "May buy [Foreign Legion] units with [Gold] [in all cities] <when at war>"],
+                "requires": ["Universal Suffrage"],
                 "row": 2,
                 "column": 3
             },
