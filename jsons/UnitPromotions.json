@@ -681,6 +681,7 @@
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>",
 			"[+25]% to Flank Attack bonuses",
 			"[+10]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword"],
 		"column": 27,
 		"row": 2
 	},
@@ -690,6 +691,7 @@
 		"uniques": ["[+10]% Strength",
 			"[+25]% to Flank Attack bonuses",
 			"[+10]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword"],
 		"column": 27,
 		"row": 3
 	},
