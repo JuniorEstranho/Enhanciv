@@ -751,7 +751,11 @@
 	},
 	{
 		"name": "Police Guard", //Only for Rurales and subsequent upgrades
-		"uniques": ["[+15]% Strength <when fighting in [All Road] tiles>","[+10]% Strength bonus for [Land] units within [2] tiles", "All adjacent units heal [+10] HP when healing"]
+		"uniques": ["[+10]% Strength bonus for [Land] units within [2] tiles", "All adjacent units heal [+10] HP when healing"]
+	},
+	{
+		"name": "Highway Patrol", //Only for Rurales and subsequent upgrades
+		"uniques": ["[+25]% Strength <when fighting in [All Road] tiles>"]
 	},
 	{
 		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
@@ -779,6 +783,10 @@
 			"[+10]% Strength <vs [Ranged] units> <when defending>"]
 	},
 	{
+		"name": "[Asafo Warrior] ability",
+		"uniques": ["Earn [33]% of killed [Military] unit's [Strength] as [Faith]"]
+	},
+	{
 		"name": "[Jaguar] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
@@ -787,8 +795,8 @@
 		"uniques": ["[+10] HP when healing"]
 	},
 	{
-		"name": "[Paladin] ability",
-		"uniques": ["[+20]% Strength <when [Wounded]>", "Ignores Zone of Control"]
+		"name": "[War-Cart] ability",
+		"uniques": ["Withdraws before melee combat <with [60]% chance>"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -898,7 +906,7 @@
 	},
 	{
 		"name": "Sacagawea's Legacy",
-		"uniques": ["[+50]% Strength", "Comment [You completed the [Native Tongue]'s!]"],
+		"uniques": ["[+33]% Strength", "Comment [You completed the [Native Tongue]'s!]"],
 		"outerColor": [45, 10, 12],
 		"innerColor": [16, 182, 249]
 	},
