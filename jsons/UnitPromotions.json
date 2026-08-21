@@ -668,6 +668,32 @@
         "row": 3
 	},
 
+	// Zulu promotions
+	{
+		"name": "Buffalo Horns",
+		"uniques": ["[+1] Movement",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "Buffalo Chest",
+		"prerequisites": ["Buffalo Horns"],
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"],
+		"column": 27,
+		"row": 2
+	},
+	{
+		"name": "Buffalo Loins",
+		"prerequisites": ["Buffalo Chest"],
+		"uniques": ["[+10]% Strength",
+			"[+25]% to Flank Attack bonuses",
+			"[+10]% Strength <vs [Ranged] units> <when defending>"],
+		"column": 27,
+		"row": 3
+	},
+
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
@@ -719,7 +745,9 @@
 	},
 	{
 		"name": "Change Port",
-		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [12] tiles away <in [City center] tiles>", "Will not be displayed in Civilopedia"]
+		"uniques": ["May Paradrop to [{your} {Coastal} {City center}] tiles up to [16] tiles away <in [City center] tiles>", "Will not be displayed in Civilopedia"],
+		// "outerColor": [0, 0, 0]
+		"innerColor": [255, 255, 255]
 	},
 	{
 		"name": "City Plunder I",
@@ -761,26 +789,6 @@
 		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
 		"uniques": ["Comment [Attacking give all the damage without damage penalty and stun the unit attacked for 2 turns]",
 			"No damage penalty for wounded units <hidden from users>", "[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <when attacking> <hidden from users>"]
-	},
-	{
-		"name": "Buffalo Horns", //Only for Zulu Sword units and subsequent upgrades
-		"uniques": ["[+1] Movement",
-			"[+25]% to Flank Attack bonuses",
-			"[+10]% Strength <vs [Ranged] units> <when defending>"]
-	},
-	{
-		"name": "Buffalo Chest", //Only for Zulu Sword units and subsequent upgrades
-		"prerequisites": ["Buffalo Horns"],
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>",
-			"[+25]% to Flank Attack bonuses",
-			"[+10]% Strength <vs [Ranged] units> <when defending>"]
-	},
-	{
-		"name": "Buffalo Loins", //Only for Zulu Sword units and subsequent upgrades
-		"prerequisites": ["Buffalo Chest"],
-		"uniques": ["[+10]% Strength",
-			"[+25]% to Flank Attack bonuses",
-			"[+10]% Strength <vs [Ranged] units> <when defending>"]
 	},
 	{
 		"name": "[Asafo Warrior] ability",
