@@ -9,17 +9,16 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
-        "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
+        "Nullifies [Faith] [in all cities] <when below [-15] [Happiness]> <when [Religious] Victory is enabled>",
         // City-States debuff
         "[-25]% [Science] [in all cities] <for [City-States] Civilizations> <hidden from users>",
         // Romania
-        "[+200]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
-        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>"
+        "[+400]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+10]% Unhappiness from [Population] [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
-        // Angola
-        "Can instantly construct a [Barbarian encampment] improvement <by consuming this unit> <when [Sword]> <in [Unowned] tiles> <for [Angola] Civilizations> <hidden from users>",
         // The Tupi
         "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
@@ -30,7 +29,6 @@
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations> <hidden from users>", 
         // Romania
-        "[-100]% to Flank Attack bonuses <vs [Romania] units> <when fighting in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles> <hidden from users>",
         // Persia
