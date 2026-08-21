@@ -299,13 +299,14 @@
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
+		"range": 1,
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking"],
-		"promotions": ["Cover I"],
+		"promotions": ["[War-Cart] ability"],
 		"attackSound": "arrow"
 	},
 	{
@@ -491,6 +492,23 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Paladin",
+		"uniqueTo": "The Franks",
+		"replaces": "Horseman",
+		"unitType": "Sword",
+		"movement": 5,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"promotions": ["Cover I"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
@@ -586,13 +604,13 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
-		"cost": 75,
+		"cost": 65,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
-		"promotions": ["Formation I"],
+		"uniques": ["Can build [Remove Forest] improvements on tiles", "Can build [Remove Jungle] improvements on tiles", "Automation is a primary action"],
+		"promotions": ["[Asafo Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -665,6 +683,7 @@
 		"strength": 19,
 		"cost": 90,
 		"requiredTech": "Civil Service",
+		"uniques": ["Can move immediately once bought"],
 		"promotions": ["[Jagas Warrior] ability", "City Plunder II"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -790,7 +809,7 @@
 		"uniqueTo": "Songhai",
 		"replaces": "Knight",
 		"unitType": "Mounted",
-		"movement": 5,
+		"movement": 4,
 		"strength": 20,
 		"cost": 100,
 		"requiredTech": "Chivalry",
@@ -933,21 +952,6 @@
 		"promotions": ["Shock I","Great Generals II"],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Paladin",
-		"uniqueTo": "The Franks",
-		"replaces": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 23,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": ["[Paladin] ability"],
-		"attackSound": "metalhit"
-	},
 
 	// Rennaisance Era
 
@@ -984,9 +988,9 @@
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 20,
-		"cost": 120,
+		"movement": 4,
+		"strength": 24,
+		"cost": 135,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
