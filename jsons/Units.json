@@ -165,6 +165,7 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
+		"uniques": ["Can see over obstacles"],
 		"promotions": ["Woodsman"],
 		"obsoleteTech": "Industrialization",
 		"upgradesTo": "Composite Bowman",
@@ -454,7 +455,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Formation I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -503,7 +503,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -1365,8 +1365,8 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Police Guard"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Police Guard", "Highway Patrol"],
 		"attackSound": "cavalry"
 	},
 	{
