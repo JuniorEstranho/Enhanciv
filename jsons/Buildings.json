@@ -147,7 +147,6 @@
 		"name": "Scriptorium" 
 		"uniqueTo": "The Franks",
 		"replaces": "Library",
-		"science": 1,
 		"faith": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -213,16 +212,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Krepost",
-		"uniqueTo": "Russia",
-		"replaces": "Walls",
-		"cityStrength": 5,
-		"cityHealth": 50,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% Gold cost of acquiring tiles [in this city]", "Destroyed when the city is captured"]
-	},
-	{
 		"name": "The Pyramids",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -252,12 +241,22 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Barracks",
+		"happiness": 2,
 		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]","[+15]% growth [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"maintenance": 0,
+		"uniques": ["[+10]% growth [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
+		"name": "Krepost",
+		"uniqueTo": "Russia",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% Gold cost of acquiring tiles [in this city]", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+    {
 		"name": "Ikanda",
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
@@ -318,7 +317,7 @@
 		"percentStatBonus": {"production": 5},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Culture] from [Horses] tiles [in this city]",
 			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
@@ -575,11 +574,10 @@
 		"name": "Ziggurat",
 		"uniqueTo": "Sumer",
 		"replaces": "Garden",
-		"faith": 1,
 		"percentStatBonus": {"science": 25},
 		"uniques": ["[+25]% Great Person generation [in this city]",
-			"[+15]% Production when constructing [Science] buildings [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 30,
+			"[-10]% Science cost of researching new Technologies", "Must have an owned [River] within [3] tiles"],
+		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
@@ -704,12 +702,12 @@
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
 		"replaces": "Workshop",
-		"maintenance": 2,
+		"maintenance": 1,
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"cost": 100,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+2]% [Production] [in all cities]"],
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -1413,7 +1411,8 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried",
+		"[+33]% production cost <for [Poland] Civilizations> <hidden from users>"]
 	},
 
 	// Religious buildings
