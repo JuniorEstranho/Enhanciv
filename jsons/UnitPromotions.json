@@ -794,7 +794,11 @@
 	},
 	{
 		"name": "[Asafo Warrior] ability",
-		"uniques": ["Earn [33]% of killed [Military] unit's [Strength] as [Faith]"]
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"]
+	},
+	{
+		"name": "[Buccaneer] ability",
+		"uniques": ["[+25]% Strength <when attacking>", "Heals [25] damage if it kills a unit", "Invisible to non-adjacent units"]
 	},
 	{
 		"name": "[Jaguar] ability",
