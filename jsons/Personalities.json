@@ -1,5 +1,36 @@
 [
   {
+    "name": "Agüeybaná II",
+    "production": 6,
+    "food": 7,
+    "gold": 4,
+    "science": 4,
+    "culture": 5,
+    "happiness": 5,
+    "faith": 4,
+    "military": 6,
+    "aggressive": 4,
+    "declareWar": 5,
+    "commerce": 7,
+    "diplomacy": 5,
+    "loyal": 8,
+    "expansion": 6,
+    "denounceWillingness": 8,
+    "priorities": {
+      "Tradition": 6,
+      "Liberty": 4,
+      "Honor": 5,
+      "Commerce": 6,
+      "Patronage": 5,
+      "Piety": 3,
+      "Aesthetics": 7, //added
+      "Rationalism": 4,
+      "Freedom": 5,
+      "Autocracy": 5,
+      "Order": 7
+    }
+  },
+  {
     "name": "Ahmad al-Mansur",
     "production": 6,
     "food": 6,
@@ -1013,12 +1044,12 @@
   },
   {
     "name": "Nzinga Mbandi",
-    "production": 4,
-    "food": 7,
-    "gold": 4,
+    "production": 6,
+    "food": 5,
+    "gold": 5,
     "science": 5,
     "culture": 6,
-    "happiness": 5,
+    "happiness": 7,
     "faith": 5,
     "military": 7, 
     "aggressive": 6,
@@ -1026,7 +1057,7 @@
     "commerce": 6, 
     "diplomacy": 5,
     "loyal": 4,
-    "expansion": 6,
+    "expansion": 7,
     "denounceWillingness": 5,
     "priorities": {
       "Tradition": 4,
@@ -1075,7 +1106,7 @@
   },
   {
     "name": "Osei Tutu I",
-    "production": 4,
+    "production": 5,
     "food": 6,
     "gold": 5,
     "science": 4,
@@ -1091,9 +1122,9 @@
     "expansion": 7,
     "denounceWillingness": 5,
     "priorities": {
-      "Tradition": 7,
-      "Liberty": 5,
-      "Honor": 7,
+      "Tradition": 4,
+      "Liberty": 7,
+      "Honor": 6,
       "Commerce": 6,
       "Patronage": 4,
       "Piety": 4,
@@ -1508,8 +1539,8 @@
     }
   },
   {
-    "name": "Simon Bolivar",
-    "production": 6,
+    "name": "Simón Bolívar",
+    "production": 5,
     "food": 6,
     "gold": 4,
     "science": 5,
