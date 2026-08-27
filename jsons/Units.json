@@ -160,13 +160,12 @@
 		"uniqueTo": "The Tupi",
 		"replaces": "Archer",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
 		"rangedStrength": 7,
+		"range": 1,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"uniques": ["Can see over obstacles"],
-		"promotions": ["Woodsman"],
 		"obsoleteTech": "Industrialization",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
@@ -354,6 +353,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Asafo Warrior",
+		"uniqueTo": "Ashanti",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Swordsman] units>"],
+		"promotions": ["Formation I", "[Asafo Warrior] ability"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pictish Warrior",
 		"uniqueTo": "Celts",
 		"replaces": "Spearman",
@@ -504,7 +518,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Cover I"],
+		"promotions": ["Quick Study"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -595,22 +609,6 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Asafo Warrior",
-		"uniqueTo": "Ashanti",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 65,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["Can build [Remove Forest] improvements on tiles", "Can build [Remove Jungle] improvements on tiles", "Automation is a primary action"],
-		"promotions": ["[Asafo Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1079,6 +1077,20 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Buccaneer",
+		"uniqueTo": "Caribbean",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"uniques": ["[+100]% Strength <vs [Land] units>"],
+		"promotions": ["Coastal Raider I","Landing Party", "[Buccaneer] ability","[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Sea Beggar",
 		"uniqueTo": "The Netherlands",
 		"replaces": "Privateer",
@@ -1155,7 +1167,7 @@
 	},
 	{
 		"name": "Llaneiro",
-		"uniqueTo": "Colombia",
+		"uniqueTo": "Gran Colombia",
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1267,7 +1279,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Homeland Guardian", "Amphibious"],
+		"promotions": ["Homeland Guardian", "Woodsman"],
 		"attackSound": "shot"
 	},
 	{
@@ -1317,7 +1329,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 200,
+		"cost": 175,
 		"requiredTech": "Rifling",
 		"uniques": ["Unable to capture cities","Ignores Zone of Control","Can move immediately once bought", "No defensive terrain bonus","Mercenary Unit","Unbuildable"],
 		"obsoleteTech": "Replaceable Parts",
