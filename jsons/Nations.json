@@ -62,7 +62,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
 		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
-			"[Gold] cost of purchasing [Military] units [-50]%",
+			"Comment [Gain a [Ancient ruins] bonus upon capturing a [Barbarian encampment]]",
 			"Notified of new Barbarian encampments"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"],
@@ -343,6 +343,38 @@
 		"spyNames": ["Theodora", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
 	},
 	{
+		"name": "Caribbean", // likes Polynesia, represents all Caribbean Sea
+		"leaderName": "Agüeybaná II",
+		"adjective": ["Caribbean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Agüeybaná II",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "On front, mens - You will not lie to me anymore!",
+		"attacked": "On guard, mens - We need protect them from you!",
+		"denounced": "It's feel like a war declaration.",
+		"defeated": "You're just a children murderer - barbaric and ignorant.",
+		"introduction": "How you arrives here? Incredible! Everyone here wishes peace times.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "Maybe you be interested in this?",
+
+		"outerColor": [37, 208, 231],
+		"innerColor": [110, 74, 27],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Tropical Paradise",
+		"uniques": ["[-25]% Culture cost of natural border growth [in all coastal cities]",
+			"[+2 Food] from every [Fish]"],
+		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
+			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
+		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
+	},
+	{
 		"name": "Carthage",
 		"leaderName": "Dido",
 		"adjective": ["Carthaginian"],
@@ -446,40 +478,6 @@
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
-	},
-	{
-		"name": "Colombia",
-		"leaderName": "Simon Bolivar",
-		"adjective": ["Colombian"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Simon Bolivar",
-
-		"startIntroPart1": "Simon Bolivar, 'El Libertador' of Latin America. During so much time the Spanish colonies just serves to obey the Spanish crown until the Napoleon invades Spain making Spain 'abandon' your colonies. During Spain crisis with France, You with you nationalism seed you freed us from Spanish settlers and makes the Gran Colombia birth in 1819 with glory and morale spending the decolonization in Colombia, Bolivia, Equador, Peru, Panama and Venezuela. Gran Colombia hold for 20 years but fall agaisnt the traitors and power struggle.",
-		"startIntroPart2": "Great Simon Bolivar, Gran Colombia needs birth again! Your armies needs be commanded by your morale and strength! You can be so strong to hold the test of time?",
-
-		"declaringWar": "I can't wait any longer, Gran Colombia needs this. You're in our way!",
-		"attacked": "We motto is die for our country, and you're only making it even more heroic.",
-		"denounced": "My friend, I think we have less violent ways of dealing with this.",
-		"defeated": "Even after my defeat, know that my people are nationalists to the end. You will be terrified by our revolts!",
-		"introduction": "Welcome! I'm Simon Bolivar, the greatest South American military leader. Have you come to see the riches of Latin America?",
-
-		"neutralHello": "Hello!",
-		"hateHello": "It's you.",
-
-		"tradeRequest": "Is it a beautiful day for a deal like this?",
-
-		"outerColor": [255, 212, 74],
-		"innerColor": [16, 54, 224],
-		"favoredReligion": "Catholicism",
-		"uniqueName": "El Libertador",
-		"uniques": ["[+1 Happiness] <for every [5] [[Military] Units]>",
-			"[+1] Movement <for [All] units> <during a Golden Age>",
-			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
-		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
-			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
-		"spyNames": ["Joaquín", "Juana", "José", "Márquez", "Mateos", "Ernesto", "García", "Pablo", "Túpac", "Javier"]
 	},
 	{
 		"name": "Denmark",
@@ -612,8 +610,7 @@
 		"innerColor": [255, 56, 56],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Rock-Hewn Churches",
-		"uniques": ["[+4 Culture, +4 Happiness] from every [Holy site] <in [Hill] tiles>",
-			"[-33]% enemy spy effectiveness [in cities following our religion]"],
+		"uniques": ["[+3 Culture, +2 Happiness] [in all cities] <within [3] tiles of a [Quarry]>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -655,6 +652,40 @@
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
 		"spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
+	},
+	{
+		"name": "Gran Colombia",
+		"leaderName": "Simón Bolívar",
+		"adjective": ["Colombian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Simón Bolívar",
+
+		"startIntroPart1": "Simon Bolivar, 'El Libertador' of Latin America. During so much time the Spanish colonies just serves to obey the Spanish crown until the Napoleon invades Spain making Spain 'abandon' your colonies. During Spain crisis with France, You with you nationalism seed you freed us from Spanish settlers and makes the Gran Colombia birth in 1819 with glory and morale spending the decolonization in Colombia, Bolivia, Equador, Peru, Panama and Venezuela. Gran Colombia hold for 20 years but fall agaisnt the traitors and power struggle.",
+		"startIntroPart2": "Great Simon Bolivar, Gran Colombia needs birth again! Your armies needs be commanded by your morale and strength! You can be so strong to hold the test of time?",
+
+		"declaringWar": "I can't wait any longer, Gran Colombia needs this. You're in our way!",
+		"attacked": "We motto is die for our country, and you're only making it even more heroic.",
+		"denounced": "My friend, I think we have less violent ways of dealing with this.",
+		"defeated": "Even after my defeat, know that my people are nationalists to the end. You will be terrified by our revolts!",
+		"introduction": "Welcome! I'm Simon Bolivar, the greatest South American military leader. Have you come to see the riches of Latin America?",
+
+		"neutralHello": "Hello!",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "Is it a beautiful day for a deal like this?",
+
+		"outerColor": [255, 212, 74],
+		"innerColor": [16, 54, 224],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "El Libertador",
+		"uniques": ["[+1 Happiness] <for every [5] [[Military] Units]>",
+			"[+1] Movement <for [All] units> <during a Golden Age>",
+			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
+		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
+			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
+		"spyNames": ["Joaquín", "Juana", "José", "Márquez", "Mateos", "Ernesto", "García", "Pablo", "Túpac", "Javier"]
 	},
 	{
 		"name": "Germany",
@@ -987,10 +1018,9 @@
 		"innerColor": [16, 30, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Cry of Dolores",
-		"uniques": ["Gain a free [Monument] [in all non-occupied cities]",
-			"Can build [Farm] improvements at a [+100]% rate",
-			"Can build [Pasture] improvements at a [+100]% rate",
-			"Free Great Person <upon entering the [Industrial era]>"],
+		"uniques": ["Can build [Farm] improvements at a [+100]% rate",
+			"Provides the cheapest [Culture] building in your first [10] cities for free",
+			"[+100]% Production when constructing [National] wonders [in all cities]"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal",""],
 		"spyNames": ["Miguel", "Emiliano", "Lázaro", "Agustín", "Manuel", "Peréz", "Valentín", "Guadalupe", "Vicente", "López"]
@@ -1550,7 +1580,8 @@
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Feudality",
-		"uniques": ["[+1 Production] from every [Farm]",
+		"uniques": ["[+1 Production] from every [Farm] <in tiles adjacent to [City center] tiles>",
+			"[+1 Production] from every [Farm] <in tiles adjacent to [Citadel] tiles>",
 			"Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>",
 			"Gain a free [Courthouse] [in annexed cities] <in cities following our religion>"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
