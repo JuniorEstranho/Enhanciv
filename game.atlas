@@ -11,7 +11,7 @@ NationIcons/Assyria
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Colombia
+NationIcons/Gran Colombia
   rotate: false
   xy: 200, 0
   size: 200, 200
@@ -35,13 +35,6 @@ NationIcons/Zulu
 NationIcons/Kongo
   rotate: false
   xy: 0, 200
-  size: 200, 200
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Arabia
-  rotate: false
-  xy: 0, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -133,6 +126,13 @@ NationIcons/Indonesia
 NationIcons/Poland
   rotate: false
   xy: 0, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Caribbean
+  rotate: false
+  xy: 0, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -312,7 +312,7 @@ UnitIcons/Manchu Cavalry
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Mamluk
+UnitIcons/Buccaneer
   rotate: false
   xy: 0, 1000
   size: 200, 200
@@ -523,6 +523,41 @@ UnitPromotionIcons/Police Guard
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Native Tongue
+  rotate: false
+  xy: 1600, 1400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Stash of Gold
+  rotate: false
+  xy: 1600, 1400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Holy Symbols
+  rotate: false
+  xy: 1600, 1400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Advanced Weaponry
+  rotate: false
+  xy: 1600, 1400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Survivors
+  rotate: false
+  xy: 1600, 1400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cultural Artifacts
   rotate: false
   xy: 1600, 1400
   size: 100, 100
