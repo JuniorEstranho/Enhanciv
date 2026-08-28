@@ -350,8 +350,8 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Agüeybaná II",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Great Chieftain of Boriken! Before Columbus, the Caribbean islands are habitated by the Tainos people. When the Spanish Conquistador's arrives, you shelter them under our home but them with your ruthless greed - pillaged our home and enslaved our people, forcing us to fight against them. were defeated but the new mixed Caribbean population increases and spelled the colonizers. Much nations births in this seas, likes: Cuba, Haiti, Dominicana, Bahamas, Jamaica and more.",
+		"startIntroPart2": "O Brave Agüeybaná II - the caribbean tropicals seas are waiting for you. Your people needs your presence to govern our new home - dont let foreigners take our lands from us.",
 
 		"declaringWar": "On front, mens - You will not lie to me anymore!",
 		"attacked": "On guard, mens - We need protect them from you!",
@@ -364,13 +364,13 @@
 
 		"tradeRequest": "Maybe you be interested in this?",
 
-		"outerColor": [203, 142, 0],
-		"innerColor": [28, 113, 0],
+		"outerColor": [238, 131, 48],
+		"innerColor": [105, 193, 34],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Tropical Islands",
-		"uniques": ["Enemy [Water] units must spend [2] extra movement points when inside your territory",
-			"[-33]% Culture cost of natural border growth [in all coastal cities]",
-			"[+1 Food] from every [Fishing Boats]"],
+		"uniqueName": "Canoes Fleets",
+		"uniques": ["Comment [[Embarked] units and has 1 point cost to embark and disembark and double movement on your territory]",
+			"Comment [No penalty from attacking across a coast for [Water] units on your territory]",
+			"[-50]% Culture cost of natural border growth [in all coastal cities]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
@@ -645,9 +645,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "City of Light",
 		"uniques": ["Comment [+10% [Culture] from each [Wonder] in capital]",
-			"Comment [-5% Unhappiness from [Population] in all cities from each [Wonder] in capital]",
-			"[+10]% [Culture] <for every [[Wonder] Buildings]> <in [Capital] cities> <hidden from users>",
-			"[-5]% Unhappiness from [Population] [in all cities] <for every [[Wonder] Buildings]> <in [Capital] cities> <hidden from users>"],
+			"[+10]% [Culture] <for every [[Wonder] Buildings]> <in [Capital] cities> <hidden from users>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
