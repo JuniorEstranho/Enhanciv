@@ -319,8 +319,7 @@
 		"gold": 2,
 		"uniques": ["Gives a defensive bonus of [50]%",
 			"[+1 Gold] for each adjacent [Luxury resource]",
-			"[+1 Gold] <after discovering [Flight]>",
-			"Gain control over [{resource} {Unowned}] tiles in a [2]-tile radius <on foreign continents>",
+			"Gain control over [{Luxury resource} {Unowned}] tiles in a [2]-tile radius <on foreign continents>",
 			"Tile provides yield without assigned population",
 			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>",
 			"Can be built outside your borders",
@@ -390,7 +389,7 @@
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor", "Marks a barbarian camp"],
+		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor", "Marks a barbarian camp", "Provides a random bonus when entered <for [Angola] units> <hidden from users>"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
