@@ -364,12 +364,13 @@
 
 		"tradeRequest": "Maybe you be interested in this?",
 
-		"outerColor": [37, 208, 231],
-		"innerColor": [110, 74, 27],
+		"outerColor": [203, 142, 0],
+		"innerColor": [28, 113, 0],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Tropical Paradise",
-		"uniques": ["[-25]% Culture cost of natural border growth [in all coastal cities]",
-			"[+2 Food] from every [Fish]"],
+		"uniqueName": "Tropical Islands",
+		"uniques": ["Enemy [Water] units must spend [2] extra movement points when inside your territory",
+			"[-33]% Culture cost of natural border growth [in all coastal cities]",
+			"[+1 Food] from every [Fishing Boats]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
