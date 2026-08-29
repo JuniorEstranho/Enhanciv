@@ -13,12 +13,17 @@
         // City-States debuff
         "[-25]% [Science] [in all cities] <for [City-States] Civilizations> <hidden from users>",
         // Romania
-        "[+400]% Gold cost of acquiring tiles [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
-        "[+25]% Culture cost of natural border growth [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>",
-        "[+10]% Unhappiness from [Population] [in all cities] <within [4] tiles of a [Romania]> <for [non-[Romania]] Civilizations> <hidden from users>"
+        "[+100]% Gold cost of acquiring tiles [in all cities] <within [7] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+200]% Gold cost of acquiring tiles [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+15]% Culture cost of natural border growth [in all cities] <within [7] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+25]% Culture cost of natural border growth [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
+        // Caribbean
+        "Double movement in [{your} {Water}] <for [Caribbean] Civilizations>",
+        "[1] Movement point cost to embark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations>",
+        "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations>",
         // The Tupi
         "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
