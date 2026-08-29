@@ -374,10 +374,9 @@
 		"uniqueTo": "Caribbean",
 		"replaces": "Colosseum",
 		"maintenance": 1,
-		"production": 1,
-		"culture": 1,
-		"uniques": ["[-15]% Unhappiness from [Population] [in this city]"],
-		"hurryCostModifier": 25,
+		"happiness": 3,
+		"uniques": ["[+1 Happiness, +2 Culture] <after discovering [Refrigeration]>"],
+		"hurryCostModifier": 0,
 		"requiredTech": "Construction"
 	},
 	{
@@ -598,7 +597,7 @@
 		"uniqueTo": "Romania",
 		"replaces": "Garden",
 		"faith": 2,
-		"culture": 1,
+		"production": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Production] from every specialist [in this city]", "Must not be next to [Coast]"],
 		"hurryCostModifier": 25,
@@ -666,15 +665,17 @@
 	},
     {
 		"name": "Artists' Guild", // BNW national wonder
+		"culture": 1, // added
 		"greatPersonPoints": {"Great Artist": 2},
 		"specialistSlots": {"Artist": 2},
 		"isNationalWonder": true,
-		"cost": 150,
+		"cost": 200, // from 150 to 200
 		"maintenance": 1,
 		"requiredTech": "Guilds",
 	},
     {
 		"name": "Writers' Guild", // BNW national wonder
+		"culture": 1, // added
 		"greatPersonPoints": {"Great Writer": 1},
 		"specialistSlots": {"Writer": 2},
 		"isNationalWonder": true,
@@ -684,10 +685,11 @@
 	},
     {
 		"name": "Musicians' Guild", // BNW national wonder
+		"culture": 1, // added
 		"greatPersonPoints": {"Great Musician": 3},
 		"specialistSlots": {"Musician": 2},
 		"isNationalWonder": true,
-		"cost": 200,
+		"cost": 150, // from 200 to 150
 		"maintenance": 1,
 		"requiredTech": "Guilds",
 	},
@@ -1179,6 +1181,14 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
+		"name": "Hotel", // BNW building (adapted)
+		"gold": 2,
+		"cost": 300,
+		"requiredBuilding": "Museum",
+		"requiredTech": "Refrigeration",
+		"uniques": ["[+2 Culture] from [Landmark] tiles [in this city]", "Must have an owned [Landmark] within [3] tiles"]
+	},
+    {
 		"name": "Broadcast Tower",
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
