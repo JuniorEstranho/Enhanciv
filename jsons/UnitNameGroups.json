@@ -36,6 +36,10 @@
         "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
     },
     {
+        "name": "Venetian Merchant",
+        "unitNames": ["Gasparo Balbi", "Giovanni Balzoni", "Giosafat Barbaro", "Giovanni Caboto", "Alvise Cadamosto", "Ambrogio Contarini", "Niccolo de Conti", "Cesare Federici", "Antonio Pigafetta", "Maffeo Polo", "Marco Polo", "Niccolo Polo"]
+    },
+    {
         "name": "Prophet",
         "unitNames": [] // The original has no Great Prophet names, but we leave it here to enable mod support
     }
