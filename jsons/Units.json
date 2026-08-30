@@ -46,6 +46,22 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Blowgunner",
+		"uniqueTo": "The Tupi"
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 5,
+		"range": 1,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -138,7 +154,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
-		"promotions": ["Accuracy I", "Slinger Withdraw"],
+		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
 	{
@@ -152,21 +168,6 @@
 		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Blowgunner",
-		"uniqueTo": "The Tupi",
-		"replaces": "Archer",
-		"unitType": "Archery",
-		"movement": 3,
-		"strength": 5,
-		"rangedStrength": 7,
-		"range": 1,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Industrialization",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -236,10 +237,12 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "Melee Water",
+		"unitType": "Ranged Water", // changed to Ranged Water (Vanilla only)
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
+		"rangedStrength": 6,
+		"range": 1, // from 2 to 1
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
@@ -415,7 +418,7 @@
 		"name": "Battering Ram",
 		"uniqueTo": "The Huns",
 		"replaces": "Spearman",
-		"unitType": "Siege", //changed to Siege type
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"movement": 2,
 		"strength": 10,
 		"cost": 70,
@@ -739,7 +742,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"promotions": ["Great Admirals II"],
+		"promotions": ["Great Admirals I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -943,8 +946,8 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Rifleman", // from Musketman to Rifleman (BNW only)
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
 		"promotions": ["Shock I","Great Generals II"],
@@ -987,7 +990,7 @@
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 24,
+		"strength": 23,
 		"cost": 135,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
@@ -1032,7 +1035,6 @@
 		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
-		"promotions": ["Great Generals I"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
@@ -1086,7 +1088,6 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"uniques": ["[+100]% Strength <vs [Land] units>"],
 		"promotions": ["Coastal Raider I","Landing Party", "[Buccaneer] ability","[Privateer] ability"],
 		"attackSound": "cannon"
 	},
@@ -1144,11 +1145,10 @@
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredTech": "Navigation",
-		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"promotions": ["Bombardment I"],
+		"promotions": ["Bombardment I", "Great Admirals II"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
@@ -1174,7 +1174,7 @@
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles"],
 		"promotions": ["Formation I", "[Llaneiro] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1329,9 +1329,10 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 175,
+		"cost": 225,
 		"requiredTech": "Rifling",
-		"uniques": ["Unable to capture cities","Ignores Zone of Control","Can move immediately once bought", "No defensive terrain bonus","Mercenary Unit","Unbuildable"],
+		"uniques": ["Unable to capture cities","Can move immediately once bought","Mercenary Unit","Unbuildable"],
+		"promotions": ["Guerrilla Tactics"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -1560,7 +1561,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
-		"cost": 350,
+		"cost": 325,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
@@ -1590,20 +1591,6 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
-	},
-	{
-		"name": "Yamato",
-		"uniqueTo": "Japan",
-		"replaces": "Battleship",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 65,
-		"rangedStrength": 65,
-		"range": 4,
-		"cost": 375,
-		"requiredTech": "Electronics",
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
 	},
 	{
 		"name": "Machine Gun",
@@ -1696,6 +1683,23 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Japan",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1971,23 +1975,6 @@
 		"movement": 2,
 	},
 	{
-		"name": "Mariachi Musician",
-		"uniqueTo": "Mexico",
-		"replaces": "Great Musician",
-		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"Triggers a [Perform Concert Tour] event <in [Friendly Land] tiles> <for all movement>",
-			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [50]% chance> <before adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
-			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [75]% chance> <after adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
-			"May enter foreign tiles without open borders",
-			"Is part of Great Person group [Great Person]",
-			"Is part of Great Person group [Musician]",
-			"[This Unit] gets a name from the [Musician] group",
-			"Uncapturable",
-            "Great Person - [Culture]", "Unbuildable"]
-		"movement": 2,
-	},
-	{
 		"name": "Great Writer",
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
@@ -2030,10 +2017,9 @@
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
 			"[+100]% Gold from Great Merchant trade missions",
 			"Double movement in [Water]",
-			"Invisible to non-adjacent units <when [Embarked]>",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
-            "[This Unit] gets a name from the [Merchant] group",
+            "[This Unit] gets a name from the [Venetian Merchant] group",
 			"Uncapturable",
 			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
