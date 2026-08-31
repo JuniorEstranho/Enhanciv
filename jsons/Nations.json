@@ -64,7 +64,7 @@
 		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
 			"Comment [Gain a random bonus upon capturing a [Barbarian encampment]]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
-			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"],
+			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
 	{
 		"name": "Arabia",
@@ -124,11 +124,11 @@
 		"tradeRequest": "A gift from the heavens to you!",
 		"declaringFriendship": "Just imagine the all possibilities with this friendship declaration.",
 
-		"outerColor": [249, 131, 24],
-		"innerColor": [255, 238, 72],
+		"outerColor": [255, 220, 41],
+		"innerColor": [42, 131, 18],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Golden Stool",
-		"uniques": [],
+		"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Gold]"],
 		"cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi"
 			,"Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
@@ -363,13 +363,14 @@
 
 		"tradeRequest": "Maybe you be interested on it?",
 
-		"outerColor": [238, 127, 38],
-		"innerColor": [38, 163, 72],
+		"outerColor": [249, 131, 24],
+		"innerColor": [255, 238, 72],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Maritime Fleets",
 		"uniques": ["Comment [[Embarked] units has 1 point cost to embark and disembark and double movement on your territory. Making connections between intermaritime cities more easy.]",
-			"Comment [Gain triple radius control over [Water] tiles by founding coastal cities]",
-			"Gain control over [Water] tiles in a [3]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
+			"Comment [Gain trible radius control over [Coast] tiles and double radius control over [Ocean] tiles by founding coastal cities]",
+			"Gain control over [{Coast} {Unowned}] tiles in a [3]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
+			"Gain control over [{Ocean} {Unowned}] tiles in a [2]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
 			"[+100]% Strength <vs [Embarked] units>",
 			"[+1 Production] from every [Fishing Boats]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
