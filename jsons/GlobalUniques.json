@@ -21,9 +21,9 @@
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
         // Caribbean
-        "Double movement in [{your} {Water}] <for [Caribbean] Civilizations>",
-        "[1] Movement point cost to embark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations>",
-        "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations>",
+        "Double movement in [Water] <in [your] tiles> <when [Embarked]> <for [Caribbean] Civilizations> <hidden from users>",
+        "[1] Movement point cost to embark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
+        "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
         // The Tupi
         "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
