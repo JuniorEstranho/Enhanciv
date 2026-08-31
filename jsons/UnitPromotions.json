@@ -695,6 +695,29 @@
 		"column": 27,
 		"row": 3
 	},
+	// Guerrilla promotions
+	{
+		"name": "Guerrilla Tactics I",
+		"uniques": ["[+15]% Strength <when defending>", "[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"column": 28,
+		"row": 1
+	},
+	{
+		"name": "Guerrilla Tactics II",
+		"prerequisites": ["Guerrilla Tactics I"],
+		"uniques": ["Invisible to non-adjacent units <in [Jungle] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>"],
+		"unitTypes": ["Sword", "Gunpowder"],
+		"column": 28,
+		"row": 2
+	},
+	{
+		"name": "Guerrilla Tactics III",
+		"prerequisites": ["Guerrilla Tactics I"],
+		"uniques": ["Can move after attacking", "Withdraws before melee combat <when below [20] HP>"],
+		"unitTypes": ["Sword", "Gunpowder"],
+		"column": 28,
+		"row": 3
+	},
 
 	// Uniques that should be kept on upgrades
 	{
@@ -793,10 +816,6 @@
 			"No damage penalty for wounded units <hidden from users>", "[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <when attacking> <hidden from users>"]
 	},
 	{
-		"name": "Guerrilla Tactics", //Only for Guerrilla and subsequent upgrades
-		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
-	},
-	{
 		"name": "[Asafo Warrior] ability",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"]
 	},
@@ -814,7 +833,7 @@
 	},
 	{
 		"name": "[War-Cart] ability",
-		"uniques": ["Withdraws before melee combat <with [60]% chance>"]
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -838,7 +857,7 @@
 	},
 	{
 		"name": "[Rosiori] ability",
-		"uniques": ["[This Unit] gains [2] movement <upon entering combat>", "[+25]% Strength <when defending> <for [1] turns> <upon entering combat>"]
+		"uniques": ["[This Unit] gains [2] movement <upon entering combat>"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
