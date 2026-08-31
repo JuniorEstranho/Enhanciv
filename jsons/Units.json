@@ -57,7 +57,7 @@
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"uniques": ["Can move after attacking", "May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "arrow"
 	},
@@ -241,7 +241,7 @@
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
-		"rangedStrength": 6,
+		"rangedStrength": 8,
 		"range": 1, // from 2 to 1
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
@@ -1329,10 +1329,10 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 200,
 		"requiredTech": "Rifling",
 		"uniques": ["Unable to capture cities","Can move immediately once bought","Mercenary Unit","Unbuildable"],
-		"promotions": ["Guerrilla Tactics"],
+		"promotions": ["Guerrilla Tactics I"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
