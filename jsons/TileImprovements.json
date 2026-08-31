@@ -285,6 +285,19 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Hacienda",
+		"uniqueTo": "Mexico",
+		"terrainsCanBeBuiltOn": ["Grassland","Desert","Flood plains"],
+		"food": 2,
+		"culture": 1,
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food, +1 Culture] <after discovering [Fertilizer]>",
+			"Cannot be built on [Luxury resource] tiles <hidden from users>",
+			"Cannot be built on [Bonus resource] tiles <hidden from users>",
+			"Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Guilds"
+	},
+	{
 		"name": "Kasbah",
 		"uniqueTo": "Morocco",
 		"terrainsCanBeBuiltOn": ["Desert"]
