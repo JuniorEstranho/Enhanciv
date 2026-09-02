@@ -1104,7 +1104,7 @@
 
 		"declaringWar": "Greater Persia will bow down to no one, and that includes you!",
 		"attacked": "You think you can defeat us? well, let's see.",
-		"denounced": "Ignorance is not a blesses.",
+		"denounced": "Ignorance is not a bless.",
 		"defeated": "Well, I don't know how this happened. What technology your uses to destroy us?",
 		"introduction": "Greetings, welcome to Persia, home of all world arts and military might; we will be gracious if you are too.",
 
@@ -1113,8 +1113,8 @@
 
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
-		"outerColor": [239, 45, 23],
-		"innerColor": [251, 156, 5],
+		"outerColor": [255, 148, 33],
+		"innerColor": [160, 19, 19],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+50]% Golden Age length",
@@ -1210,22 +1210,22 @@
 		"leaderName": "João III",
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 		"personality": "João III",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "I just will do this for the good people, unlike you!",
-		"attacked": "We will not surrender!",
-		"denounced": "Turbulent seas are coming for you.",
-		"defeated": "Well, if only there were still a colony for our women and children escape to.",
-		"introduction": "Good day, i'm João III from Portugal. You are welcome to the lusitanian seas.",
+		"declaringWar": "Peace are imposible at all your aggressions. We will fight against!",
+		"attacked": "Portugal is our home and we will stay here until the end.",
+		"denounced": "I'll stay on here.",
+		"defeated": "Our seas are dominated by your ships. This humiliation will not be forgotten.",
+		"introduction": "Welcome to the lusitanian seas. Come here, I need you to give this letter to someone in the world otherside",
 
 		"neutralHello": "Good day.",
 		"hateHello": "It's you.",
 
-		"tradeRequest": "The Portuguese crown needs you presence in this agreement.",
+		"tradeRequest": "The portuguese crown invites you on our agreement.",
 
 		"outerColor": [255, 255, 255],
 		"innerColor": [0, 45, 114],
@@ -1240,27 +1240,27 @@
 	},
 	{
 		"name": "Russia",
-		"leaderName": "Peter I",
+		"leaderName": "Catherine",
 		"adjective": ["Russian"]
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Scientific",
-		"personality": "Peter I",
+		"personality": "Catherine",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Hail to Imperial Majesty Catherine, Empress of all Russians. Living in the largest country in the world, from the Pacific Ocean in the east to the Baltic Sea in the west, your people endured wars, droughts, and many disasters, imbuing the Russian society with heroism and tenacity, and producing artists and scientists among the best in the world. Russia is a powerful empire which rightfully claims its place in the world concert of superpowers.",
+		"startIntroPart2": "Empress Catherine, your people are eager for Russian glory, to revive the sacred light of the Motherland. Will your new empire shine through the ages of history?",
 
-		"declaringWar": "Ignoring your malevolence is impossible now. I'm sorry, but you will be stopped!",
-		"attacked": "Well, if that's is you choice, i can't make this diferent",
-		"denounced": "This is a threat?",
-		"defeated": "Oh, Mother Russia, I failed with our honor. You will pay dearly, soon.",
-		"introduction": "Hi! Welcome to Russia. I wishes goods for us.",
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"denounced": "So be it. You'll have only yourself to blame.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
 
-		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
 
-		"tradeRequest": "I believe we need to join forces for progress.",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 
-		"outerColor": [249, 219, 0],
+		"outerColor": [239, 180, 0],
 		"innerColor": [16, 16, 16],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Siberian Riches",
@@ -1371,7 +1371,6 @@
 		"uniqueName": "Great Expanse",
 		"uniques": ["[+15]% Strength <for [{Military} {Land}] units> <when fighting in [your] tiles>",
 			"Gain control over [8] tiles [in this city] <upon founding a city>",
-			"Free [Pathfinder] appears",
 			"[{Cultural Artifacts} {Stash of Gold} {Trained by Tribes} {Holy Symbols} {Advanced Weaponry}] units gain the [Sacagawea's Legacy] promotion <hidden from users>"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -1450,25 +1449,25 @@
 	},
 	{
 		"name": "Spain",
-		"leaderName": "Philip II",
+		"leaderName": "Isabella",
 		"adjective": ["Spainish"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Religious",
-		"personality": "Philip II",
+		"preferredVictoryType": "Domination",
+		"personality": "Isabella",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Holy Isabella, envoy of God, Great Queen of Castille and León, your people celebrate you! Spain is a beautiful and ancient country, a link between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish culture had taken the best of the Christian and Muslim worlds, and was ready to dominate the world for centuries. Powerful Spanish military fleets and brave explorers found and conquered much of the New World. Exploiting a whole new continent and its riches, Spain reached a state of power few could compete with for hundreds of years.",
+		"startIntroPart2": "O splendid and virtuous Isabella! By the will of the heavens, will Spain reborn to achieve its holy destiny and become a new El Dorado? Will your new empire shine through the ages of history?",
 
-		"declaringWar": "You're a devil son! Your must be destroyed!",
-		"attacked": "Hahaha! you're very funny, well, you'll be meet the Spanish Tercio!",
+		"declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
 		"denounced": "You're just a Judas waiting for betray you lord!",
-		"defeated": "Oh my God! Madrid! Oh, the Madrid! are burning! The world's ornament did not deserve this end.",
-		"introduction": "Hello, may God stay with you, I'm very honored be meeting you. I am Philip II, King of Spain.",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "God blesses those who deserve it. I am Isabel of Spain.",
 
 		"neutralHello": "Hello!",
 		"hateHello": "It's you.",
 
-		"tradeRequest": "From Spain to you, We requires you help.",
+		"tradeRequest": "I hope this deal will receive your blessing.",
 
 		"outerColor": [84, 26, 26],
 		"innerColor": [255,168,168],
