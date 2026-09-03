@@ -282,7 +282,7 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-15]% Culture cost of adopting new Policies",
+                "uniques": ["[-10]% Culture cost of adopting new Policies",
                     "[+2 Happiness] [in all cities] <in cities with a [foreign] religion>"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
@@ -463,12 +463,10 @@
             "Scientific": 5,
             "Religious": 0
         },
-        "uniques": [
-            "[+1] Movement <for [Embarked] units>",
-            "[+1] Movement <for [Water] units>",
+        "uniques": ["[+1] Movement <for [Water] units>",
             "[+1] Sight <for [Water] units>",
             "[+50]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [5]>",
-            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [8]>"
+            "[+100]% weight to this choice for AI decisions <when number of [[Coastal] Cities] is more than [7]>"
         ],
         "policies": [
             {
@@ -516,7 +514,7 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+20]% [Gold] from Trade Routes"
+                    "[+25]% [Gold] from Trade Routes"
                 ],
                 "requires": ["Merchant Navy"],
                 "row": 3,
@@ -549,8 +547,7 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "May buy [Landsknecht] units with [Gold] [in all cities]",
-                    "May buy [Guerrilla] units with [Gold] [in annexed cities]"
+                    "May buy [Landsknecht] units with [Gold] [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -710,18 +707,11 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[-10]% Culture cost of adopting new Policies"], // changed
+                "uniques": ["[6] free [Foreign Legion] units appear",
+                    "May buy [Foreign Legion] units with [Faith] [in all cities] <when at war>"], // changed
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1,
-            },
-            {
-                "name": "Volunteer Army",
-                "uniques": ["[6] free [Foreign Legion] units appear",
-                    "May buy [Foreign Legion] units with [Gold] [in all cities] <when at war>"],
-                "requires": ["Universal Suffrage"],
-                "row": 2,
-                "column": 3
             },
             {
                 "name": "Democracy",
@@ -835,6 +825,7 @@
             {
                 "name": "United Front",
                 "uniques": [
+                    "May buy [Guerrilla] units with [Gold] [in all cities] <within [5] tiles of a [City-State]>",
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
