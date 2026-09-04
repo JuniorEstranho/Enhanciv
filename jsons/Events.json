@@ -61,9 +61,9 @@
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
+					"[This Unit] gains the [Advanced Weaponry] promotion <hidden from users>",
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 					"Unavailable <for [Advanced Weaponry] units> <hidden from users>",
-					"[This Unit] gains the [Advanced Weaponry] promotion <hidden from users>",
 					"Remove [Ancient ruins] improvements from this tile <hidden from users>",
 					"[+50]% weight to this choice for AI decisions",
 				]
@@ -98,24 +98,37 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"name": "[Great Artist]"
-				"uniques": ["Free [Great Artist] appears",
+				"name": "Great Artist"
+				"uniques": ["Free [Great Artist] appears <hidden from users>",
 					"Play [WLTK] sound",
 					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"name": "[Great Writer]",
-				"uniques": ["Free [Great Writer] appears",
+				"name": "Great Writer",
+				"uniques": ["Free [Great Writer] appears <hidden from users>",
 					"Play [WLTK] sound",
 					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"name": "[Great Musician]",
-				"uniques": ["Free [Great Musician] appears",
+				"uniques": ["Free [Great Musician] appears <hidden from users>",
 					"Play [WLTK] sound",
 					"[+200]% weight to this choice for AI decisions <for [Mexico] Civilizations>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Golden Stool Bless",
+		"text": "Golden Stool Bless",
+		"presentation": "None",
+		"choices": [
+			{
+				"name": "Golden Stool Bless",
+				"uniques": ["Gain a free [Pantheon] belief",
+					"Play [WLTK] sound"
 				]
 			}
 		]
