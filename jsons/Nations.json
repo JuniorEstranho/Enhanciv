@@ -18,7 +18,7 @@
 		"neutralHello": "Good day.",
 		"hateHello": "Well?",
 
-		"tradeRequest": "The United States need you accept this require.",
+		"tradeRequest": "Is the following trade of interest to you?",
 
 		"outerColor": [28, 51, 119],
 		"innerColor": [255, 255,255],
@@ -62,7 +62,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Mercenaries Tribes",
 		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
-			"Comment [Gain a random bonus upon capturing a [Barbarian encampment]]"],
+			"Comment [Gain a [Ancient ruins] random bonus upon capturing a [Barbarian encampment]]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -126,10 +126,10 @@
 
 		"outerColor": [255, 220, 41],
 		"innerColor": [42, 131, 18],
-		"favoredReligion": "Protestantism",
 		"uniqueName": "Golden Stool",
-		"uniques": ["Comment [Can select a new [Pantheon] belief upon entering a new era (after founding a [Pantheon])]",
-			"Triggers a [Golden Stool Bless] event <upon entering a new era> <after founding a Pantheon>"],
+		"uniques": ["Comment [Can select a bonus [Pantheon] belief upon entering a new era (after founding a [Pantheon] and before the [Industrial era])]",
+			"May not generate great prophet equivalents naturally",
+			"Triggers a [Golden Stool Bless] event <upon entering a new era> <after founding a Pantheon> <before the [Industrial era]> <hidden from users>"],
 		"cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi"
 			,"Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
@@ -161,7 +161,7 @@
 		"uniqueName": "Warfare Machinery",
 		"uniques": ["Comment [Receive a sum of [Science] upon conquering a city]",
 			"[+1] Sight <for [Siege] units>",
-			"[-66]% maintenance costs <for [Siege] units>",
+			"[-50]% maintenance costs <for [Siege] units>",
 			"Upon capturing a city, receive [5] times its [Science] production as [Science] immediately <hidden from users>",
 			"Upon capturing a city, receive [5] times its [Culture] production as [Science] immediately <hidden from users>",
 			"Upon capturing a city, receive [5] times its [Gold] production as [Science] immediately <hidden from users>"],
@@ -466,8 +466,7 @@
 		"neutralHello": "Hello.",
 		"hateHello": "Ahh... you...",
 
-		"tradeRequest": "I need some of your possess.",
-		"declaringFriendship": "Our forces will be even stronger if we unite them.",
+		"tradeRequest": "Our forces will be even stronger if we unite them.",
 
 		"outerColor": [20, 72, 9],
 		"innerColor": [255, 255, 255],
@@ -567,7 +566,7 @@
 		"attacked": "We shall never surrender.",
 		"denounced": "Your reckless pride will destroy you if you're not careful.",
 		"defeated": "You have triumphed over us. The day is yours.",
-		"introduction": "We are pleased to meet you..",
+		"introduction": "We are pleased to meet you.",
 
 		"neutralHello": "Hello, again.",
 		"hateHello": "Oh, it's you!",
@@ -613,7 +612,8 @@
 		"innerColor": [255, 56, 56],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Rock-Hewn Churches",
-		"uniques": ["[+2 Faith] from each Trade Route"],
+		"uniques": ["[+2 Culture] in cities on [Hill] tiles",
+			"[+2 Culture] in cities on [Hill] tiles <after discovering [Archaeology]>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -715,8 +715,8 @@
 		"innerColor": [16, 54, 224],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
-		"uniques": ["[+1 Happiness] <for every [5] [[Military] Units]>",
-			"[+15]% Strength <for [Wounded] units>",
+		"uniques": ["[+1 Happiness] <for every [4] [[Military] Units]>",
+			"[+10]% Strength <for [Wounded] units>",
 			"[+1] Movement <for [All] units> <during a Golden Age>"],
 		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
 			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
@@ -1543,7 +1543,7 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Gain [100] Influence with a [Great Person] gift to a City-State",
+		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State",
 			"[+3 Science] from every [Great Improvement]",
 			"[+25]% Great Person generation [in all cities] <after discovering [Dynamite]>"],
 		"cities":  ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
