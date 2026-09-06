@@ -126,10 +126,11 @@
 
 		"outerColor": [255, 220, 41],
 		"innerColor": [42, 131, 18],
-		"uniqueName": "Golden Stool",
-		"uniques": ["Comment [Can select a bonus [Pantheon] belief upon entering a new era (after founding a [Pantheon] and before the [Industrial era])]",
-			"May not generate great prophet equivalents naturally",
-			"Triggers a [Golden Stool Bless] event <upon entering a new era> <after founding a Pantheon> <before the [Industrial era]> <hidden from users>"],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Akom",
+		"uniques": ["Gain a free [Pantheon] belief <upon discovering [Philosophy] technology> <after founding a Pantheon>",
+			"Gain a free [Pantheon] belief <upon discovering [Theology] technology> <after founding a Pantheon>",
+			"May not generate great prophet equivalents naturally <before discovering [Theology]>"],
 		"cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi"
 			,"Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
@@ -272,6 +273,37 @@
 		"spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
+		"name": "Belgium",
+		"leaderName": "Leopold II",
+		"adjective": ["Belgian"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Leopold II",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I want all your possess, give me now!",
+		"attacked": "You disloyal fool, you not know nothing!",
+		"denounced": "You can tell all your lies to everyone, they never will believe on you.",
+		"defeated": "I have just one pleasure, don't touch on my privates properties.",
+		"introduction": "Has more people in here? Hello, the belgian king are welcome you.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "So, out with it!",
+
+		"tradeRequest": "Let's make this happen.",
+
+		"outerColor": [243, 218, 6],
+		"innerColor": [54, 54, 11],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Colonialist Greed",
+		"uniques": ["[+2 Gold] from every [{improved} {resource}] <within [2] tiles of a [{your} {Citadel}]>",
+			"Comment [[Citadel] improvement gain +1-tile radius to over control]",
+			"Comment [[Citadel] improvement can be built outside your borders]"],
+		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
+			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"]
+	},
+	{
 		"name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
@@ -312,7 +344,7 @@
 		"leaderName": "Basil II",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Religious",
+		"preferredVictoryType": "Domination",
 		"personality": "Basil II",
 
 		"startIntroPart1": "",
@@ -369,8 +401,8 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Maritime Fleets",
 		"uniques": ["Comment [[Embarked] units has 1 point cost to embark and disembark and double movement on your territory. Making connections between intermaritime cities more easy.]",
-			"Comment [Gain triple radius control over [Coast] tiles by founding coastal cities]",
-			"Gain control over [{Coast} {Unowned}] tiles in a [3]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
+			"Comment [Gain double radius control over [Coast] tiles by founding coastal cities]",
+			"Gain control over [{Coast} {Unowned}] tiles in a [2]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
 			"[+100]% Strength <vs [Embarked] units>",
 			"[+1 Culture] from every [Coast]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
@@ -694,7 +726,7 @@
 		"leaderName": "Simón Bolívar",
 		"adjective": ["Colombian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
 		"personality": "Simón Bolívar",
 
 		"startIntroPart1": "Simon Bolivar, 'El Libertador' of Latin America. During so much time the Spanish colonies just serves to obey the Spanish crown until the Napoleon invades Spain and making Spain 'abandon' your colonies. During Spain crisis with France, You with you nationalism seed you freed us from Spanish settlers and makes the Gran Colombia birth in 1819 with glory and morale spending the decolonization in Colombia, Bolivia, Equador, Peru, Panama and Venezuela. Gran Colombia hold for 20 years but fall agaisnt the traitors and power struggle.",
@@ -797,7 +829,7 @@
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"]
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Religious",
+		"preferredVictoryType": "Scientific",
 		"personality": "Gandhi",
 
 		"startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
@@ -1018,8 +1050,7 @@
 		"innerColor": [16, 30, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Cry of Dolores",
-		"uniques": ["Comment [+100 Production when constructing your first [Culture] building in a city]",
-			"[+100]% Production when constructing [Culture] buildings [in all cities] <in cities without a [Culture]> <hidden from users>",
+		"uniques": ["[+1] Movement <for [Settler] units>",
 			"[+100]% Production when constructing [National] wonders [in all cities]"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal"],
@@ -1221,7 +1252,7 @@
 		"attacked": "Portugal is our home and we will stay here until the end.",
 		"denounced": "I'll stay on here.",
 		"defeated": "Our seas are dominated by your ships. This humiliation will not be forgotten.",
-		"introduction": "Welcome to the lusitanian seas. Come here, I need you to give this letter to someone in the world otherside",
+		"introduction": "Welcome to the lusitanian seas. Come here, I need you to give this letter to someone in the world otherside.",
 
 		"neutralHello": "Good day.",
 		"hateHello": "It's you.",
@@ -1233,7 +1264,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
 		"uniques": ["[+2 Gold] from every specialist [in all coastal cities]",
-			"[+3 Production] from every [Customs house]",
+			"[+2 Production] [in all coastal cities]",
 			"[Great Merchant] is earned [50]% faster"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
@@ -1853,18 +1884,6 @@
 	},
 	// City-States sorted by cityStateType, name
 	{
-		"name": "Brussels",
-		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
-		"cities": ["Brussels"]
-	},
-	{
 		"name": "Bueno Aires",
 		"adjective": ["Argentine"]
 		"cityStateType": "Cultured",
@@ -1899,6 +1918,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [121, 226, 0],
 		"cities": ["Kabul"]
+	},
+	{
+		"name": "Kingston",
+		"adjective": ["Kingstonian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [113, 227, 114],
+		"cities": ["Kingston"]
 	},
 	{
 		"name": "Kuala Lumpur",
@@ -1980,7 +2011,7 @@
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [188, 43, 40],
 		"cities": ["Toronto"],
@@ -2071,19 +2102,6 @@
 		"cities": ["Vancouver"],
 	},
 	{
-		"name": "Antwerp",
-		"adjective": ["Antwerpenaar", "Antwerpian"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Antwerp"]
-	},
-	{
 		"name": "Cahokia",
 		"adjective": ["Cahokian"],
 		"cityStateType": "Mercantile",
@@ -2108,17 +2126,17 @@
 		"cities": ["Colombo"]
 	},
 	{
-		"name": "Mauritsstad",
-		"adjective": ["Mauritsstad"],
+		"name": "Dubai",
+		"adjective": ["Emirati", "Arabian"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
+		"startBias": ["Desert"],
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "This isn't how it is supposed to be!",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
-		"cities": ["Mauritsstad"]
+		"innerColor": [255, 255, 255],
+		"cities": ["Dubai"]
 	},
 	{
 		"name": "Genoa",
@@ -2144,6 +2162,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [52, 97, 242],
 		"cities": ["Hong Kong"]
+	},
+	{
+		"name": "Mauritsstad",
+		"adjective": ["Mauritsstad"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["Mauritsstad"]
 	},
 	{
 		"name": "Singapore",
@@ -2196,6 +2227,18 @@
 	},
 
 	{
+		"name": "Abomey",
+		"adjective": ["Dahomean"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [172, 172, 172],
+		"cities": ["Abomey"],
+	},
+	{
 		"name": "Almaty",
 		"adjective": ["Almatinian"],
 		"cityStateType": "Militaristic",
@@ -2232,29 +2275,16 @@
 		"cities": ["Budapest"]
 	},
 	{
-		"name": "Abomey",
-		"adjective": ["Dahomean"],
+		"name": "Granada",
+		"adjective": ["Granadian"],
 		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [172, 172, 172],
-		"cities": ["Abomey"],
-	},
-	{
-		"name": "Palmares", //Brazilian historically 'kilombo'
-		"adjective": ["Quilombola"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Jungle"],
 
 		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Palmares"],
+		"innerColor": [188, 43, 40],
+		"cities": ["Granada"],
 	},
 	{
 		"name": "Hanoi",
