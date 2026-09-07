@@ -160,7 +160,7 @@
 		"innerColor": [165, 140, 33],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Warfare Machinery",
-		"uniques": ["Comment [Receive a sum of [Science] upon conquering a city]",
+		"uniques": ["Comment [Gain instatly sum of [Science] upon conquering a city]",
 			"[+1] Sight <for [Siege] units>",
 			"[-50]% maintenance costs <for [Siege] units>",
 			"Upon capturing a city, receive [5] times its [Science] production as [Science] immediately <hidden from users>",
@@ -293,15 +293,16 @@
 
 		"tradeRequest": "Let's make this happen.",
 
-		"outerColor": [243, 218, 6],
-		"innerColor": [54, 54, 11],
+		"outerColor": [54, 54, 11],
+		"innerColor": [243, 218, 6],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Colonialist Greed",
-		"uniques": ["[+2 Gold] from every [{improved} {resource}] <within [2] tiles of a [{your} {Citadel}]>",
-			"Comment [[Citadel] improvement gain +1-tile radius to over control]",
-			"Comment [[Citadel] improvement can be built outside your borders]"],
+		"uniques": ["[+100]% spy effectiveness [in City-State cities]",
+			"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves",
+			"[+50]% City-State Influence degradation"],
 		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
-			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"]
+			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"],
+		"spyNames": ["Pelzer", "Rom", "Delcommune", "Vankerckhoven", "Tombeur", "Røhn", "Burke", "Lindsay", "Løken", "Kjelstrup", "Coquilhat"]
 	},
 	{
 		"name": "Brazil",
@@ -678,8 +679,8 @@
 		"innerColor": [239, 236, 148],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "City of Light",
-		"uniques": ["Comment [+10% [Culture] from each [Wonder] in capital]",
-			"[+10]% [Culture] <for every [[Wonder] Buildings]> <in [Capital] cities> <hidden from users>"],
+		"uniques": ["Comment [Gain a [Culture] boost in capital upon constructing a [World Wonder] in capital]",
+			"[+100]% [Culture] [in capital] <for [10] turns> <upon constructing [World Wonder] [in capital]> <hidden from users>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -1145,8 +1146,8 @@
 
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
-		"outerColor": [255, 148, 33],
-		"innerColor": [160, 19, 19],
+		"outerColor": [245, 160, 23],
+		"innerColor": [130, 80, 45],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+50]% Golden Age length",
@@ -1187,7 +1188,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Solidarity",
 		"uniques": ["Comment [Free social policy upon advances a new era]",
-			"Comment [+33% [Production] cost for [Utopia Project]]",
+			"Comment [[Utopia Project] cost increases +100 by owned city]",
 			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
@@ -1587,7 +1588,7 @@
 	{
 		"name": "The Franks",
 		"leaderName": "Charlemagne",
-		"adjective": "Franks",
+		"adjective": ["Franks"],
 		"preferredVictoryType": "Domination",
 		"personality": "Charlemagne",
 
@@ -1790,7 +1791,7 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "I don't wanna hear your lies again!",
+		"declaringWar": "I don't wanna hear your lies again - you will die!",
 		"attacked": "This not a trouble to our people. They will fight at the end!",
 		"denounced": "You definitely need a lesson.",
 		"defeated": "Monster! I curse you! I curse all your generation line!",
@@ -1839,11 +1840,10 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Serenissima",
 		"uniques": ["[+100]% [Gold] [in capital]",
-			"Allied City-States provide [Gold] equal to [100]% of what they produce for themselves",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
-			"Comment [Cannot build settlers nor annex cities]",
-			"Cannot build [Settler] units <hidden from users>",
-			"May not annex cities <hidden from users>",
+			"Free [Merchant of Venice] appears <upon discovering [Navigation] technology>",
+			"Cannot build [Settler] units",
+			"May not annex cities",
 			"May buy items in puppet cities"],
 		"cities": ["Venice"],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"]
