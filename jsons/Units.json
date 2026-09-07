@@ -240,8 +240,8 @@
 		"unitType": "Ranged Water", // changed to Ranged Water (Vanilla only)
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 7,
-		"rangedStrength": 8,
+		"strength": 6, // from 7 to 6
+		"rangedStrength": 7,
 		"range": 1, // from 2 to 1
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
@@ -309,7 +309,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking"],
-		"promotions": ["[War-Cart] ability"],
+		"promotions": ["[War-Cart] ability", "Cover I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -366,7 +366,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Transfer Movement to [Civilian]"],
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -512,7 +512,7 @@
 		"name": "Paladin",
 		"uniqueTo": "The Franks",
 		"replaces": "Horseman",
-		"unitType": "Sword",
+		"unitType": "Sword", // from Mounted to Sword (immune to anti-cavalry)
 		"movement": 5,
 		"strength": 12,
 		"cost": 75,
@@ -1325,19 +1325,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Guerrilla",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"uniques": ["Unable to capture cities","Can move immediately once bought","Mercenary Unit","Unbuildable"],
-		"promotions": ["Guerrilla Tactics I"],
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-	},
-	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1509,8 +1496,36 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["Volunteer Unit", "Can move immediately once bought", "Unbuildable"],
+		"uniques": ["Can move immediately once bought", "Unbuildable"],
 		"promotions": ["[Foreign Legion] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Guerrilla",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 160,
+		"uniques": ["Unbuildable","Unable to capture cities", "Can move immediately once bought","Mercenary Unit"],
+		"promotions": ["Guerrilla Tactics I"],
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Force Publique",
+		"uniqueTo": "Belgium",
+		"replaces": "Guerrilla",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 180,
+		"uniques": ["Unable to capture cities", "Can move immediately once bought","Mercenary Unit", "No movement cost to pillage"],
+		"promotions": ["Guerrilla Tactics I", "Shock I"],
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
 	{
