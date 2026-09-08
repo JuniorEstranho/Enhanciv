@@ -109,7 +109,7 @@
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Gold] from every [Quarry]"]
+        "uniques": ["[+2 Faith] from every [Quarry]"]
     },
     {
         "name": "Earth Mother",
@@ -176,6 +176,11 @@
         "name": "Monasteries",
         "type": "Follower",
         "uniques": ["May buy [Monastery] buildings for [125] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Madrasahs",
+        "type": "Follower",
+        "uniques" ["May buy [Madrasah] buildings for [125] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Mosques",
@@ -267,7 +272,7 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <before the [Modern era]>"]
     },
     {
         "name": "Holy Order",
@@ -282,7 +287,7 @@
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles> <before the [Modern era]>"]
     },
     {
         "name": "Messiah",
