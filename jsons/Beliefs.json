@@ -180,7 +180,7 @@
     {
         "name": "Madrasahs",
         "type": "Follower",
-        "uniques" ["May buy [Madrasah] buildings for [125] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Madrasah] buildings for [125] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Mosques",
