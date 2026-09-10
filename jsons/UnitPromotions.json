@@ -698,7 +698,7 @@
 	// Guerrilla promotions
 	{
 		"name": "Guerrilla Tactics I",
-		"uniques": ["[+15]% Strength <when defending>", "[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+10]% Strength <when defending>", "[+20]% Strength <vs [Ranged] units> <when defending>"],
 		"column": 28,
 		"row": 1
 	},
@@ -713,7 +713,7 @@
 	{
 		"name": "Guerrilla Tactics III",
 		"prerequisites": ["Guerrilla Tactics I"],
-		"uniques": ["Can move after attacking", "Withdraws before melee combat <when below [20] HP>"],
+		"uniques": ["Can move after attacking", "Withdraws before melee combat <when below [25] HP>"],
 		"unitTypes": ["Sword", "Gunpowder"],
 		"column": 28,
 		"row": 3
@@ -857,7 +857,7 @@
 	},
 	{
 		"name": "[Rosiori] ability",
-		"uniques": ["[This Unit] gains [2] movement <upon entering combat>"]
+		"uniques": ["[+33]% Strength <when [Wounded]>"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
