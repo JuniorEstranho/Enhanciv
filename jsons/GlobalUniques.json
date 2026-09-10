@@ -10,8 +10,6 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-15] [Happiness]> <when [Religious] Victory is enabled>",
-        // City-States debuff
-        "[-25]% [Science] [in all cities] <for [City-States] Civilizations> <hidden from users>",
         // Romania
         "[+100]% Gold cost of acquiring tiles [in all cities] <within [7] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[+200]% Gold cost of acquiring tiles [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
@@ -24,13 +22,6 @@
         "Double movement in [Water] <in [your] tiles> <when [Embarked]> <for [Caribbean] Civilizations> <hidden from users>",
         "[1] Movement point cost to embark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
         "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
-        // The Tupi
-        "[3] additional attacks per turn <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
-        "[+1] Range <when [Land]> <in [{your} {City center}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
-        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
-        "[3] additional attacks per turn <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
-        "[+1] Range <when [Land]> <in [{your} {Citadel}] tiles> <after discovering [Industrialization]> <for [The Tupi] Civilizations> <hidden from users>",
-        "Ranged attacks may be performed over obstacles <when [Land]> <in [{your} {Citadel}] tiles> <for [The Tupi] Civilizations> <hidden from users>",
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations> <hidden from users>", 
         // Romania
