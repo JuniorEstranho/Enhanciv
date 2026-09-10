@@ -237,14 +237,12 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "Ranged Water", // changed to Ranged Water (Vanilla only)
+		"unitType": "Ranged Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 6, // from 7 to 6
-		"rangedStrength": 7,
-		"range": 1, // from 2 to 1
+		"strength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles", "Eliminates combat penalty for attacking across a coast"], // 'Landing Party' ability added
 		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -336,6 +334,7 @@
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 9,
+		"range": 1,
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
@@ -509,23 +508,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Paladin",
-		"uniqueTo": "The Franks",
-		"replaces": "Horseman",
-		"unitType": "Sword", // from Mounted to Sword (immune to anti-cavalry)
-		"movement": 5,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Shock I"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
@@ -552,7 +534,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+50]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy Land}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
-		"promotions": ["Cover I"],
+		"promotions": ["Cover I", "Sentry"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -742,7 +724,6 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"promotions": ["Great Admirals I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -854,6 +835,22 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Paladin",
+		"uniqueTo": "The Franks",
+		"replaces": "Knight",
+		"unitType": "Sword", // changed to Sword (immune to anti-cavalry units)
+		"movement": 5,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"promotions": ["Shock I"],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Crossbowman",
@@ -989,14 +986,14 @@
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 22,
+		"movement": 5,
+		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Transfer Movement to [Civilian]"],
-		"promotions": ["Boarding Party I", "Great Admirals I"],
+		"promotions": ["Boarding Party I", "Great Admirals II"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1398,7 +1395,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Drill I", "[Rosiori] ability"],
+		"promotions": ["Formation I", "[Rosiori] ability"],
 		"attackSound": "cavalry"
 	},
 	{
