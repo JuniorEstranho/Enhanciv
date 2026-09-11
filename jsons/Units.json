@@ -237,7 +237,7 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "Ranged Water",
+		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
@@ -365,7 +365,6 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -625,6 +624,23 @@
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["[Mohawk Warrior] ability"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Maccabee",
+		"uniqueTo": "Israel",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques": ["[+25]% Strength <vs [Swordsman] units>"],
+		"promotion": ["[Maccabee] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1485,6 +1501,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Force Publique",
+		"uniqueTo": "Belgium",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 280,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["[+50]% Strength <vs [City-States]> <when attacking>", "[-50]% maintenance costs"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1505,21 +1535,6 @@
 		"cost": 160,
 		"uniques": ["Unbuildable","Unable to capture cities", "Can move immediately once bought","Mercenary Unit"],
 		"promotions": ["Guerrilla Tactics I"],
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Force Publique",
-		"uniqueTo": "Belgium",
-		"replaces": "Guerrilla",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 180,
-		"uniques": ["Unable to capture cities", "Can move immediately once bought","Mercenary Unit", "No movement cost to pillage"],
-		"promotions": ["Guerrilla Tactics I", "Shock I"],
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2073,6 +2088,21 @@
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Shofet",
+		"uniqueTo": "Israel",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [your] tiles> <once> <after which this unit is consumed>", "Ignores terrain cost",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Shofet] group",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
