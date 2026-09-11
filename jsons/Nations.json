@@ -49,7 +49,7 @@
 		"declaringWar": "You were behind it all, now we'll have no more agreements, only war!",
 		"attacked": "You will not build your colonies in my homeland! not with my people, not in my reign!",
 		"denounced": "You are playing with fire!",
-		"defeated": "We are destroyed but you need remember, my people never will accept being ruled by foreigners.",
+		"defeated": "We are destroyed but I need remember to you, my people never will accept being ruled by foreigners.",
 		"introduction": "Mwene Nzinga Mbandi, or just Nzinga Mbande. Queen of Ndongo and Matamba. If you wanna be us ally, you're welcome.",
 
 		"neutralHello": "Hello.",
@@ -159,9 +159,10 @@
 		"outerColor": [255, 255, 219],
 		"innerColor": [165, 140, 33],
 		"favoredReligion": "Zoroastrianism",
-		"uniqueName": "Warfare Machinery",
-		"uniques": ["Earn [10]% of killed [Ranged] unit's [Strength] as [Science]",
-			"When defeating a [Siege] unit, earn [10] Gold and recruit it"],
+		"uniqueName": "Treasures of Nineveh",
+		"uniques": ["Receive a tech boost when scientific buildings/wonders are built in capital",
+			"Earn [100]% of the damage done to [City] units as [Science]",
+			"Comment [Gain a sum of [Science] by pillaging [Academy]s]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
@@ -272,6 +273,7 @@
 		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
+		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Leopold II",
 
@@ -293,9 +295,9 @@
 		"innerColor": [243, 218, 6],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Colonialist Greed",
-		"uniques": ["[+100]% spy effectiveness [in City-State cities]",
+		"uniques": ["Spies in [City-State] cities act as though they have [+4] levels for [Rigging Elections]",
 			"Allied City-States provide [Gold] equal to [100]% of what they produce for themselves",
-			"[+50]% City-State Influence degradation"],
+			"[+100]% City-State Influence degradation"],
 		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
 			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"],
 		"spyNames": ["Pelzer", "Rom", "Delcommune", "Vankerckhoven", "Tombeur", "Røhn", "Burke", "Lindsay", "Løken", "Kjelstrup", "Coquilhat"]
@@ -813,8 +815,7 @@
 		"innerColor": [3, 115, 86],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Can build [All Road] improvements at a [+100]% rate",
-			"Units ignore terrain costs when moving into any tile with Hills",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -920,6 +921,35 @@
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
 		"spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+	},
+	{
+		"name": "Israel", // the biblical kingdom
+		"leaderName": "Solomon",
+		"adjective": ["Hebrew"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"personality": "Solomon",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "It's too late to go back. You must be destroyed.",
+		"attacked": "...",
+		"denounced": "Well?",
+		"defeated": "Remember your creator... Fear God and keep His commandments, for this is the whole duty of man.",
+		"introduction": "You dont need tell about yourself, I know who are you. Welcome.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "It's you.",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [217, 190, 105],
+		"favoredReligion": "Judaism",
+		"uniqueName": "Wisdom",
+		"uniques": ["[+1 Faith] from every [Pasture]",
+			"[+2 Culture] [in cities following our religion]"],
+		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
+			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
 	},
 	{
 		"name": "Japan",
@@ -1608,6 +1638,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Feudality",
 		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital",
+			"City-State territory always counts as friendly territory",
 			"Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>",
 			"Gain a free [Courthouse] [in annexed cities] <in cities following our religion>"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
@@ -1804,8 +1835,9 @@
 		"innerColor": [5, 84, 227],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Pindorama Home",
-		"uniques": ["[+200]% Strength for cities <when attacking>",
-			"[-50]% maintenance costs <for [Archery] units>",
+		"uniques": ["[+300]% Strength for cities <when attacking>",
+			"No Maintenance costs for improvements in [Jungle] tiles",
+			"No Maintenance costs for improvements in [Forest] tiles",
 			"Starts with [Archery]"],
 		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz",
 			"Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma","Awetí","Mondé","Tuparí"]
