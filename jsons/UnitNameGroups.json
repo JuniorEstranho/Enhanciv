@@ -36,8 +36,12 @@
         "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
     },
     {
-        "name": "Venetian Merchant",
+        "name": "Merchant of Venice",
         "unitNames": ["Gasparo Balbi", "Giovanni Balzoni", "Giosafat Barbaro", "Giovanni Caboto", "Alvise Cadamosto", "Ambrogio Contarini", "Niccolo de Conti", "Cesare Federici", "Antonio Pigafetta", "Maffeo Polo", "Marco Polo", "Niccolo Polo"]
+    },
+    {
+        "name": "Shofet",
+        "unitNames": ["Othniel", "Samson", "Abdon", "Ibzan", "Elon", "Jephthah", "Jair", "Tola", "Gideon", "Deborah", "Shamgar", "Ehud"]
     },
     {
         "name": "Prophet",
