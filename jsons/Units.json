@@ -2046,7 +2046,7 @@
 			"Double movement in [Water]",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
-            "[This Unit] gets a name from the [Venetian Merchant] group",
+            "[This Unit] gets a name from the [Merchant of Venice] group",
 			"Uncapturable",
 			"Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
@@ -2099,7 +2099,7 @@
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [your] tiles> <once> <after which this unit is consumed>", "Ignores terrain cost",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit>", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [your] tiles> <once> <after which this unit is consumed>", "Ignores terrain cost",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Shofet] group",
