@@ -281,7 +281,7 @@
 		"startIntroPart2": "",
 
 		"declaringWar": "I want all your possess, give me now!",
-		"attacked": "You disloyal fool, you not know nothing!",
+		"attacked": "You disloyal fool, you don't know nothing!",
 		"denounced": "You can tell all your lies to everyone, they never will believe on you.",
 		"defeated": "I have just one pleasure, don't touch on my privates properties.",
 		"introduction": "Has more people in here? Hello, the belgian king are welcome you.",
@@ -291,8 +291,8 @@
 
 		"tradeRequest": "Let's make this happen.",
 
-		"outerColor": [54, 54, 11],
-		"innerColor": [243, 218, 6],
+		"outerColor": [255, 213, 37],
+		"innerColor": [54, 32, 32],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Colonialist Greed",
 		"uniques": ["Spies in [City-State] cities act as though they have [+4] levels for [Rigging Elections]",
@@ -743,8 +743,8 @@
 
 		"tradeRequest": "Is it a beautiful day for a deal like this?",
 
-		"outerColor": [255, 212, 74],
-		"innerColor": [16, 54, 224],
+		"outerColor": [243, 177, 31],
+		"innerColor": [31, 15, 108],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
 		"uniques": ["[+1 Happiness] <for every [4] [[Military] Units]>",
@@ -927,27 +927,27 @@
 		"leaderName": "Solomon",
 		"adjective": ["Hebrew"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 		"personality": "Solomon",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
 		"declaringWar": "It's too late to go back. You must be destroyed.",
-		"attacked": "...",
-		"denounced": "Well?",
+		"attacked": "I'll fight against to every challenge on my way.",
+		"denounced": "I'll let this one slide.",
 		"defeated": "Remember your creator... Fear God and keep His commandments, for this is the whole duty of man.",
 		"introduction": "You dont need tell about yourself, I know who are you. Welcome.",
 
 		"neutralHello": "Greetings.",
 		"hateHello": "It's you.",
 
-		"outerColor": [255, 255, 255],
+		"outerColor": [31, 15, 108],
 		"innerColor": [217, 190, 105],
 		"favoredReligion": "Judaism",
-		"uniqueName": "Wisdom",
-		"uniques": ["[+1 Faith] from every [Pasture]",
-			"[+2 Culture] [in cities following our religion]"],
+		"uniqueName": "Wisdom Bless",
+		"uniques": ["Comment [50% of [Faith] per turn is converted to [Science]]", 
+			"[+1 Science] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
 		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
 			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
 	},
