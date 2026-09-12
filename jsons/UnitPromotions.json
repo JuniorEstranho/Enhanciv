@@ -698,9 +698,7 @@
 	// Guerrilla promotions
 	{
 		"name": "Guerrilla Tactics I",
-		"uniques": ["[+10]% Strength <when defending>", "[+20]% Strength <vs [Ranged] units> <when defending>"],
-		"column": 28,
-		"row": 1
+		"uniques": ["[+10]% Strength <when defending>", "[+20]% Strength <vs [Ranged] units> <when defending>"]
 	},
 	{
 		"name": "Guerrilla Tactics II",
@@ -816,8 +814,8 @@
 			"No damage penalty for wounded units <hidden from users>", "[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <when attacking> <hidden from users>"]
 	},
 	{
-		"name": "[Asafo Warrior] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"]
+		"name": "[Maccabee] ability",
+		"uniques": ["[This Unit] upgrades for free <upon conquering a city>"]
 	},
 	{
 		"name": "[Buccaneer] ability",
@@ -870,7 +868,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
+		"uniques": ["[+20]% Strength <during a Golden Age>", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
 		"name": "[Foreign Legion] ability",
