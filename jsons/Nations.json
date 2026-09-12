@@ -296,7 +296,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Colonialist Greed",
 		"uniques": ["Spies in [City-State] cities act as though they have [+4] levels for [Rigging Elections]",
-			"[+100] spy effectiveness [in City-State cities]",
+			"[+100]% spy effectiveness [in City-State cities]",
 			"[+50]% City-State Influence degradation <during the [Renaissance era]>",
 			"[+100]% City-State Influence degradation <starting from the [Modern era]>"],
 		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
@@ -744,7 +744,7 @@
 
 		"tradeRequest": "Is it a beautiful day for a deal like this?",
 
-		"outerColor": [243, 177, 31],
+		"outerColor": [243, 161, 31],
 		"innerColor": [31, 15, 108],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
