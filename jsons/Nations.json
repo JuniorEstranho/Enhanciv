@@ -948,7 +948,7 @@
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom Bless",
 		"uniques": ["Comment [50% of [Faith] per turn is converted to [Science]]", 
-			"[+1 Science] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
+			"[+1 Science] [in capital] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
 		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
 			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
 	},
