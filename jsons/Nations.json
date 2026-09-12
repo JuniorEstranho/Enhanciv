@@ -296,8 +296,9 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Colonialist Greed",
 		"uniques": ["Spies in [City-State] cities act as though they have [+4] levels for [Rigging Elections]",
-			"Allied City-States provide [Gold] equal to [100]% of what they produce for themselves",
-			"[+100]% City-State Influence degradation"],
+			"[+100] spy effectiveness [in City-State cities]",
+			"[+50]% City-State Influence degradation <during the [Renaissance era]>",
+			"[+100]% City-State Influence degradation <starting from the [Modern era]>"],
 		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
 			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"],
 		"spyNames": ["Pelzer", "Rom", "Delcommune", "Vankerckhoven", "Tombeur", "Røhn", "Burke", "Lindsay", "Løken", "Kjelstrup", "Coquilhat"]
@@ -942,8 +943,8 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "It's you.",
 
-		"outerColor": [31, 15, 108],
-		"innerColor": [217, 190, 105],
+		"outerColor": [0, 112, 122],
+		"innerColor": [255, 240, 192],
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom Bless",
 		"uniques": ["Comment [50% of [Faith] per turn is converted to [Science]]", 
