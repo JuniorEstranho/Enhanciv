@@ -198,7 +198,8 @@
 		"science": 8,
 		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
             "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+75 Science] <for [Assyria] Civilizations> <hidden from users>"]
 	},
 	{
 		"name": "Landmark",
@@ -283,20 +284,6 @@
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
-	},
-	{
-		"name": "Hacienda",
-		"uniqueTo": "Mexico",
-		"terrainsCanBeBuiltOn": ["Grassland","Desert","Flood plains"],
-		"food": 2,
-		"turnsToBuild": 7,
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>",
-			"[+1 Gold] for each adjacent [Farm]",
-			"Unavailable <within [2] tiles of a [Hacienda]>",
-			"Cannot be built on [Luxury resource] tiles <hidden from users>",
-			"Cannot be built on [Bonus resource] tiles <hidden from users>",
-			"Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Guilds"
 	},
 	{
 		"name": "Kasbah",
