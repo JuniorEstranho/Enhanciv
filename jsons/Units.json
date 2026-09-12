@@ -360,11 +360,12 @@
 		"replaces": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Metallurgy",
+		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
+		"uniques": ["All tiles cost 1 movement <in [River] tiles>", "Eliminates combat penalty for attacking over river"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -607,8 +608,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>"],
-		"promotions": ["Drill I", "Woodsman"],
+		"uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>"],
+		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -640,7 +641,7 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"uniques": ["[+25]% Strength <vs [Swordsman] units>"],
-		"promotion": ["[Maccabee] ability"],
+		"promotions": ["[Maccabee] ability"],
 		"attackSound": "metalhit"
 	},
 	{
