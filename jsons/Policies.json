@@ -229,7 +229,7 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 5,
-            "Diplomatic": 5,
+            "Diplomatic": 0,
             "Domination": 0,
             "Scientific": 0,
             "Religious": 10
@@ -237,7 +237,6 @@
         "uniques": [
             "[+50]% Production when constructing [Shrine] buildings [in all cities]",
             "[+50]% Production when constructing [Temple] buildings [in all cities]",
-            "[Great Prophet] units gain the [Pilgrim] promotion <when [Religious] Victory is enabled>",
             "Comment [[Great Mosque of Djenne] is enabled]",
             "Only available <before adopting [Rationalism]>",
             "[-100]% weight to this choice for AI decisions <when [Religious] Victory is disabled>",
@@ -257,8 +256,12 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[Faith] cost of purchasing [Missionary] units [-20]%",
-                    "[Faith] cost of purchasing [Inquisitor] units [-20]%"],
+                "uniques": [
+                    "[Faith] cost of purchasing [Missionary] units [-20]%",
+                    "[Faith] cost of purchasing [Inquisitor] units [-20]%",
+                    "Comment [[Great Prophet] Units may enter in Foreign Land without open borders (if [Religious] Victory is enabled)]",
+                    "[Great Prophet] units gain the [Pilgrim] promotion <when [Religious] Victory is enabled> <hidden from users>"
+                    ],
                 "row": 1,
                 "column": 5
             },
@@ -282,8 +285,8 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-10]% Culture cost of adopting new Policies",
-                    "[+2 Happiness] [in all cities] <in cities with a [foreign] religion>"],
+                "uniques": ["[+4 Culture] from every [Holy site]",
+                    "[-10]% Culture cost of adopting new Policies"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4
@@ -291,8 +294,9 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-25]%",
-                    "[+4 Culture] from every [Holy site]",
+                    "[+33]% Natural religion spread [in foreign cities]",
+                    "[+33]% Natural religion spread [in foreign cities] <in [Open Borders] cities>",
+                    "Triggers the following global alert: [A foreign religion will be spread more faster!]",
                     "Get the leader title of [[leaderName] the Pious]"
                 ]
             }
@@ -437,7 +441,7 @@
                 "name": "Merchant Confederacy",
                 "requires": ["Scholasticism", "Consulates"],
                 "uniques": [
-                    "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves"
+                    "Allied City-States provide [Gold] equal to [33]% of what they produce for themselves"
                 ],
                 "row": 3,
                 "column": 4
