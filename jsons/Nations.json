@@ -57,11 +57,12 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [59, 5, 0],
+		"outerColor": [146, 80, 11],
 		"innerColor": [242, 228, 220],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Mercenaries Barracks",
-		"uniques": [""],
+		"uniqueName": "Mercenaries Tribes",
+		"uniques": ["Earn [10]% of killed [Barbarian] unit's [Strength] as [Gold]",
+			"New [Military] units start with [10] XP [in all cities with a garrison]"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -135,6 +136,38 @@
 		"spyNames": ["Adapa", "Kubaba", "Nabu", "Nergal", "Ninlil", "Ninurta", "Nisroch", "Shamash", "Pazuzu", "Qingu"]
 	},
 	{
+		"name": "Australia",
+		"leaderName": "John Curtin",
+		"adjective": ["Australian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"personality": "John Curtin",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"denounced": "This trouble will be solves more fast than you think.",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"introduction": "Welcome to Australia, neighbor. I'm John Curtin, first minister of Australia. We enjoy meeting new neighbors because any help is welcome.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Please, enjoy it.",
+
+		"outerColor": [151, 193, 14],
+		"innerColor": [223, 109, 43],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Dreamtime",
+		"uniques": ["When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"Science gained from research agreements [+100]%"],
+		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
+			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
+			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
+	},
+	{
 		"name": "Austria",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"]
@@ -166,39 +199,6 @@
 			"Amstetten","Bad Ischl","Wolfsberg","Kufstein","Leoben","Klosterneuburg","Leonding",
 			"Kapfenberg","Hallein","Bischofshofen","Waidhofen","Saalbach","Lienz","Steyr"],
 		"spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
-	},
-	{
-		"name": "Australia",
-		"leaderName": "John Curtin",
-		"adjective": ["Australian"],
-		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "Scientific",
-		"personality": "John Curtin",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"denounced": "This trouble will be solves more fast than you think.",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"introduction": "Welcome to Australia, neighbor. I'm John Curtin, first minister of Australia. We enjoy meeting new neighbors because any help is welcome.",
-
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you.",
-
-		"tradeRequest": "Please, enjoy it.",
-
-		"outerColor": [54, 162, 32],
-		"innerColor": [255, 217, 24],
-		"favoredReligion": "Protestantism",
-		"uniqueName": "Peacemaker",
-		"uniques": ["When declaring friendship, both parties gain a [10]% boost to great person generation",
-			"[+25]% Strength <when fighting in [Open Borders] tiles>",
-			"Science gained from research agreements [+50]%"],
-		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
-			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
-			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
 	},
 	{
 		"name": "Aztecs",
@@ -396,15 +396,15 @@
 
 		"tradeRequest": "Maybe you be interested on it?",
 
-		"outerColor": [249, 131, 24],
-		"innerColor": [255, 238, 72],
+		"outerColor": [54, 166, 226],
+		"innerColor": [38, 177, 71],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Maritime Fleets",
 		"uniques": ["Comment [[Embarked] units has 1 point cost to embark and disembark and double movement on your territory. Making connections between intermaritime cities more easy.]",
 			"Comment [Gain double radius control over [Coast] tiles by founding coastal cities]",
 			"Gain control over [{Coast} {Unowned}] tiles in a [2]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
 			"[+100]% Strength <vs [Embarked] units>",
-			"[+1 Culture] from every [Coast]"],
+			"[+1 Culture] from every [Water resource]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
@@ -742,7 +742,7 @@
 
 		"tradeRequest": "Is it a beautiful day for a deal like this?",
 
-		"outerColor": [243, 161, 31],
+		"outerColor": [238, 177, 38],
 		"innerColor": [31, 15, 108],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
@@ -942,11 +942,13 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "It's you.",
 
+		"tradeRequest": "I'm waiting your response.",
+
 		"outerColor": [0, 112, 122],
 		"innerColor": [255, 240, 192],
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom Bless",
-		"uniques": ["Comment [50% of [Faith] per turn is converted to [Science]]", 
+		"uniques": ["Comment [50% of [Faith] produced per turn is converted to [Science]]", 
 			"[+1 Science] [in capital] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
 		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
 			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
@@ -1163,7 +1165,7 @@
 		"startIntroPart2": "",
 
 		"declaringWar": "Greater Persia will bow down to no one, and that includes you!",
-		"attacked": "You think you can defeat us? well, let's see.",
+		"attacked": "You really think you can defeat us? well, let's see.",
 		"denounced": "Ignorance is not a bless.",
 		"defeated": "Well, I don't know how this happened. What technology your uses to destroy us?",
 		"introduction": "Greetings, welcome to Persia, home of all world arts and military might; we will be gracious if you are too.",
@@ -1173,12 +1175,12 @@
 
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
-		"outerColor": [245, 160, 23],
-		"innerColor": [130, 80, 45],
+		"outerColor": [238, 89, 36],
+		"innerColor": [252, 219, 34],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+50]% Golden Age length",
-			"[+15]% Strength <for [Military] units> <during a Golden Age>",
+			"[+10]% Strength <for [Military] units> <during a Golden Age>",
 			"Comment [[Military] units gain +1 XP per turn during a [Golden Age]]"]
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -2023,6 +2025,18 @@
 	},
 
 	{
+		"name": "Cairo",
+		"adjective": ["Cairene"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["Cairo"]
+	},
+	{
 		"name": "Cape Town",
 		"adjective": ["Capetonian"],
 		"cityStateType": "Maritime",
@@ -2106,18 +2120,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 163, 181],
 		"cities": ["Ragusa"]
-	},
-	{
-		"name": "Sydney", //I'll turn it in civ!
-		"adjective": ["Sydneysider"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Sydney"]
 	},
 	{
 		"name": "Vancouver",
