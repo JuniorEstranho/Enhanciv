@@ -60,9 +60,8 @@
 		"outerColor": [59, 5, 0],
 		"innerColor": [242, 228, 220],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Chieftain's Mercenaries",
-		"uniques": ["Gain a free [Kilombo] [in this city] <upon founding a city> <within [5] tiles of a [Barbarian encampment]>",
-			"Comment [Gain a [Ancient ruins] bonus upon capturing a [Barbarian encampment]]"],
+		"uniqueName": "Mercenaries Barracks",
+		"uniques": [""],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -100,39 +99,6 @@
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
-	},
-	{
-		"name": "Ashanti",
-		"leaderName": "Osei Tutu I",
-		"adjective": ["Ashanti"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Cultural",
-		"personality": "Osei Tutu I",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "You triggered the heaven's wrath - prepare to be destroyed!",
-		"attacked": "You will not take mine sacred lands - We will resist!",
-		"denounced": "I not came here to hear your lies!",
-		"defeated": "What's you will do with the golden stool, now?!",
-		"introduction": "Greetings, I'm the king choosen by the golden stool - I'll dont have mercy with bad neighbors.",
-
-		"neutralHello": "Good day.",
-		"hateHello": "What is it now?",
-
-		"tradeRequest": "A gift from the heavens to you!",
-		"declaringFriendship": "Just imagine the all possibilities with this friendship declaration.",
-
-		"outerColor": [255, 220, 41],
-		"innerColor": [42, 131, 18],
-		"favoredReligion": "Protestantism",
-		"uniqueName": "Akom",
-		"uniques": ["Gain a free [Pantheon] belief <upon discovering [Philosophy] technology> <after founding a Pantheon>",
-			"Gain a free [Pantheon] belief <upon discovering [Theology] technology> <after founding a Pantheon>",
-			"May not generate great prophet equivalents naturally <before discovering [Theology]>"],
-		"cities": ["Kumasi","Bekwai","Manpong","Juaben","Elmina","Bono-Manso","Dankara","Anamabo","Choumie","Yobati","Fosoko","Sowa","Obuasi"
-			,"Jukwaa","Oguaa","Kelebim","Fomena","Yeji","Yagbum","Salaga","Asantemanso","Abakeseso"]
 	},
 	{
 		"name": "Assyria",
@@ -200,6 +166,39 @@
 			"Amstetten","Bad Ischl","Wolfsberg","Kufstein","Leoben","Klosterneuburg","Leonding",
 			"Kapfenberg","Hallein","Bischofshofen","Waidhofen","Saalbach","Lienz","Steyr"],
 		"spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
+	},
+	{
+		"name": "Australia",
+		"leaderName": "John Curtin",
+		"adjective": ["Australian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Scientific",
+		"personality": "John Curtin",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"denounced": "This trouble will be solves more fast than you think.",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"introduction": "Welcome to Australia, neighbor. I'm John Curtin, first minister of Australia. We enjoy meeting new neighbors because any help is welcome.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Please, enjoy it.",
+
+		"outerColor": [54, 162, 32],
+		"innerColor": [255, 217, 24],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Peacemaker",
+		"uniques": ["When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"[+25]% Strength <when fighting in [Open Borders] tiles>",
+			"Science gained from research agreements [+50]%"],
+		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
+			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
+			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
 	},
 	{
 		"name": "Aztecs",
@@ -1569,7 +1568,7 @@
 		"innerColor": [197, 150, 126],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
-		"uniques": ["When declaring friendship, both parties gain a [10]% boost to great person generation",
+		"uniques": ["Comment [Gain a [Ancient ruins] bonus upon capturing a [Barbarian encampment]]",
 			"[+3 Science] from each Trade Route",
 			"Starts with [Pottery]"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
