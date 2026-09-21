@@ -257,9 +257,9 @@
       "Piety": 3,
       "Aesthetics": 7, //added
       "Rationalism": 6,
-      "Freedom": 8,
+      "Freedom": 4,
       "Autocracy": 4,
-      "Order": 6
+      "Order": 8
     }
   },
   {
@@ -368,14 +368,14 @@
     "science": 5,
     "culture": 5,
     "happiness": 6,
-    "faith": 7,
+    "faith": 8,
     "military": 7,
     "aggressive": 5,
     "declareWar": 7,
     "commerce": 5,
     "diplomacy": 5,
     "loyal": 5,
-    "expansion": 7,
+    "expansion": 8,
     "denounceWillingness": 5,
     "priorities": {
       "Tradition": 6,
@@ -650,7 +650,7 @@
     "faith": 4,
     "military": 6,
     "aggressive": 5,
-    "declareWar": 7,
+    "declareWar": 6,
     "commerce": 6,
     "diplomacy": 5,
     "loyal": 8,
@@ -908,7 +908,7 @@
       "Tradition": 5,
       "Liberty": 7,
       "Honor": 3,
-      "Commerce": 6,
+      "Commerce": 7,
       "Patronage": 8,
       "Piety": 5,
       "Aesthetics": 4, //added
@@ -931,7 +931,7 @@
     "aggressive": 4,
     "declareWar": 4,
     "commerce": 7,
-    "diplomacy": 6,
+    "diplomacy": 8,
     "loyal": 5,
     "expansion": 6,
     "denounceWillingness": 6,
@@ -990,7 +990,7 @@
     "happiness": 4,
     "faith": 5,
     "military": 6,
-    "aggressive": 8,
+    "aggressive": 7,
     "declareWar": 6,
     "commerce": 7,
     "diplomacy": 5,
@@ -1084,12 +1084,12 @@
     "faith": 7,
     "military": 6,
     "aggressive": 4,
-    "declareWar": 6,
+    "declareWar": 7,
     "commerce": 6,
     "diplomacy": 6,
-    "loyal": 7,
+    "loyal": 8,
     "expansion": 6,
-    "denounceWillingness": 6,
+    "denounceWillingness": 8,
     "priorities": {
       "Tradition": 5,
       "Liberty": 6,
@@ -1168,7 +1168,7 @@
   },
   {
     "name": "Nzinga Mbandi",
-    "production": 6,
+    "production": 5,
     "food": 5,
     "gold": 5,
     "science": 4,
@@ -1226,37 +1226,6 @@
       "Freedom": 5,
       "Autocracy": 9,
       "Order": 5
-    }
-  },
-  {
-    "name": "Osei Tutu I",
-    "production": 3,
-    "food": 5,
-    "gold": 6,
-    "science": 5,
-    "culture": 7,
-    "happiness": 5,
-    "faith": 6,
-    "military": 6,
-    "aggressive": 6,
-    "declareWar": 5,
-    "commerce": 5,
-    "diplomacy": 4,
-    "loyal": 5,
-    "expansion": 7,
-    "denounceWillingness": 6,
-    "priorities": {
-      "Tradition": 5,
-      "Liberty": 7,
-      "Honor": 5,
-      "Commerce": 6,
-      "Patronage": 7,
-      "Piety": 4,
-      "Aesthetics": 5, //added
-      "Rationalism": 6,
-      "Freedom": 4,
-      "Autocracy": 6,
-      "Order": 6
     }
   },
   {
@@ -1415,37 +1384,6 @@
     }
   },
   {
-    "name": "Qin Shin Huang",
-    "production": 5,
-    "food": 6,
-    "gold": 5,
-    "science": 6,
-    "culture": 5,
-    "happiness": 5,
-    "faith": 5,
-    "military": 8,
-    "aggressive": 7,
-    "declareWar": 7,
-    "commerce": 6,
-    "diplomacy": 4,
-    "loyal": 3,
-    "expansion": 8,
-    "denounceWillingness": 5,
-    "priorities": {
-      "Tradition": 7,
-      "Liberty": 5,
-      "Honor": 6,
-      "Commerce": 4,
-      "Patronage": 2,
-      "Piety": 3,
-      "Aesthetics": 5, //added
-      "Rationalism": 5,
-      "Freedom": 2,
-      "Autocracy": 5,
-      "Order": 4
-    }
-  },
-  {
     "name": "Ramesses II",
     "production": 7,
     "food": 6,
@@ -1509,52 +1447,52 @@
   },
   {
     "name": "Saladin",
-    "production": 5,
+    "production": 4,
     "food": 5,
     "gold": 7,
     "science": 6,
     "culture": 5,
-    "happiness": 6,
+    "happiness": 5,
     "faith": 7,
-    "military": 7,
+    "military": 8,
     "aggressive": 6,
     "declareWar": 6,
-    "commerce": 6,
-    "diplomacy": 4,
+    "commerce": 5,
+    "diplomacy": 8,
     "loyal": 7,
     "expansion": 7,
-    "denounceWillingness": 5,
+    "denounceWillingness": 6,
     "priorities": {
-      "Tradition": 6,
+      "Tradition": 7,
       "Liberty": 5,
       "Honor": 6,
       "Commerce": 5,
       "Patronage": 5,
       "Piety": 5,
       "Aesthetics": 4, //added
-      "Rationalism": 7,
+      "Rationalism": 6,
       "Freedom": 4,
       "Autocracy": 6,
-      "Order": 5
+      "Order": 6
     }
   },
   {
     "name": "Seondeok",
-    "production": 5,
-    "food": 6,
+    "production": 4,
+    "food": 4,
     "gold": 5,
     "science": 8,
     "culture": 6,
     "happiness": 5,
     "faith": 6,
-    "military": 7,
+    "military": 6,
     "aggressive": 5,
     "declareWar": 4,
     "commerce": 6,
     "diplomacy": 7,
     "loyal": 5,
     "expansion": 6,
-    "denounceWillingness": 7,
+    "denounceWillingness": 6,
     "priorities": {
       "Tradition": 6,
       "Liberty": 6,
@@ -1715,13 +1653,13 @@
       "Liberty": 7,
       "Honor": 6, 
       "Commerce": 5,
-      "Patronage": 6,
+      "Patronage": 7,
       "Piety": 4,
-      "Aesthetics": 3, //added
+      "Aesthetics": 4, //added
       "Rationalism": 7,
-      "Freedom": 6,
+      "Freedom": 7,
       "Autocracy": 8,
-      "Order":7
+      "Order": 7
     }
   },
   {
@@ -1757,9 +1695,9 @@
   },
   {
     "name": "Vlad III",
-    "production": 6, 
+    "production": 5, 
     "food": 4,
-    "gold": 5,
+    "gold": 4,
     "science": 5,
     "culture": 6,
     "happiness": 5,
@@ -1768,7 +1706,7 @@
     "aggressive": 8,
     "declareWar": 7,
     "commerce": 5, 
-    "diplomacy": 4,
+    "diplomacy": 3,
     "loyal": 5,
     "expansion": 4,
     "denounceWillingness": 5,
@@ -1815,6 +1753,37 @@
       "Freedom": 7,
       "Autocracy": 4,
       "Order": 5
+    }
+  },
+  {
+    "name": "Wu Zetian",
+    "production": 5,
+    "food": 8,
+    "gold": 5,
+    "science": 8,
+    "culture": 6,
+    "happiness": 6,
+    "faith": 5,
+    "military": 4,
+    "aggressive": 3,
+    "declareWar": 4,
+    "commerce": 6,
+    "diplomacy": 7,
+    "loyal": 4,
+    "expansion": 6,
+    "denounceWillingness": 7,
+    "priorities": {
+      "Tradition": 6,
+      "Liberty": 6,
+      "Honor": 7,
+      "Commerce": 5,
+      "Patronage": 7,
+      "Piety": 6,
+      "Aesthetics": 5, //added (not accurated)
+      "Rationalism": 9,
+      "Freedom": 7,
+      "Autocracy": 7,
+      "Order": 7
     }
   }
 ]
