@@ -242,7 +242,6 @@
 		]
 	},
 	//Civilization unique improvements
-	},
 	{
 		"name": "Outback Station",
 		"uniqueTo": "Australia",
