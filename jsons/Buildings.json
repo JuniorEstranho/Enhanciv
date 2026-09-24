@@ -52,16 +52,6 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Nzo Nkisi",
-		"uniqueTo": "Kongo",
-		"replaces": "Shrine",
-		"faith": 2,
-		"production": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-	},
-	{
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
 		"replaces": "Shrine",
@@ -148,8 +138,7 @@
 		"faith": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"specialistSlots": {"Writer": 1},
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[+10]% Production when constructing [Science] buildings [in this city]", "[+10]% Production when constructing [Faith] buildings [in this city]"],
 		"requiredTech": "Writing"
 	},
     {
@@ -239,7 +228,7 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Barracks",
-		"food": 2,
+		"food": 3,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "All newly-trained [Melee] units [in this city] receive the [Guerrilla Tactics I] promotion", "Destroyed when the city is captured"],
@@ -325,7 +314,7 @@
 		"replaces": "Stable",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 0,
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 			"New [Mounted] units start with [15] XP [in this city]",
 			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
@@ -460,7 +449,7 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 1, "Musician": 1}, // 'Musician' added
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -501,6 +490,17 @@
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oasis] tiles [in this city]", "[+2 Gold] from [Oil] tiles [in this city]"],
 		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+    {
+		"name": "Pumbo",
+		"uniqueTo": "Kongo",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Gold] per [2] population [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -668,6 +668,7 @@
 		"specialistSlots": {"Artist": 2},
 		"isNationalWonder": true,
 		"cost": 100, // from 150 to 100
+		"uniques": ["Person Guild"],
 		"maintenance": 1,
 		"requiredTech": "Guilds",
 	},
@@ -678,6 +679,7 @@
 		"specialistSlots": {"Writer": 2},
 		"isNationalWonder": true,
 		"cost": 200, // from 100 to 200
+		"uniques": ["Person Guild"],
 		"maintenance": 1,
 		"requiredTech": "Guilds",
 	},
@@ -688,6 +690,7 @@
 		"specialistSlots": {"Musician": 2},
 		"isNationalWonder": true,
 		"cost": 150, // from 200 to 150
+		"uniques": ["Person Guild"],
 		"maintenance": 1,
 		"requiredTech": "Guilds",
 	},
@@ -856,7 +859,7 @@
 	{
 		"name": "Opera House",
 		"culture": 4,
-		"specialistSlots": {"Musician": 1}, // changed to Musician
+		"specialistSlots": {"Artist": 1, "Musician": 1}, // 'Musician' added
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -869,7 +872,7 @@
 		"replaces": "Opera House",
 		"culture": 4,
 		"happiness": 3,
-		"specialistSlots": {"Musician": 1}, 
+		"specialistSlots": {"Artist": 1, "Musician": 1}, 
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -1204,7 +1207,6 @@
 	{
 		"name": "Hotel", // BNW building (adapted)
 		"gold": 2,
-		"percentStatBonus": {"culture": 10},
 		"cost": 300,
 		"requiredBuilding": "Museum",
 		"requiredTech": "Refrigeration",
@@ -1421,8 +1423,8 @@
 		"name": "National Visitor Center", // BNW national wonder (adapted)
 		"cost": 400,
 		"isNationalWonder": true,
-		"percentStatBonus": {"culture": 25},
-		"uniques": ["Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["[2] Free Social Policies", "[+25]% [Culture] from every [Hotel]",
+		"Cost increases by [30] per owned city", "Only available <when number of [Owned [Landmark] Tiles] is more than [4]>"],
 		"requiredTech": "Telecommunications",
 	},
 	{
