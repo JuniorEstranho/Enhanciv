@@ -76,7 +76,7 @@
 		"presentation": "None",
 		"choices": [
 			{
-				"name": "Perform Concert Tour",
+				"text": "Perform Concert Tour",
 				"uniques": [
 					"Gain [175] [Culture] <when number of [Completed Policy branches] is equal to [0]> <(modified by game speed)>",
 					"Gain [250] [Culture] <when number of [Completed Policy branches] is equal to [1]> <(modified by game speed)>",
@@ -98,23 +98,37 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"name": "Artist"
-				"uniques": ["Free [Great Artist] appears",
+				"text": "[Great Artist]"
+				"uniques": ["Free [Great Artist] appears <hidden from users>",
 					"Play [WLTK] sound",
 					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"name": "Writer",
-				"uniques": ["Free [Great Writer] appears",
+				"text": "[Great Writer]",
+				"uniques": ["Free [Great Writer] appears <hidden from users>",
 					"Play [WLTK] sound",
 					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"name": "Musician",
-				"uniques": ["Free [Great Musician] appears",
+				"text": "[Great Musician]",
+				"uniques": ["Free [Great Musician] appears <hidden from users>",
 					"Play [WLTK] sound"
+				]
+			}
+		]
+	},
+	{
+		"name": "Choose Ideology",
+		"text": "It's time to you choose your ideology! you earn a free social policy to just adopt one from this ideologies: [Order] or [Autocracy] or [Freedom]",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Ok"
+				"uniques": ["Gain a free [Choose Ideology] [in capital] <hidden from users>",
+					"Free Social Policy <hidden from users>",
+					"Play [WLTK] sound",
 				]
 			}
 		]
