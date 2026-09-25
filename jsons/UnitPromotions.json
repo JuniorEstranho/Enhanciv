@@ -871,6 +871,10 @@
 		"uniques": ["[+20]% Strength <during a Golden Age>", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
+		"name": "[Digger] ability",
+		"uniques": ["[+100]% Strength <vs [Air] units> <when defending>", "[+25]% Strength <when fighting in [Open Borders] tiles>"]
+	},
+	{
 		"name": "[Foreign Legion] ability",
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
