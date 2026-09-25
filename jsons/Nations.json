@@ -363,8 +363,8 @@
 
 		"tradeRequest": "Maybe you be interested on it?",
 
-		"outerColor": [0, 210, 207],
-		"innerColor": [36, 87, 36],
+		"outerColor": [255, 226, 100],
+		"innerColor": [98, 60, 33],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Maritime Fleets",
 		"uniques": ["Comment [[Embarked] units has 1 point cost to embark and disembark and double movement on your territory. Making connections between intermaritime cities more easy.]",
@@ -1262,7 +1262,7 @@
 		"uniqueName": "Casa da Índia",
 		"uniques": ["Gifts of Gold to City-States generate [50]% more Influence",
 			"[+2 Gold] from every specialist [in all coastal cities]",
-			"[+1] Happiness for each type of luxury resource"],
+			"[+1] Happiness from each type of luxury resource"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -1671,8 +1671,8 @@
 
 		"tradeRequest": "You're kind, like I've heard? Then you wouldn't mind if I asked this.",
 
-		"outerColor": [82, 185, 176],
-		"innerColor": [19, 96, 87],
+		"outerColor": [0, 210, 207],
+		"innerColor": [36, 87, 36],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Anti-Imperium",
 		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>",
