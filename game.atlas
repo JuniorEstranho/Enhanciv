@@ -223,7 +223,7 @@ BuildingIcons/Ducal Stable
   index: -1
 BuildingIcons/Ikanda
   rotate: false
-  xy: 1200, 400
+  xy: 1200, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -811,14 +811,14 @@ ResourceIcons/Pepper
   index: -1
 ResourceIcons/Cloves
   rotate: false
-  xy: 1800, 600
+  xy: 1800, 400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Nutmeg
   rotate: false
-  xy: 1800, 800
+  xy: 1800, 600
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
