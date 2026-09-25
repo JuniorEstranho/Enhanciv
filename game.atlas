@@ -132,12 +132,26 @@ NationIcons/Poland
   index: -1
 NationIcons/Caribbean
   rotate: false
-  xy: 0, 800
+  xy: 1900, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Australia
+  rotate: false
+  xy: 1800, 200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nzo Nkisi
+NationIcons/The Franks
+  rotate: false
+  xy: 1800, 1200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pumbo
   rotate: false
   xy: 0, 400
   size: 100, 100
@@ -153,7 +167,7 @@ BuildingIcons/Hanse
   index: -1
 BuildingIcons/Royal Library
   rotate: false
-  xy: 800, 1400
+  xy: 1200, 1400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -196,20 +210,20 @@ BuildingIcons/Longhouse
 BuildingIcons/Hato
   rotate: false
   xy: 400, 600
-  size: 200, 200
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ducal Stable
   rotate: false
-  xy: 400, 600
-  size: 200, 200
+  xy: 500, 600
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ikanda
   rotate: false
-  xy: 1200, 800
+  xy: 1200, 400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -221,10 +235,87 @@ BuildingIcons/Candi
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Batéy
+  rotate: false
+  xy: 500, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hacienda
+  rotate: false
+  xy: 500, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Scriptorium
+  rotate: false
+  xy: 1800, 800
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hotel
+  rotate: false
+  xy: 0, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/National Visitor Center
+  rotate: false
+  xy: 700, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Kulumbimbi
   rotate: false
   xy: 1600, 1200
   size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Borobudur
+  rotate: false
+  xy: 1700, 1200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parthenon
+  rotate: false
+  xy: 1600, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Globe Theatre
+  rotate: false
+  xy: 1700, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Zimbabwe
+  rotate: false
+  xy: 0, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Prora
+  rotate: false
+  xy: 100, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Fort
+  rotate: false
+  xy: 1800, 1400
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -349,15 +440,15 @@ UnitIcons/Nau
   index: -1
 UnitIcons/Jong
   rotate: false
-  xy: 1600, 400
+  xy: 800, 200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Blowgunner
   rotate: false
-  xy: 800, 200
-  size: 200, 200
+  xy: 400, 300
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -382,17 +473,17 @@ UnitIcons/Impi
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Templar Knight
+UnitIcons/Paladin
   rotate: false
-  xy: 1000, 1000
+  xy: 1800, 1000
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Guerrilla
+UnitIcons/Digger
   rotate: false
-  xy: 1200, 1000
-  size: 200, 200
+  xy: 1900, 1200
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -462,7 +553,7 @@ ImprovementIcons/Chateau
 ImprovementIcons/Brazilwood Camp
   rotate: false
   xy: 400, 200
-  size: 200, 200
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -487,23 +578,30 @@ ImprovementIcons/Kasbah
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Outback Station
+  rotate: false
+  xy: 1800, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Buffalo Chest
   rotate: false
-  xy: 1000, 600
+  xy: 1600, 1000
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Buffalo Horns
   rotate: false
-  xy: 1000, 600
+  xy: 1600, 1000
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Buffalo Loins
   rotate: false
-  xy: 1000, 600
+  xy: 1600, 1000
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -517,7 +615,14 @@ UnitPromotionIcons/Homeland Guardian
   index: -1
 UnitPromotionIcons/Police Guard
   rotate: false
-  xy: 1200, 1200
+  xy: 1400, 1400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Highway Patrol
+  rotate: false
+  xy: 1400, 1400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -694,6 +799,27 @@ ReligionIcons/Orthodoxy
   rotate: false
   xy: 600, 700
   size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 700, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 1800, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nutmeg
+  rotate: false
+  xy: 1800, 800
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
