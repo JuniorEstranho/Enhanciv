@@ -126,8 +126,7 @@
 		"choices": [
 			{
 				"text": "Ok"
-				"uniques": ["Gain a free [Choose Ideology] [in capital] <hidden from users>",
-					"Free Social Policy <hidden from users>",
+				"uniques": ["Free Social Policy <hidden from users>",
 					"Play [WLTK] sound",
 				]
 			}
