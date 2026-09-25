@@ -1481,21 +1481,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["Homeland Guardian","Woodsman"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Force Publique",
-		"uniqueTo": "Belgium",
-		"replaces": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["[+50]% Strength <vs [City-States]>", "[-50]% maintenance costs"],
+		"promotions": ["[Digger] ability","Woodsman"],
 		"attackSound": "shot"
 	},
 	{
@@ -1509,19 +1495,6 @@
 		"obsoleteTech": "Plastics",
 		"uniques": ["Unbuildable"],
 		"promotions": ["[Foreign Legion] ability"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Guerrilla",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 160,
-		"uniques": ["Unbuildable","Unable to capture cities", "Can move immediately once bought","Mercenary Unit"],
-		"promotions": ["Guerrilla Tactics I"],
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
 	{
