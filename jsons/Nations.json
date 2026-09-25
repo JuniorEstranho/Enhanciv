@@ -270,39 +270,6 @@
 		"spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "Belgium",
-		"leaderName": "Leopold II",
-		"adjective": ["Belgian"],
-		"startBias": ["Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Leopold II",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "I want all your possess, give me now!",
-		"attacked": "You disloyal fool, you don't know nothing!",
-		"denounced": "You can tell all your lies to everyone, they never will believe on you.",
-		"defeated": "I have just one pleasure, don't touch on my privates properties.",
-		"introduction": "Has more people in here? Hello, the belgian king are welcome you.",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "So, out with it!",
-
-		"tradeRequest": "Let's make this happen.",
-
-		"outerColor": [255, 213, 37],
-		"innerColor": [54, 32, 32],
-		"favoredReligion": "Catholicism",
-		"uniqueName": "Colonialist Greed",
-		"uniques": ["Spies in [City-State] cities act as though they have [+4] levels for [Rigging Elections]",
-			"[+100]% spy effectiveness [in City-State cities]",
-			"[+100]% City-State Influence degradation <starting from the [Modern era]>"],
-		"cities": ["Brussels","Antwerp","Ghent","Brugges","Liège","Charleroi","Namur","Leuven","La Louviere","Mons","Seraing","Spa",
-			"Aaist","Mechelen","Bastogne","Arlon","Verviers","Tournai","Moustron","Kortrijk","Roeselare","Osteng"],
-		"spyNames": ["Pelzer", "Rom", "Delcommune", "Vankerckhoven", "Tombeur", "Røhn", "Burke", "Lindsay", "Løken", "Kjelstrup", "Coquilhat"]
-	},
-	{
 		"name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
@@ -1293,9 +1260,9 @@
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
-		"uniques": ["[+2 Gold] from every specialist [in all coastal cities]",
-			"[+1 Gold] from every [Luxury resource]",
-			"[Water] units gain the [Change Port] promotion"],
+		"uniques": ["Gifts of Gold to City-States generate [50]% more Influence",
+			"[+2 Gold] from every specialist [in all coastal cities]",
+			"[+1] Happiness for each type of luxury resource"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -1397,9 +1364,7 @@
 		"innerColor": [254, 234, 102],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Pax Romana",
-		"uniques": ["[+50]% Production when constructing [Aqueduct] buildings [in all cities]",
-			"[-50]% construction time for [All Road] improvements",
-			"[-50]% unhappiness from the number of cities"],
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 	  "cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 		  "Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 		  "Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1638,10 +1603,15 @@
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Father of Europe",
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital",
-			"City-State territory always counts as friendly territory",
-			"Gain a free [Courthouse] [in puppeted cities] <in cities following our religion>",
-			"Gain a free [Courthouse] [in annexed cities] <in cities following our religion>"],
+		"uniques": ["City-State territory always counts as friendly territory",
+			"Comment [Gain a free [Courthouse] in conquered cities following our religion]",
+			"Comment [Gain [Walls] and [Castle] (after discovering [Chivalry]) for free in conquered cities]",
+			"Gain a free [Courthouse] [in puppeted cities] <in cities following our religion> <hidden from users>",
+			"Gain a free [Courthouse] [in annexed cities] <in cities following our religion> <hidden from users>",
+			"Gain a free [Walls] [in puppeted cities] <hidden from users>",
+			"Gain a free [Castle] [in puppeted cities] <after discovering [Chivalry]> <hidden from users>",
+			"Gain a free [Walls] [in annexed cities] <hidden from users>",
+			"Gain a free [Castle] [in annexed cities] <after discovering [Chivalry]> <hidden from users>"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
 			"Tournai","Bordeaux","Ultrecht","Paris","Orleans","Lyons","Barcelona","Tours","Poitiers","Plois","Nantes"]
 		"spyNames": ["Barbarossa", "Clovis", "Charles", "Chlodio", "Brunhilda", "Dagobert"]
@@ -1705,7 +1675,7 @@
 		"innerColor": [19, 96, 87],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Anti-Imperium",
-		"uniques": ["[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>",
+		"uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>",
 			"[-50]% construction time for [Fort] improvements",
 			"[+50]% Strength for cities <when defending> <vs [Melee] units>"],
 		"cities": ["Olisipo","Vissaium","Aeminium","Equabona","Caetobriga","Cellas","Arabriga","Malateca","Salacia","Pax Julia",
@@ -1919,7 +1889,7 @@
 	// City-States sorted by cityStateType, name
 	{
 		"name": "Bueno Aires",
-		"adjective": ["Argentine"]
+		"adjective": ["Argentine"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1928,6 +1898,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [94, 193, 251],
 		"cities": ["Bueno Aires"]
+	},
+	{
+		"name": "Brussels",
+		"adjective": ["Bruxellois"]
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127, 177, 236],
+		"cities": ["Brussels"]
 	},
 	{
 		"name": "Florence",
@@ -2051,18 +2033,6 @@
 		"cities": ["Cape Town"]
 	},
 	{
-		"name": "Toronto",
-		"adjective": ["Torontonian"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [188, 43, 40],
-		"cities": ["Toronto"],
-	},
-	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
 		"cityStateType": "Maritime",
@@ -2099,6 +2069,19 @@
 		"cities": ["Mombasa"]
 	},
 	{
+		"name": "Ormus",
+		"adjective": ["Arabian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Desert"],
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [217, 158, 78],
+		"cities": ["Ormus"]
+	},
+	{
 		"name": "Quebec City",
 		"adjective": ["Québécois"],
 		"cityStateType": "Maritime",
@@ -2124,6 +2107,18 @@
 		"cities": ["Ragusa"]
 	},
 	{
+		"name": "Toronto",
+		"adjective": ["Torontonian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [188, 43, 40],
+		"cities": ["Toronto"],
+	},
+	{
 		"name": "Vancouver",
 		"adjective": ["Vancouverite"],
 		"cityStateType": "Maritime",
@@ -2134,6 +2129,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [193, 84, 255],
 		"cities": ["Vancouver"],
+	},
+	{
+		"name": "Antwerp",
+		"adjective": ["Antwerpenaar"]
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [193, 84, 255],
+		"cities": ["Antwerp"]
 	},
 	{
 		"name": "Cahokia",
@@ -2370,8 +2378,8 @@
 		"innerColor": [255, 255, 255],
 		"cities": ["Bratislava"]
 	},
-  {
-    "name": "Kathmandu",
+	{
+		"name": "Kathmandu",
 		"adjective": ["Kathmanduites"],
 		"cityStateType": "Religious",
 
@@ -2381,7 +2389,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [186, 18, 202],
 		"cities": ["Kathmandu"]
-  },
+	},
 	{
 		"name": "Geneva",
 		"adjective": ["Genevan", "Genevese"],
@@ -2393,6 +2401,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
 		"cities": ["Geneva"]
+	},
+	{
+		"name": "Ife",
+		"adjective": ["Ife"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Ife"]
 	},
 	{
 		"name": "Jerusalem",
