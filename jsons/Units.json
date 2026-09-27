@@ -562,8 +562,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"uniques": ["[+15]% Strength <vs [Siege] units> <when attacking>"],
-		"promotions": ["Accuracy I"],
+		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -814,7 +813,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+2] Sight", "Founds a new city <on foreign continents>",
-			"[This Unit] is destroyed <upon turn start> <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>", "Cannot move <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>"], //City-States can gift Conquistador to Venice
+			"[This Unit] is destroyed <upon turn start> <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>", "Cannot move <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>"], // Mah City-States gifts a Conquistador to Venice
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 	},
@@ -841,7 +840,7 @@
 		"uniqueTo": "The Franks",
 		"replaces": "Knight",
 		"unitType": "Sword", // changed to Sword (immune to anti-cavalry units)
-		"movement": 5,
+		"movement": 4,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
@@ -849,7 +848,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Shock I"],
+		"promotions": ["Shock I", "Mobility"],
 		"attackSound": "horse"
 	},
 	{
@@ -1545,7 +1544,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
-		"cost": 325,
+		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
@@ -1647,8 +1646,8 @@
 		"replaces": "Marine",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 75,
-		"cost": 425,
+		"strength": 70,
+		"cost": 450,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": ["Invisible to non-adjacent units <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>"],
@@ -1947,7 +1946,7 @@
 		"name": "Great Musician",
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"Triggers a [Perform Concert Tour] event <in [{non-[your]} {Friendly Land}] tiles> <for all movement>",
+			"Triggers a [Perform Concert Tour] event <in [{non-[your]} {Major}] tiles> <for all movement>",
 			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [50]% chance> <before adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
 			"Triggers a [Perform Concert Tour] event <upon turn start> <for [AI player] Civilizations> <with [75]% chance> <after adopting [Aesthetics]> <hidden from users>", // AI can't trigger a event by themselves
 			"May enter foreign tiles without open borders",
@@ -2000,7 +1999,8 @@
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
 			"[+100]% Gold from Great Merchant trade missions",
-			"Double movement in [Water]",
+			"Double movement in [Coast]",
+			"Double movement in [Ocean]",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Merchant of Venice] group",
@@ -2056,7 +2056,7 @@
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can instantly construct a [Holy site] improvement <by consuming this unit>", "Prevents spreading of religion to the city it is next to", "Can remove other religions from cities <in [your] tiles> <once> <after which this unit is consumed>", "Ignores terrain cost",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit>", "Prevents spreading of religion to the city it is next to", "Ignores terrain cost",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Shofet] group",
