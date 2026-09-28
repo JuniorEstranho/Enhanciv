@@ -55,8 +55,8 @@ NationIcons/The Tupi
   index: -1
 NationIcons/Portugal
   rotate: false
-  xy: 1200, 0
-  size: 200, 200
+  xy: 1231, 24
+  size: 137, 157
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -111,8 +111,8 @@ NationIcons/Shoshone
   index: -1
 NationIcons/Venice
   rotate: false
-  xy: 1600, 200
-  size: 200, 200
+  xy: 1630, 222
+  size: 130, 166
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -139,8 +139,8 @@ NationIcons/Caribbean
   index: -1
 NationIcons/Australia
   rotate: false
-  xy: 1800, 200
-  size: 200, 200
+  xy: 1812, 201
+  size: 174, 194
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -300,14 +300,14 @@ BuildingIcons/Globe Theatre
   index: -1
 BuildingIcons/Great Zimbabwe
   rotate: false
-  xy: 0, 800
+  xy: 0, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prora
   rotate: false
-  xy: 100, 800
+  xy: 100, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
