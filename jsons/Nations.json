@@ -93,7 +93,6 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of Desert",
 		"uniques": ["[+10]% Natural religion spread [in all cities connected to capital]",
-			"No Maintenance costs for improvements in [Desert] tiles",
 			"[+100]% [Oil] resource production"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -129,7 +128,7 @@
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": ["Receive a tech boost when scientific buildings/wonders are built in capital",
 			"Earn [100]% of the damage done to [City] units as [Science]",
-			"Comment [Gain a sum of [Science] by pillaging [Academy]s]"],
+			"Comment [Earn instatly [Science] by pillaging [Academy] tiles]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
@@ -1603,9 +1602,10 @@
 		"outerColor": [36, 34, 51],
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Feudal Lords",
-		"uniques": ["[+1 Production] from every [Farm]",
-			"[-66]% maintenance costs <for [Civilian] units>"],
+		"uniqueName": "Germanic Immigration",
+		"uniques": ["[33]% Food is carried over after population increases",
+			"[+3 Happiness] [in puppeted cities]",
+			"[+3 Happiness] [in annexed cities]"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
 			"Tournai","Bordeaux","Ultrecht","Paris","Orleans","Lyons","Barcelona","Tours","Poitiers","Plois","Nantes"]
 		"spyNames": ["Barbarossa", "Clovis", "Charles", "Chlodio", "Brunhilda", "Dagobert"]
