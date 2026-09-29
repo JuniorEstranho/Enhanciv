@@ -79,13 +79,15 @@
 				"text": "Perform Concert Tour",
 				"uniques": [
 					"Gain [175] [Culture] <when number of [Completed Policy branches] is equal to [0]> <(modified by game speed)>",
-					"Gain [250] [Culture] <when number of [Completed Policy branches] is equal to [1]> <(modified by game speed)>",
-					"Gain [375] [Culture] <when number of [Completed Policy branches] is equal to [2]> <(modified by game speed)>",
-					"Gain [450] [Culture] <when number of [Completed Policy branches] is equal to [3]> <(modified by game speed)>",
-					"Gain [575] [Culture] <when number of [Completed Policy branches] is equal to [4]> <(modified by game speed)>",
-					"Gain [650] [Culture] <when number of [Completed Policy branches] is equal to [5]> <(modified by game speed)>",
-					"Gain [775] [Culture] <when number of [Completed Policy branches] is equal to [6]> <(modified by game speed)>",
-					"Gain [850] [Culture] <when number of [Completed Policy branches] is more than [6]> <(modified by game speed)>",
+					"Gain [350] [Culture] <when number of [Completed Policy branches] is equal to [1]> <(modified by game speed)>",
+					"Gain [625] [Culture] <when number of [Completed Policy branches] is equal to [2]> <(modified by game speed)>",
+					"Gain [950] [Culture] <when number of [Completed Policy branches] is equal to [3]> <(modified by game speed)>",
+					"Gain [1225] [Culture] <when number of [Completed Policy branches] is equal to [4]> <(modified by game speed)>",
+					"Gain [1750] [Culture] <when number of [Completed Policy branches] is equal to [5]> <(modified by game speed)>",
+					"Gain [2225] [Culture] <when number of [Completed Policy branches] is equal to [6]> <(modified by game speed)>",
+					"Gain [2600] [Culture] <when number of [Completed Policy branches] is more than [6]> <(modified by game speed)>",
+					"[+25]% [Culture] [in all cities] <for [10] turns>",
+					"[+25]% Great Person generation [in all cities] <for [10] turns>",
 					"[This Unit] is destroyed",
 					"Play [WLTK] sound"
 				]
