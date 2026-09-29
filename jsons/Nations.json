@@ -1603,7 +1603,7 @@
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Germanic Immigration",
-		"uniques": ["[33]% Food is carried over after population increases",
+		"uniques": ["[33]% Food is carried over after population increases [in all cities]",
 			"[+3 Happiness] [in puppeted cities]",
 			"[+3 Happiness] [in annexed cities]"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
