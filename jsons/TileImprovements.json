@@ -245,12 +245,11 @@
 	{
 		"name": "Outback Station",
 		"uniqueTo": "Australia",
-		"terrainsCanBeBuiltOn": ["Plains","Desert"]
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"]
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"production": 2,
-		"uniques": ["[+1 Production] from [Plains] tiles",
-			"[+1 Production] <after discovering [Chemistry]>",
+		"production": 3,
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Food] from [Desert] tiles",
 			"Must be next to [Farm]",
 			"Cannot be built on [resource] tiles",
@@ -260,7 +259,7 @@
 		"name": "Brazilwood Camp",
 		"uniqueTo": "Brazil",
 		"terrainsCanBeBuiltOn": ["Jungle"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 7,
 		"techRequired": "Machinery"
 		"gold": 1,
 		"production": 1,
@@ -333,7 +332,9 @@
 		"techRequired": "Navigation",
 		"gold": 3,
 		"uniques": ["Gives a defensive bonus of [50]%",
-			"Gain control over [{resource} {Unowned}] tiles in a [2]-tile radius",
+			"Comment [Gain control over unowned land on foreign continents]",
+			"Gain control over [{Land} {Unowned}] tiles in a [2]-tile radius <on foreign continents> <hidden from users>",
+			"Gain control over [{Coast} {Unowned}] tiles in a [1]-tile radius <on foreign continents> <hidden from users>",
 			"Unavailable <within [4] tiles of a [Feitoria]>",
 			"Can be built outside your borders",
 			"Can only be built on [Coastal] tiles",
