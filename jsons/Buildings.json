@@ -953,6 +953,16 @@
 		"requiredTech": "Printing Press"
 	},
 	{
+		"name": "Newspaper",
+		"happiness": 1,
+		"specialistSlots": {"Writer": 2},
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": ["Comment [Can only be built in founded cities]", "Can only be built <in [{non-[Puppeted]} {non-[Annexed]}] cities> <hidden from users>"],
+		"requiredBuilding": "Library",
+		"requiredTech": "Printing Press"
+	},
+	{
 		"name": "Leaning Tower of Pisa",
 		"culture": 1,
 		"isWonder": true,
