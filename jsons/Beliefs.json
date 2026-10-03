@@ -43,7 +43,7 @@
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["Earn [33]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": ["Earn [40]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
         "name": "Goddess of Festivals",
@@ -272,7 +272,7 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <before the [Modern era]>"]
+        "uniques": ["[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>"]
     },
     {
         "name": "Holy Order",
@@ -287,7 +287,7 @@
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles> <before the [Modern era]>"]
+        "uniques": ["[+15]% Strength <for [Melee] units> <when fighting in [Enemy Land] tiles>"]
     },
     {
         "name": "Messiah",
