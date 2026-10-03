@@ -9,11 +9,14 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
-        "Nullifies [Faith] [in all cities] <when below [-15] [Happiness]> <when [Religious] Victory is enabled>",
+        "[-33]% [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
+        "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
+        "Comment [[-66]% Natural religion spread [in enemy cities]]",
+        "[-66]% Natural religion spread [in enemy cities] <for [non-[Byzantium]] Civilizations> <when [Religious] Victory is enabled> <hidden from users>",
         // Romania
-        "[+100]% Gold cost of acquiring tiles [in all cities] <within [7] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+100]% Gold cost of acquiring tiles [in all cities] <within [8] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[+200]% Gold cost of acquiring tiles [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
-        "[+15]% Culture cost of natural border growth [in all cities] <within [7] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
+        "[+15]% Culture cost of natural border growth [in all cities] <within [8] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[+25]% Culture cost of natural border growth [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>"
     ],
     "unitUniques": [
