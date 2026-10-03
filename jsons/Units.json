@@ -553,21 +553,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Falarica",
-		"uniqueTo": "The Lusitanian"
-		"replaces": "Composite Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 9,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -592,7 +577,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>","[-10]% Strength for enemy [Melee] units in adjacent [All] tiles"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -840,7 +825,7 @@
 		"uniqueTo": "The Franks",
 		"replaces": "Knight",
 		"unitType": "Sword", // changed to Sword (immune to anti-cavalry units)
-		"movement": 4,
+		"movement": 5,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
@@ -848,7 +833,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Shock I", "Mobility"],
+		"promotions": ["March"],
 		"attackSound": "horse"
 	},
 	{
