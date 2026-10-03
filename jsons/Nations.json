@@ -1603,8 +1603,7 @@
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Germanic Immigrations",
-		"uniques": ["[+2 Happiness] [in all cities following our religion]",
-			"[50]% Food is carried over after population increases [in all cities]"],
+		"uniques": ["[+25]% Great Person generation [in all cities] <for every [Known [{Friendly} {City-State}] Civilizations]>"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
 			"Tournai","Bordeaux","Ultrecht","Paris","Orleans","Lyons","Barcelona","Tours","Poitiers","Plois","Nantes"]
 		"spyNames": ["Barbarossa", "Clovis", "Charles", "Chlodio", "Brunhilda", "Dagobert"]
