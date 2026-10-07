@@ -654,7 +654,7 @@
 		"promotions": ["[Jagas Warrior] ability", "City Plunder II"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Impi",
@@ -976,8 +976,8 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Transfer Movement to [Civilian]"],
-		"promotions": ["Boarding Party I", "Great Admirals II"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Can instantly construct a [Feitoria] improvement <for all movement>", "Transfer Movement to [Civilian]"],
+		"promotions": ["Boarding Party I", "Great Admirals I"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1461,11 +1461,11 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-		"cost": 320,
+		"cost": 300,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["[Digger] ability","Woodsman"],
+		"promotions": ["[Digger] ability"],
 		"attackSound": "shot"
 	},
 	{
@@ -1477,7 +1477,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["Unbuildable"],
+		"uniques": ["Unbuildable", "Mercenary Unit"],
 		"promotions": ["[Foreign Legion] ability"],
 		"attackSound": "shot"
 	},
@@ -1770,6 +1770,7 @@
 		"strength": 85,
 		"rangedStrength": 85,
 		"cost": 375,
+		"uniques": ["Never appears as a Barbarian unit"],
 		"requiredTech": "Nuclear Fission",
 		"attackSound": "tankshot"
 	},
@@ -2041,7 +2042,7 @@
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can instantly construct a [Holy site] improvement <by consuming this unit>", "Prevents spreading of religion to the city it is next to", "Ignores terrain cost",
+			"Prevents spreading of religion to the city it is next to", "Ignores terrain cost",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Shofet] group",
