@@ -11,7 +11,7 @@
         // Religious victory rebalance
         "[-33]% [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-66]% Natural religion spread [in enemy cities] <for [non-[Byzantium]] Civilizations> <when [Religious] Victory is enabled> <hidden from users>",
+        "[-50]% Natural religion spread [in enemy cities] <for [non-[Byzantium]] Civilizations> <when [Religious] Victory is enabled> <hidden from users>",
         // Romania
         "[+100]% Gold cost of acquiring tiles [in all cities] <within [8] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[+200]% Gold cost of acquiring tiles [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
@@ -32,7 +32,7 @@
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles> <hidden from users>",
         // Persia
-        "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations> <hidden from users>"], 
+        "[This Unit] gains [2] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations> <hidden from users>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
