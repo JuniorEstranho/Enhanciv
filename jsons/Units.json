@@ -51,7 +51,7 @@
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 4,
+		"strength": 5,
 		"rangedStrength": 5,
 		"range": 1,
 		"cost": 25,
@@ -394,7 +394,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"],
 		"promotions": ["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -665,7 +665,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","Before engaging in combat performs an extra ranged attack with [100]% of melee combat strength"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -856,7 +856,7 @@
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
-		"cost": 120,
+		"cost": 110,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"promotions": ["Extended Range"],
@@ -1364,8 +1364,8 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Formation I", "[Rosiori] ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Armored] units>"],
+		"promotions": ["Drill I", "[Rosiori] ability"],
 		"attackSound": "cavalry"
 	},
 	{
