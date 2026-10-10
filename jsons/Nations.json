@@ -1147,8 +1147,8 @@
 		"innerColor": [255, 201, 200],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
-		"uniques": ["[+15]% Strength <vs [Wounded] units>",
-			"Earn [33]% of the damage done to [City] units as [Golden Age points]",
+		"uniques": ["[+10]% Strength <for [All] units> <while the empire is happy>",
+			"Upon capturing a city, receive [10] times its [Culture] production as [Golden Age points] immediately",
 			"Comment [[Military] units gain +2 XP per turn during a [Golden Age]]"]
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -1261,9 +1261,9 @@
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
-		"uniques": ["[+2 Gold] from every specialist [in all coastal cities]",
-			"Gifts of Gold to City-States generate [50]% more Influence",
-			"[-50]% maintenance cost for [Harbor] buildings [in all coastal cities]"],
+		"uniques": ["[+2 Gold] from every specialist [in all cities]",
+			"[+2 Gold] from every specialist [in all coastal cities]",
+			"Gifts of Gold to City-States generate [50]% more Influence"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -1582,7 +1582,7 @@
 	{
 		"name": "The Franks",
 		"leaderName": "Charlemagne",
-		"adjective": ["Franks"],
+		"adjective": ["Frankish"],
 		"preferredVictoryType": "Domination",
 		"personality": "Charlemagne",
 
@@ -1603,12 +1603,10 @@
 		"outerColor": [36, 34, 51],
 		"innerColor": [188, 194, 153],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Germanic Immigrations",
-		"uniques": ["Comment [Military units gifted to City-States generate more influence based on they type]",
-			"Comment [Military units gifted to City-States generate more influence when at war]",
-			"Comment [+20% Strength to allied City-States units]",
-			"Gain [7] Influence with a [Scout] gift to a City-State <hidden from users>", "Gain [10] Influence with a [Archery] gift to a City-State <hidden from users>", "Gain [15] Influence with a [Ranged Gunpowder] gift to a City-State <hidden from users>", "Gain [15] Influence with a [Sword] gift to a City-State <hidden from users>", "Gain [20] Influence with a [Gunpowder] gift to a City-State <hidden from users>", "Gain [20] Influence with a [{Water} {Military}] gift to a City-State <hidden from users>", "Gain [30] Influence with a [Siege] gift to a City-State <hidden from users>", "Gain [30] Influence with a [Mounted] gift to a City-State <hidden from users>", "Gain [45] Influence with a [Armored] gift to a City-State <hidden from users>",
-			"Gain [20] Influence with a [Military] gift to a City-State <when at war> <hidden from users>"],
+		"uniqueName": "Carolingian Renaissance",
+		"uniques": ["[+33]% [Science] [in all cities] <during a Golden Age>",
+			"[+25]% Great Person generation [in all cities] <during a Golden Age>",
+			"Comment [+20% Strength to allied City-States units]"],
 		"cities": ["Aachen","Cologne","Liegen","Coblenz","Mienz","Rheims","Metz","Combrai","Rouen","Trier","Strasburg","Fulda","Nimegen",
 			"Tournai","Bordeaux","Ultrecht","Paris","Orleans","Lyons","Barcelona","Tours","Poitiers","Plois","Nantes"]
 		"spyNames": ["Barbarossa", "Clovis", "Charles", "Chlodio", "Brunhilda", "Dagobert"]
