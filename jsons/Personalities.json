@@ -201,6 +201,41 @@
     ]
   },
   {
+    "name": "Augustus Caesar",
+    "production": 6,
+    "food": 5,
+    "gold": 6,
+    "science": 5,
+    "culture": 5,
+    "happiness": 8,
+    "faith": 4,
+    "military": 7,
+    "aggressive": 4,
+    "declareWar": 5,
+    "commerce": 4,
+    "diplomacy": 7,
+    "loyal": 4,
+    "expansion": 8,
+    "denounceWillingness": 7,
+    "priorities": {
+      "Tradition": 5,
+      "Liberty": 9,
+      "Honor": 6,
+      "Commerce": 6,
+      "Patronage": 7,
+      "Piety": 4,
+      "Rationalism": 6,
+      "Freedom": 6,
+      "Autocracy": 5,
+      "Order": 8
+    },
+    "civilopediaText": [
+      {
+        "text": "The creator of the Pax Romana and the Roman Empire, who ended a long civil war and brought peace to the entire Mediterranean, possibly the greatest emperor of Rome."
+      }
+    ]
+  },
+  {
     "name": "Basil II",
     "production": 5,
     "food": 5,
@@ -1629,37 +1664,6 @@
       "Freedom": 4,
       "Autocracy": 8,
       "Order": 4
-    }
-  },
-  {
-    "name": "Trajan",
-    "production": 6,
-    "food": 5,
-    "gold": 5,
-    "science": 6,
-    "culture": 5,
-    "happiness": 5,
-    "faith": 5,
-    "military": 7,
-    "aggressive": 5,
-    "declareWar": 6,
-    "commerce": 7,
-    "diplomacy": 6,
-    "loyal": 4,
-    "expansion": 8,
-    "denounceWillingness": 4, 
-    "priorities": {
-      "Tradition": 5,
-      "Liberty": 7,
-      "Honor": 6, 
-      "Commerce": 5,
-      "Patronage": 5,
-      "Piety": 4,
-      "Aesthetics": 5, //added
-      "Rationalism": 7,
-      "Freedom": 5,
-      "Autocracy": 6,
-      "Order": 7
     }
   },
   {
