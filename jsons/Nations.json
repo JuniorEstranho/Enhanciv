@@ -161,9 +161,9 @@
 		"innerColor": [0, 108, 10],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Dreamtime",
-		"uniques": ["[+3 Faith] for every known Natural Wonder",
-			"[+3 Culture, +3 Science] from every [Natural Wonder]",
-			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"uniques": ["[Settler] units gain the [Ignore terrain cost] promotion",
+			"[Great Engineer] is earned [50]% faster",
+			"[+2 Faith] for every known Natural Wonder"],
 		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
 			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
 			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
@@ -978,8 +978,8 @@
 
 		"tradeRequest": "The Kongo will cover all costs of this agreement.",
 
-		"outerColor": [67, 200, 40],
-		"innerColor": [100, 56, 18],
+		"outerColor": [54, 104, 38],
+		"innerColor": [170, 126, 47],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Foreign Missionaries",
 		"uniques": ["May buy [Missionary] units with [Gold] [in all cities in which the majority religion is a major religion]",
@@ -1048,8 +1048,8 @@
 		"innerColor": [16, 30, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Cry of Dolores",
-		"uniques": ["[Settler] units gain the [Ignore terrain cost] promotion",
-			"[+1 Happiness] per [2] social policies adopted",
+		"uniques": ["[+1 Happiness] per [1] social policies adopted",
+			"[+1 Culture] per [2] social policies adopted",
 			"[+100]% Production when constructing [National] wonders [in all cities]"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal"],
@@ -1150,7 +1150,7 @@
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+10]% Strength <for [All] units> <during a Golden Age>",
 			"Upon capturing a city, receive [5] times its [Culture] production as [Golden Age points] immediately",
-			"Comment [[Military] units gain +2 XP per turn during a [Golden Age]]"]
+			"Comment [All military units gain +2 XP per turn during a Golden Age]"]
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1262,9 +1262,10 @@
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
-		"uniques": ["[+2 Gold] from every specialist [in all cities]",
+		"uniques": ["[+1 Gold] from every [Trading post]",
+			"[+1 Gold] from every specialist [in all cities]",
 			"[+2 Gold] from every specialist [in all coastal cities]",
-			"Gifts of Gold to City-States generate [50]% more Influence"],
+			"Gifts of Gold to City-States generate [33]% more Influence"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
