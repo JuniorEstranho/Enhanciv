@@ -26,11 +26,8 @@
         "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations> <hidden from users>",
-        // The Franks
-        "[+20]% Strength <for [City-State] Civilizations> <for every [Known [{Friendly} {The Franks}] Civilizations]>",
         // Romania
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations> <hidden from users>",
-        "[-50]% Health from pillaging tiles <in [Romania] tiles> <hidden from users>",
         // Persia
         "[This Unit] gains [2] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations> <hidden from users>"], 
     "civilopediaText": [
