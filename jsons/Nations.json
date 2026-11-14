@@ -25,8 +25,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Manifest Destiny",
 		"uniques": ["[+1] Sight <for [{Military} {Land}] units>",
-			"[-50]% Gold cost of acquiring tiles [in all cities]",
-			],
+			"[-50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -57,7 +56,7 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [127, 42, 0],
+		"outerColor": [129, 38, 17],
 		"innerColor": [255, 245, 224],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Angolan Raw Materials",
@@ -127,7 +126,7 @@
 		"innerColor": [165, 140, 33],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Treasures of Nineveh",
-		"uniques": ["Earn [100]% of the damage done to [City] units as [Science]"],
+		"uniques": ["Earn [67]% of the damage done to [City] units as [Science]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
@@ -330,9 +329,7 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
-			"Comment [No natural religion spread penalty in enemy cities during a war]",
-			"[+100]% Natural religion spread [in enemy cities] <when at war>",
-			"[+100]% Natural religion spread [in annexed cities]"],
+			"May choose [1] additional belief(s) of any type when [enhancing] a religion"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson", "Sardica",
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
 			"Tyana","Gaza","Kerkyra", "Phoenice","Selymbria","Sillyon", "Chrysopolis","Vodena","Caesarea", "Traianoupoli","Constantia","Athens", 
@@ -365,11 +362,9 @@
         "innerColor": [36, 87, 36],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Maritime Fleets",
-		"uniques": ["[+1 Food] from every [Fishing Boats]",
-			"Comment [Embarked units has 1 point cost to embark and disembark and double movement on friendly territory. Making connections between intermaritime cities more easy.]",
-			"Comment [Gain double radius control over [Coast] tiles by founding coastal cities]",
-			"Gain control over [{Coast} {Unowned}] tiles in a [2]-tile radius <in [Coastal] tiles> <in this city> <upon founding a city> <hidden from users>",
-			"[-50]% Culture cost of natural border growth [in all coastal cities] <hidden from users>"],
+		"uniques": ["Comment [Embarked units has 1 point cost to embark and disembark and double movement on friendly territory. Making connections between intermaritime cities more easy.]",
+			"[+1 Food] from every [Fishing Boats]",
+			"[+2 Food] from every [Atoll]"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
@@ -712,8 +707,7 @@
 		"innerColor": [31, 15, 108],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
-		"uniques": ["[+1 Happiness] <for every [4] [[Military] Units]>",
-			"[+50]% Golden Age length",
+		"uniques": ["[+50]% Golden Age length",
 			"[+1] Movement <for [All] units> <during a Golden Age>"],
 		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
 			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
@@ -914,8 +908,8 @@
 		"innerColor": [255, 240, 192],
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom Bless",
-		"uniques": ["Comment [Half [Faith] produced per turn is converted to [Science]]", 
-			"[+1 Science] [in capital] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
+		"uniques": ["Comment [Half [Faith] produced per turn is converted to [Science] in [Palace]]", 
+			"[+1 Science] from every [Palace] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
 		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
 			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
 	},
@@ -984,7 +978,8 @@
 			"[Faith] cost of purchasing [Missionary] units [-67]%",
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
-			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
+			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"],
+		"spyNames": ["Lukeni","Nkuwu","Nkanga","Npanzu","Nkumbi","Mpemba","Nerika","Nzenze","Ntumba","Mvita"]
 	},
 	{
 		"name": "Korea",
@@ -1078,8 +1073,8 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": ["[+30]% Strength <vs [City-States]>",
-			"[+1] Movement <for [Mounted] units>",
-			"No movement cost to pillage <for [Mounted] units>"],
+			"[-50]% maintenance costs <for [Mounted] units>",
+			"[+1] Movement <for [Mounted] units>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -1145,7 +1140,8 @@
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+10]% Strength <for [All] units> <during a Golden Age>",
-			"Upon capturing a city, receive [5] times its [Culture] production as [Golden Age points] immediately",
+			"Comment [Earn Golden Age points by conquering cities]",
+			"Upon capturing a city, receive [5] times its [Culture] production as [Golden Age points] immediately <hidden from users>",
 			"Comment [All military units gain +2 XP per turn during a Golden Age]"]
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -1182,7 +1178,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Solidarity",
 		"uniques": ["Comment [Free social policy upon advances a new era]",
-			"[+10]% Science cost of researching new Technologies",
+			"[+15]% Science cost of researching new Technologies",
 			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
@@ -1258,8 +1254,9 @@
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
-		"uniques": ["[+3 Gold] from every [Merchant]",
-			"[+6 Gold] from every [Customs house]"],
+		"uniques": ["[+1 Gold] from every [Merchant]",
+			"[+3 Gold] from every [Customs house]",
+			"[+33]% [Gold] from Trade Routes <in [Coastal] cities>"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -1393,7 +1390,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Great Expanse",
 		"uniques": ["[+15]% Strength <for [{Military} {Land}] units> <when fighting in [your] tiles>",
-			"Gain control over [8] tiles [in this city] <upon founding a city>",
+			"Gain control over [6] tiles [in this city] <upon founding a city>",
 			"[{Cultural Artifacts} {Stash of Gold} {Trained by Tribes} {Holy Symbols} {Advanced Weaponry}] units gain the [Sacagawea's Legacy] promotion <hidden from users>"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -1697,8 +1694,8 @@
 
 		"tradeRequest": "Let us do business! Would you be interested?",
     
-		"outerColor": [241, 255, 227],
-		"innerColor": [114, 150, 74],
+		"outerColor": [255, 255, 255],
+		"innerColor": [35, 133, 12],
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
 		"uniques": ["When defeating a [Water] unit, earn [25] Gold and recruit it <with [50]% chance>",
@@ -1736,9 +1733,8 @@
 		"innerColor": [5, 84, 227],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Yperoig Peace",
-		"uniques": ["[-50]% maintenance costs <for [Archery] units>",
-			"[-50]% Gold cost of upgrading <for [Ranged] units>"],
-		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz",
+		"uniques": ["[-50]% unhappiness from the number of cities <when not at war>"],
+		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Tabajara","Caeté","Tupiniquim","Aimorê",
 			"Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma","Awetí","Mondé","Tuparí"]
 	},
 	{
@@ -2130,19 +2126,6 @@
 		"cities": ["Hong Kong"]
 	},
 	{
-		"name": "Mauritsstad",
-		"adjective": ["Mauritsstad"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
-		"cities": ["Mauritsstad"]
-	},
-	{
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
 		"cityStateType": "Mercantile",
@@ -2241,18 +2224,6 @@
 		"cities": ["Budapest"]
 	},
 	{
-		"name": "Granada",
-		"adjective": ["Granadian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [188, 43, 40],
-		"cities": ["Granada"],
-	},
-	{
 		"name": "Hanoi",
 		"adjective": ["Hanoian"],
 		"cityStateType": "Militaristic",
@@ -2263,6 +2234,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
 		"cities": ["Hanoi"]
+	},
+	{
+		"name": "La Habana",
+		"adjective": ["Cuban"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+
+		"declaringWar": "We will do everything for the revolution. To arms, comrades!",
+		"attacked": "I will use everything to stop you!",
+		"defeated": "We will fight against your imperialism until death.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["La Habana"],
 	},
 	{
 		"name": "Sidon",
