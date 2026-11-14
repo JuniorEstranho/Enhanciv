@@ -798,7 +798,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+2] Sight", "Founds a new city <on foreign continents>",
-			"[This Unit] is destroyed <upon turn start> <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>", "Cannot move <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>"], // Mah City-States gifts a Conquistador to Venice
+			"[This Unit] is destroyed <upon turn start> <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>", "Cannot move <if [Palace] is constructed> <for [Venice] Civilizations> <hidden from users>"], // if a City-States gifts a Conquistador to Venice
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 	},
@@ -1069,6 +1069,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+		"uniques": ["May enter foreign tiles without open borders"],
 		"promotions": ["Coastal Raider I","Landing Party", "[Buccaneer] ability","[Privateer] ability"],
 		"attackSound": "cannon"
 	},
@@ -2042,7 +2043,7 @@
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Prevents spreading of religion to the city it is next to", "Ignores terrain cost",
+			"Prevents spreading of religion to the city it is next to", "Free Social Policy <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Shofet] group",
