@@ -1040,7 +1040,7 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 24,
+		"strength": 100,
 		"cost": 140,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -1196,7 +1196,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Sipahi", // Only available after adopting 'Military Caste'
+		"name": "Sipahi", // Only available after adopting ''
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 25,
