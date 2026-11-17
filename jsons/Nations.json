@@ -56,8 +56,8 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [129, 38, 17],
-		"innerColor": [255, 245, 224],
+		"outerColor": [145, 54, 30],
+		"innerColor": [255, 224, 103],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Angolan Raw Materials",
 		"uniques": ["Comment [Strategic resources provide happiness as if they were luxury resources]",
@@ -337,14 +337,14 @@
 		"spyNames": ["Theodora", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
 	},
 	{
-		"name": "Caribbean", // likes Polynesia, represents all Caribbean Sea
+		"name": "Caribbe", // likes Polynesia, represents all Caribbean Sea
 		"leaderName": "Agüeybaná II",
 		"adjective": ["Caribbean"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Agüeybaná II",
 
-		"startIntroPart1": "Great Chieftain of Boriken! Before Columbus, the Caribbean islands are habitated by the Tainos people. When the Spanish Conquistador's arrives, you shelter them under our home but them with your ruthless greed - pillaged our home and enslaved our people, forcing us to fight against them. were defeated but the new mixed Caribbean population increases and spelled the colonizers. Much nations births in this seas, likes: Cuba, Haiti, Dominicana, Bahamas, Jamaica and more.",
+		"startIntroPart1": "Great Chieftain of Boriken! Before Columbus, the Caribbean islands are habitated by the Tainos people. When the Spanish Conquistador's arrives, you shelter them under our home but them with your ruthless greed - pillaged our home and enslaved our people, forcing us to fight against them. were defeated but the new mixed caribbean population increases and spelled the colonizers. Much nations births in this seas, likes: Cuba, Haiti, Dominicana, Bahamas, Jamaica and more.",
 		"startIntroPart2": "O Brave Agüeybaná II - the caribbean tropicals seas are waiting for you. Your people needs your presence to govern our new home - dont let foreigners take our lands from us.",
 
 		"declaringWar": "On front, mens - You will not lie to me anymore!",
@@ -1039,8 +1039,8 @@
 		"outerColor": [62, 101, 44],
 		"innerColor": [16, 30, 16],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Cry of Dolores",
-		"uniques": ["[+1 Happiness, +1 Culture, +2 Science] per [1] social policies adopted",
+		"uniqueName": "La Reforma",
+		"uniques": ["Free Social Policy <upon ending a Golden Age>",
 			"[+100]% Production when constructing [National] wonders [in all cities]"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal"],
@@ -1177,15 +1177,9 @@
 		"innerColor": [16, 16, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Solidarity",
-		"uniques": ["Comment [Free social policy upon advances a new era]",
-			"[+15]% Science cost of researching new Technologies",
-			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Industrial era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Modern era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Future era]> <hidden from users>"],
+		"uniques": ["[+1 Culture] per [1] social policies adopted",
+			"[+2 Culture] per [3] social policies adopted",
+			"[+3 Culture] per [5] social policies adopted"],
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
 			"Bytom","Olsztyn","Rzeszow","Ruda Slaska","Bielsko-Biala","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
@@ -1529,7 +1523,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["Comment [Gain a [Ancient ruins] bonus upon capturing a [Barbarian encampment]]",
-			"[+3 Science] from each Trade Route",
+			"[+2 Science] from each Trade Route",
 			"Starts with [Pottery]"],
 		"cities": ["Uruk","Ur","Eridu","Nippur","Lagash","Umma","Adab","Zabalam","Girsu","Nigin","Larsa",
 			"El Obeid","Shuruppak","Abu Salabikh","Kish","Kutha","Djemdet-Nasr","Tell Agrab","Tutub",
