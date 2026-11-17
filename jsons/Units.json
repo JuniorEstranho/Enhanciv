@@ -58,7 +58,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Can move after attacking", "May upgrade to [Archer] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost", "Survivalism I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -602,7 +602,7 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 15,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -648,7 +648,7 @@
 		"replaces": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 19,
+		"strength": 18,
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"promotions": ["[Jagas Warrior] ability", "City Plunder II"],
@@ -671,7 +671,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Landsknecht",
+		"name": "Landsknecht", // Only available after adopting 'Mercenary Army'
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
@@ -782,7 +782,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Earn [200]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Earn [100]% of the damage done to [City] units as [Gold]"],
 		"attackSound": "horse"
 	},
 	{
@@ -976,7 +976,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Can instantly construct a [Feitoria] improvement <for all movement>", "Transfer Movement to [Civilian]"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Transfer Movement to [Civilian]"],
 		"promotions": ["Boarding Party I", "Great Admirals I"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
@@ -1156,6 +1156,7 @@
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles"],
 		"promotions": ["Formation I", "[Llaneiro] ability"],
 		"upgradesTo": "Anti-Tank Gun",
@@ -1195,17 +1196,15 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Sipahi",
-		"uniqueTo": "The Ottomans",
-		"replaces": "Lancer",
+		"name": "Sipahi", // Only available after adopting 'Military Caste'
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
-		"promotions": ["Formation I","[Sipahi] ability"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight","Can move immediately once bought", "Mercenary Unit","Unbuildable"],
+		"promotions": ["Formation I", "[Sipahi] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1366,7 +1365,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Armored] units>"],
-		"promotions": ["Drill I", "[Rosiori] ability"],
+		"promotions": ["[Rosiori] ability", "Drill I"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1470,7 +1469,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Foreign Legion",
+		"name": "Foreign Legion", // Only available after adopting 'Free Speech'
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
