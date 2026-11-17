@@ -57,7 +57,7 @@
 		"replaces": "Shrine",
 		"faith": 2,
 		"science": 2,
-		"cost": 40,
+		"cost": 50,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 	},
@@ -205,7 +205,7 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Barracks",
-		"food": 2,
+		"food": 3,
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -600,11 +600,11 @@
 		"name": "Hammam",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Garden",
-		"gold": 1,
-		"percentStatBonus": {"culture": 15},
+		"happiness": 3,
+		"percentStatBonus": {"culture": 20},
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Theology"
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Hagia Sophia",
