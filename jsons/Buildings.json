@@ -205,7 +205,7 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Barracks",
-		"food": 3,
+		"food": 2,
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -277,15 +277,13 @@
 		"name": "Hato",
 		"uniqueTo": "Gran Colombia",
 		"replaces": "Stable",
-		"production": 1,
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-		"percentStatBonus": {"production": 5},
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]"],
+			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -598,6 +596,16 @@
 		"maintenance": 1,
 		"requiredTech": "Theology"
 	},
+    {
+		"name": "Hammam",
+		"uniqueTo": "The Ottomans",
+		"replaces": "Garden",
+		"gold": 1,
+		"percentStatBonus": {"culture": 15},
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
 	{
 		"name": "Hagia Sophia",
 		"faith": 3,
@@ -900,8 +908,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1, "Engineer": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"percentStatBonus": {"gold": 25, "production": 10},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
