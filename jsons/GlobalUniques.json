@@ -11,7 +11,7 @@
         // Religious victory rebalance
         "[-33]% [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-50]% Natural religion spread [in enemy cities] <for [non-[Byzantium]] Civilizations> <when [Religious] Victory is enabled> <hidden from users>",
+        "[-50]% Natural religion spread [in enemy cities] <when [Religious] Victory is enabled>",
         // Romania
         "[+100]% Gold cost of acquiring tiles [in all cities] <within [8] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
         "[+200]% Gold cost of acquiring tiles [in all cities] <within [5] tiles of a [{Romania} {City center}]> <for [non-[Romania]] Civilizations> <hidden from users>",
@@ -21,7 +21,8 @@
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
         // Caribbean
-        "Double movement in [Water] <in [your] tiles> <when [Embarked]> <for [Caribbean] Civilizations> <hidden from users>",
+        "Double movement in [Coast] <in [your] tiles> <when [Embarked]> <for [Caribbean] Civilizations> <hidden from users>",
+        "Double movement in [Ocean] <in [your] tiles> <when [Embarked]> <for [Caribbean] Civilizations> <hidden from users>",
         "[1] Movement point cost to embark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
         "[1] Movement point cost to disembark <for [All] units> <in [your] tiles> <for [Caribbean] Civilizations> <hidden from users>",
         // England
