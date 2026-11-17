@@ -718,6 +718,10 @@
 		"uniques": ["[Great Admiral] is earned [100]% faster"]
 	},
 	{
+		"name": "Grand Champion",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
+	},
+	{
 		"name": "Quick Study",
 		"uniques": ["[+50]% XP gained from combat"]
 	},
@@ -794,7 +798,7 @@
 	},
 	{
 		"name": "[Maccabee] ability",
-		"uniques": ["[This Unit] upgrades for free <upon conquering a city>", "[This Unit] heals [100] HP <upon conquering a city>"]
+		"uniques": ["[This Unit] upgrades for free <upon conquering a city>", "[This Unit] heals [50] HP <upon conquering a city>"]
 	},
 	{
 		"name": "[Buccaneer] ability",
@@ -806,7 +810,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing", "Ignores Zone of Control"]
+		"uniques": ["[+10] HP when healing"]
 	},
 	{
 		"name": "[War-Cart] ability",
@@ -847,11 +851,11 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["[+20]% Strength <during a Golden Age>", "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"]
+		"uniques": ["[+25]% Strength <during a Golden Age>"]
 	},
 	{
 		"name": "[Digger] ability",
-		"uniques": ["[+100]% Strength <vs [Air] units> <when defending>", "[+100]% Strength <vs cities> <when defending>", "[+100]% Strength <when [Embarked]> <when defending>"]
+		"uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+100]% Strength <when [Embarked]> <when defending>"]
 	},
 	{
 		"name": "[Foreign Legion] ability",
@@ -867,7 +871,7 @@
 	},
 	{
 		"name": "[Llaneiro] ability",
-		"uniques": ["[+15]% Strength <when fighting in [Farm] tiles>", "[+15]% Strength <when fighting in [Pasture] tiles>"]
+		"uniques": ["[+20]% Strength <when fighting in [Farm] tiles>", "[+20]% Strength <when fighting in [Pasture] tiles>"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
