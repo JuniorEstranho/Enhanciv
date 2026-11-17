@@ -194,6 +194,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
+                    "Comment [[Sipahi] is enabled]",
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
                 "requires": ["Discipline"],
@@ -294,8 +295,8 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[+33]% Natural religion spread [in foreign cities]",
-                    "[+33]% Natural religion spread [in foreign cities] <in [Open Borders] cities>",
+                    "[+50]% Natural religion spread [in foreign cities]",
+                    "[+50]% Natural religion spread [in foreign cities] <in [Open Borders] cities>",
                     "Triggers the following global alert: [A foreign religion will be spread more faster!]",
                     "Get the leader title of [[leaderName] the Pious]"
                 ]
@@ -336,6 +337,7 @@
                 "name": "Fine Arts",
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]",
+                    "[+100]% Production when constructing [Person Guild] buildings [in all cities]",
                     "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -441,7 +443,7 @@
                 "name": "Merchant Confederacy",
                 "requires": ["Scholasticism", "Consulates"],
                 "uniques": [
-                    "Allied City-States provide [Gold] equal to [50]% of what they produce for themselves"
+                    "[+2 Gold] from each Trade Route <in [City-State] cities>"
                 ],
                 "row": 3,
                 "column": 4
