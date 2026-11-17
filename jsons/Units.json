@@ -1005,7 +1005,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
-		"promotions": ["Drill I"],
+		"promotions": ["Drill I", "Grand Champion"],
 		"attackSound": "shot"
 	},
 	{
@@ -1535,7 +1535,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"promotions": ["[Pracinha] ability"],
+		"promotions": ["[Pracinha] ability", "Grand Champion"],
 		"attackSound": "shot"
 	},
 	{
@@ -2044,7 +2044,7 @@
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Prevents spreading of religion to the city it is next to", "Free Social Policy <by consuming this unit>",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit>", "Prevents spreading of religion to the city it is next to",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
             "[This Unit] gets a name from the [Shofet] group",
@@ -2075,6 +2075,21 @@
 			"Can be earned through combat <for [Water] units>",
             "Is part of Great Person group [Admiral]",
             "[This Unit] gets a name from the [Admiral] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	{
+		"name": "Great Navigator",
+		"uniqueTo": "Portugal",
+		"replaces": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Is part of Great Person group [Admiral]",
+            "[This Unit] gets a name from the [Navigator] group",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
 	},
