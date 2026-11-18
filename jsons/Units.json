@@ -1063,7 +1063,7 @@
 	},
 	{
 		"name": "Buccaneer",
-		"uniqueTo": "Caribbean",
+		"uniqueTo": "Caribbe",
 		"replaces": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 5,
@@ -2087,7 +2087,7 @@
             "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
             "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Can be earned through combat <for [Water] units>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"[+100]% Strength bonus for [Embarked] units within [2] tiles", "Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence",
             "Is part of Great Person group [Admiral]",
             "[This Unit] gets a name from the [Navigator] group",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
