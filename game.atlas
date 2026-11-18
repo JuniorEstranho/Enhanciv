@@ -130,7 +130,7 @@ NationIcons/Poland
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Caribbean
+NationIcons/Caribbe
   rotate: false
   xy: 1900, 1300
   size: 100, 100
@@ -250,6 +250,13 @@ BuildingIcons/Hacienda
   offset: 0, 0
   index: -1
 BuildingIcons/Scriptorium
+  rotate: false
+  xy: 1800, 800
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hammam
   rotate: false
   xy: 1800, 800
   size: 200, 200
@@ -494,10 +501,10 @@ UnitIcons/Great Galleass
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Mariachi Musician
+UnitIcons/Great Navigator
   rotate: false
-  xy: 1600, 1000
-  size: 200, 200
+  xy: 1700, 1500
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -515,7 +522,7 @@ UnitIcons/Jagas Warrior
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Yamato
+UnitIcons/Maccabee
   rotate: false
   xy: 1400, 1400
   size: 200, 200
@@ -529,7 +536,7 @@ UnitIcons/Hand-Axe
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Voltigeurs Guard
+UnitIcons/Shofet
   rotate: false
   xy: 400, 1000
   size: 200, 200
