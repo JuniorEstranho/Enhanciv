@@ -349,11 +349,10 @@
 	},
 	{
 		"name": "Batéy",
-		"uniqueTo": "Caribbean",
+		"uniqueTo": "Caribbe",
 		"replaces": "Colosseum",
-		"maintenance": 1,
+		"maintenance": 0,
 		"happiness": 3,
-		"culture": 1,
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
@@ -493,6 +492,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"cost": 75,
 		"hurryCostModifier": 25,
+		"uniques": ["[-33]% Gold cost of purchasing [Worker] units <in this city>"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
@@ -600,11 +600,12 @@
 		"name": "Hammam",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Garden",
-		"happiness": 3,
-		"percentStatBonus": {"culture": 20},
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"faith": 1,
+		"happiness": 2,
+		"uniques": ["[+25]% Great Person generation [in this city]", "[-50]% Unhappiness from [Specialists] [in this city]"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"maintenance": 1,
+		"requiredTech": "Theology"
 	},
 	{
 		"name": "Hagia Sophia",
