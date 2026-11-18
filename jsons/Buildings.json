@@ -492,7 +492,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"cost": 75,
 		"hurryCostModifier": 25,
-		"uniques": ["[-33]% Gold cost of purchasing [Worker] units <in this city>"],
+		"uniques": ["[Gold] cost of purchasing [Worker] units [-33]% <in this city>"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
