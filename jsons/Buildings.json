@@ -349,12 +349,13 @@
 	},
 	{
 		"name": "Batéy",
-		"uniqueTo": "Caribbe",
+		"uniqueTo": "Caribbean",
 		"replaces": "Colosseum",
 		"maintenance": 0,
 		"happiness": 3,
 		"cost": 75,
 		"hurryCostModifier": 25,
+		"uniques": ["[+2 Happiness] <on foreign continents>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1044,7 +1045,6 @@
 		"gold": 2,
 		"percentStatBonus": {"gold": 20},
 		"specialistSlots": {"Engineer": 1},
-		"cost": 225,
 		"hurryCostModifier": 25,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Economics"
@@ -1057,6 +1057,7 @@
 		"food": 2,
 		"percentStatBonus": {"food": 10},
 		"specialistSlots": {"Engineer": 1},
+		"cost": 200,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
