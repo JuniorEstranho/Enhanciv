@@ -130,7 +130,7 @@ NationIcons/Poland
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Caribbe
+NationIcons/Caribbean
   rotate: false
   xy: 1900, 1300
   size: 100, 100
@@ -147,6 +147,13 @@ NationIcons/Australia
 NationIcons/The Franks
   rotate: false
   xy: 1800, 1200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Israel
+  rotate: false
+  xy: 600, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
