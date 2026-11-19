@@ -978,7 +978,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking", "Transfer Movement to [Civilian]"],
-		"promotions": ["Boarding Party I", "Great Admirals I"],
+		"promotions": ["Boarding Party I", "Great Admirals II"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1046,7 +1046,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Free [Janissary] appears <upon conquering a city>"],
+		"uniques": ["[+15]% Strength <vs [Sword] units>"],
 		"promotions": ["[Janissary] ability", "Besiege"],
 		"attackSound": "shot"
 	},
@@ -1063,7 +1063,7 @@
 	},
 	{
 		"name": "Buccaneer",
-		"uniqueTo": "Caribbe",
+		"uniqueTo": "Caribbean",
 		"replaces": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 5,
@@ -1132,7 +1132,7 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"promotions": ["Bombardment I", "Great Admirals II"],
+		"promotions": ["Bombardment I", "Great Admirals I"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
