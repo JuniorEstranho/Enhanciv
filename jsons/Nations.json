@@ -56,8 +56,8 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [145, 54, 30],
-		"innerColor": [255, 224, 103],
+		"outerColor": [100, 0, 5],
+		"innerColor": [255, 245, 205],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Angolan Raw Materials",
 		"uniques": ["Comment [Strategic resources provide happiness as if they were luxury resources]",
@@ -126,7 +126,7 @@
 		"innerColor": [165, 140, 33],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Treasures of Nineveh",
-		"uniques": ["Earn [67]% of the damage done to [City] units as [Science]"],
+		"uniques": ["Upon capturing a city, receive [5] times its [Science] production as [Science] immediately"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
@@ -159,8 +159,8 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Dreamtime",
 		"uniques": ["[Settler] units gain the [Ignore terrain cost] promotion",
-			"[Great Engineer] is earned [50]% faster",
-			"[+1 Faith] for every known Natural Wonder"],
+			"[+1 Faith] for every known Natural Wonder",
+			"[Great Engineer] is earned [50]% faster <during a Golden Age>"],
 		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
 			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
 			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
@@ -337,7 +337,7 @@
 		"spyNames": ["Theodora", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
 	},
 	{
-		"name": "Caribbe", // likes Polynesia, represents all Caribbean Sea
+		"name": "Caribbean", // likes Polynesia, represents all Caribbean Sea
 		"leaderName": "Agüeybaná II",
 		"adjective": ["Caribbean"],
 		"startBias": ["Coast"],
@@ -361,10 +361,11 @@
 		"outerColor": [0, 210, 207],
         "innerColor": [36, 87, 36],
 		"favoredReligion": "Catholicism",
-		"uniqueName": "Maritime Fleets",
-		"uniques": ["Comment [Embarked units has 1 point cost to embark and disembark and double movement on friendly territory. Making connections between intermaritime cities more easy.]",
-			"[+1 Food] from every [Fishing Boats]",
-			"[+2 Food] from every [Atoll]"],
+		"uniqueName": "Tropical Paradise",
+		"uniques": ["Comment [[+1 Culture] from each Improvement adjacent to a [Jungle] tiles or in a [Coastal] tiles]",
+			"Comment [[+1 Gold] from each Improvement adjacent to a [Jungle] tiles or in a [Coastal] tiles after discovering [Economics]]",
+			"[+1 Culture] from every [{Improvement} {non-[All Road]}] <in tiles adjacent to [Jungle] tiles> <hidden from users>", "[+1 Gold] from every [{Improvement} {non-[All Road]}] <in tiles adjacent to [Jungle] tiles> <after discovering [Economics]> <hidden from users>",
+			"[+1 Culture] from every [{Improvement} {non-[All Road]}] <in [Coastal] tiles> <hidden from users>", "[+1 Gold] from every [{Improvement} {non-[All Road]}] <in [Coastal] tiles> <after discovering [Economics]> <hidden from users>"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
@@ -689,8 +690,8 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Simón Bolívar",
 
-		"startIntroPart1": "Simon Bolivar, 'El Libertador' of Latin America. During so much time the Spanish colonies just serves to obey the Spanish crown until the Napoleon invades Spain and making Spain 'abandon' your colonies. During Spain crisis with France, You with you nationalism seed you freed us from Spanish settlers and makes the Gran Colombia birth in 1819 with glory and morale spending the decolonization in Colombia, Bolivia, Equador, Peru, Panama and Venezuela. Gran Colombia hold for 20 years but fall agaisnt the traitors and power struggle.",
-		"startIntroPart2": "Great Simon Bolivar, Gran Colombia needs birth again! Your armies needs be commanded by your morale and strength! You can be so strong to hold the test of time?",
+		"startIntroPart1": "Simon Bolivar, 'El Libertador' of Latin America. During so much time the Spanish colonies just serves to obey the Spanish crown until the Napoleonic wars then the Spainish empire 'abandon' your colonies, you planted the nationalism seed, freeding us from Spanish settlers and made the Gran Colombia birth in 1819 with glory and morale spending the decolonization in Colombia, Bolivia, Equador, Peru, Panama and Venezuela. Gran Colombia hold for 20 years but fall agaisnt the traitors and power struggle.",
+		"startIntroPart2": "Great Simón Bolívar, Gran Colombia needs birth again! Your armies needs be commanded by your morale and strength! You can be so strong to hold the test of time?",
 
 		"declaringWar": "I can't wait any longer, Gran Colombia needs this. You're in our way!",
 		"attacked": "We motto is die for our country, and you're only making it even more heroic.",
@@ -908,7 +909,7 @@
 		"innerColor": [255, 240, 192],
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wisdom Bless",
-		"uniques": ["Comment [Half [Faith] produced per turn is converted to [Science] in [Palace]]", 
+		"uniques": ["Comment [50% of [Faith] produced per turn is converted to [Science] in [Palace]]", 
 			"[+1 Science] from every [Palace] <for every [2] [[Faith] Per Turn]> <hidden from users>"],
 		"cities": ["Samaria","Jericho","Megiddo","Beersheba","Jezreel","Arad","Taanach","Kadesh","Kamon","Siquem","Silo","Tirza",
 			"Acsaf","Ai","Betel","Bethlehem","Zafon","Jafia","Adam"]
@@ -1121,13 +1122,13 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Cyrus II",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Mighty Cyrus II. Your majesty achieves greats conquests with diplomacy and power in warfare. Conquering the Medes in 550BC, bringing the power needed to made Lydia's fall agaisnt our magnificence, cunning for us they substantial wealth, that unstoppable power has conquered the powerful Babylonian empire, so much years later the Egypt as will conquered too. The Achaemenid empire shine through the ages, with greats wars against the Greeks and just fallen after other worthy opponent appears.",
+		"startIntroPart2": "Cyrus II, King of the Kings, with your mighty mind and powerful army, We are prepared to conquer the all known world.",
 
-		"declaringWar": "Greater Persia will bow down to no one, and that includes you!",
-		"attacked": "You really think you can defeat us? well, let's see.",
-		"denounced": "Ignorance is not a bless.",
-		"defeated": "Well, I don't know how this happened. What technology your uses to destroy us?",
+		"declaringWar": "You are a beast, is impossible to you continue to exist in this world. Kneel before me and beg me for mercy.",
+		"attacked": "You are just a fool child, thinking can leave us from the pinnacle.",
+		"denounced": "We will remember this.",
+		"defeated": "Well, I don't know how this happened. What technology you used to destroy us?",
 		"introduction": "Greetings, welcome to Persia, home of all world arts and military might - we will be gracious if you are too.",
 
 		"neutralHello": "Greetings.",
@@ -1317,7 +1318,7 @@
 		"innerColor": [205, 85, 0],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Dragon of Wallachia",
-		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>",
+		"uniques": ["[+10]% Strength <vs [Wounded] units> <when attacking>",
 			"Comment [Foreign units dont have defensive terrain bonus in your territory]",
 			"Comment [Foreign cities near to your cities has penalty cost to acquiring tiles and more culture cost to natural border growth based on how much near they are]"],
 		"cities": ["Tirgoviste","Bucharest","Cluj-Napoca","Iasi","Constanta","Timisoara","Caralasi","Slobozia",
@@ -1557,7 +1558,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Nobel Prize",
 		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State",
-			"[+3 Science] from every [Great Improvement]"],
+			"[+2 Science] from every [Great Improvement]"],
 		"cities":  ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
 			"Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
 			"Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping", 
@@ -1721,13 +1722,12 @@
 		"hateHello": "What do YOU want?",
 
 		"tradeRequest": "I've heard rumors that you're a great negotiator. Want to prove it to me?",
-		"declaringFriendship": "It's time to you join.",
 
 		"outerColor": [40, 232, 54],
 		"innerColor": [5, 84, 227],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Yperoig Peace",
-		"uniques": ["[-50]% unhappiness from the number of cities <when not at war>"],
+		"uniques": ["[-50]% Unhappiness from [Population] [in all cities] <during We Love The King Day>"],
 		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Tabajara","Caeté","Tupiniquim","Aimorê",
 			"Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma","Awetí","Mondé","Tuparí"]
 	},
@@ -1757,7 +1757,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Serenissima",
-		"uniques": ["[+50]% [Gold] [in capital]",
+		"uniques": ["[+100]% [Gold] from Trade Routes",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
 			"Free [Merchant of Venice] appears <upon discovering [Navigation] technology>",
 			"Cannot build [Settler] units",
