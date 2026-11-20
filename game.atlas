@@ -74,10 +74,10 @@ NationIcons/Romania
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Lusitanian
+NationIcons/Israel
   rotate: false
-  xy: 1400, 200
-  size: 200, 200
+  xy: 1800, 1200
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -111,8 +111,8 @@ NationIcons/Shoshone
   index: -1
 NationIcons/Venice
   rotate: false
-  xy: 1630, 222
-  size: 130, 166
+  xy: 1600, 200
+  size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -147,13 +147,6 @@ NationIcons/Australia
 NationIcons/The Franks
   rotate: false
   xy: 1800, 1200
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Israel
-  rotate: false
-  xy: 600, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -256,10 +249,10 @@ BuildingIcons/Hacienda
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Scriptorium
+BuildingIcons/Outback Station
   rotate: false
-  xy: 1800, 800
-  size: 200, 200
+  xy: 1800, 1300
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -350,6 +343,13 @@ UnitIcons/Great Musician
 UnitIcons/Merchant of Venice
   rotate: false
   xy: 1700, 1500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Navigator
+  rotate: false
+  xy: 1900, 1000
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -531,8 +531,8 @@ UnitIcons/Jagas Warrior
   index: -1
 UnitIcons/Maccabee
   rotate: false
-  xy: 1400, 1400
-  size: 200, 200
+  xy: 1800, 1000
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -545,8 +545,8 @@ UnitIcons/Hand-Axe
   index: -1
 UnitIcons/Shofet
   rotate: false
-  xy: 400, 1000
-  size: 200, 200
+  xy: 1800, 1100
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -734,63 +734,63 @@ PolicyIcons/Navigation School
   index: -1
 PolicyIcons/Treasure Fleets
   rotate: false
-  xy: 500, 1300
+  xy: 600, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Aesthetics
   rotate: false
-  xy: 600, 1300
+  xy: 700, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Consulates
   rotate: false
-  xy: 500, 1400
+  xy: 600, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Merchant Confederacy
   rotate: false
-  xy: 600, 1400
+  xy: 700, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Centers
   rotate: false
-  xy: 700, 1300
+  xy: 800, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Fine Arts
   rotate: false
-  xy: 800, 1300
+  xy: 900, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 700, 1400
+  xy: 800, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Artistic Genius
   rotate: false
-  xy: 800, 1400
+  xy: 900, 1400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 900, 1300
+  xy: 1000, 1300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
