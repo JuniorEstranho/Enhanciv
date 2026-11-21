@@ -147,7 +147,7 @@
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
 		"denounced": "This trouble will be solves more fast than you think.",
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"introduction": "Welcome to Australia, neighbor. I'm John Curtin, first minister of Australia. We enjoy meeting new neighbors because any help is welcome.",
+		"introduction": "Welcome to Australia, neighbor. I am John Curtin, first minister of Australia. We enjoy meeting new neighbors because any help is welcome.",
 
 		"neutralHello": "Hello.",
 		"hateHello": "Oh, it's you.",
@@ -191,7 +191,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns"],
 		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel",
 			"St. Pölten","Eisenstadt","Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch", 
 			"Amstetten","Bad Ischl","Wolfsberg","Kufstein","Leoben","Klosterneuburg","Leonding",
@@ -362,10 +362,9 @@
         "innerColor": [36, 87, 36],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Tropical Paradise",
-		"uniques": ["Comment [[+1 Culture] from each Improvement adjacent to a [Jungle] tiles or in a [Coastal] tiles]",
-			"Comment [[+1 Gold] from each Improvement adjacent to a [Jungle] tiles or in a [Coastal] tiles after discovering [Economics]]",
-			"[+1 Culture] from every [{Improvement} {non-[All Road]}] <in tiles adjacent to [Jungle] tiles> <hidden from users>", "[+1 Gold] from every [{Improvement} {non-[All Road]}] <in tiles adjacent to [Jungle] tiles> <after discovering [Economics]> <hidden from users>",
-			"[+1 Culture] from every [{Improvement} {non-[All Road]}] <in [Coastal] tiles> <hidden from users>", "[+1 Gold] from every [{Improvement} {non-[All Road]}] <in [Coastal] tiles> <after discovering [Economics]> <hidden from users>"],
+		"uniques": ["[+1 Food] [in all coastal cities] <when above [3] [Happiness]>",
+			"[+3 Food] [in all coastal cities] <when above [5] [Happiness]>",
+			"[+5 Food] [in all coastal cities] <when above [10] [Happiness]>"],
 		"cities": ["Boriken","Quisqueya","Xamayca","Cuba","Bahama","Guanasa","Cautio","Guanabo","Inagua","Trono de Enriquillo","Anigua","Adamaney",
 			"Amona","Ciquey","Siqueuo","Cairiani","Amonana","Bimini","Jumeto","Baaruco","Yucayoinequa","Caycos","Guaticabon"],
 		"spyNames": ["Anacaona", "Caonabo", "Hatuey", "Enriquillo", "Guacaraganíx", "Guarionex", "Abey", "Brizuela", "Doña Ines", "Hayuya", "Jumacao"]
@@ -709,6 +708,7 @@
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Patriotic Army",
 		"uniques": ["[+50]% Golden Age length",
+			"[+10]% Production when constructing [All] buildings [in all cities] <during a Golden Age>",
 			"[+1] Movement <for [All] units> <during a Golden Age>"],
 		"cities": ["Bogotá","Cartagena","Medellín","Cúcuta","Popaya","Caracas","Maracaibo","Valencia","Cumana","Quito","Guayaquil","Cuencia","Panama City", 
 			"Neiva","Leticía","Mérida","Barinas","Iquitos","Moyobamba","Zarumilla","Tumbes","Jaén","Angostura","Cali"],
@@ -1041,7 +1041,7 @@
 		"innerColor": [16, 30, 16],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "La Reforma",
-		"uniques": ["Free Social Policy <upon ending a Golden Age>",
+		"uniques": ["[+2 Happiness] per [1] social policies adopted",
 			"[+100]% Production when constructing [National] wonders [in all cities]"],
 		"cities": ["Mexico city", "Guadalajara","Monterrey","Puebla", "Tijuana","Culíacán","León","Chihuahua","Ciudad Juárez","Toluca",
 			"Saltillo","Oaxaca","Querétaro","Aguascalientes","La Laz","Mexicali","Veracruz","Mérida","Chetumal"],
@@ -1140,7 +1140,7 @@
 		"innerColor": [255, 201, 200],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
-		"uniques": ["[+10]% Strength <for [All] units> <during a Golden Age>",
+		"uniques": ["[+15]% Strength <for [All] units> <during a Golden Age>",
 			"Comment [Earn Golden Age points by conquering cities]",
 			"Upon capturing a city, receive [5] times its [Culture] production as [Golden Age points] immediately <hidden from users>",
 			"Comment [All military units gain +2 XP per turn during a Golden Age]"]
@@ -1249,9 +1249,9 @@
 		"innerColor": [0, 45, 114],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Casa da Índia",
-		"uniques": ["[+1 Gold] from every [Merchant]",
-			"[+3 Gold] from every [Customs house]",
-			"[+33]% [Gold] from Trade Routes <in [Coastal] cities>"],
+		"uniques": ["[+2 Gold] from every [Merchant]",
+			"[+4 Gold] from every [Customs house]",
+			"[+34]% [Gold] from Trade Routes <in [Coastal] cities>"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
@@ -1558,7 +1558,7 @@
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Nobel Prize",
 		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State",
-			"[+2 Science] from every [Great Improvement]"],
+			"[+3 Science] from every [Great Improvement]"],
 		"cities":  ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
 			"Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
 			"Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping", 
@@ -1757,7 +1757,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Serenissima",
-		"uniques": ["[+100]% [Gold] from Trade Routes",
+		"uniques": ["[+50]% [Gold] [in capital]",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
 			"Free [Merchant of Venice] appears <upon discovering [Navigation] technology>",
 			"Cannot build [Settler] units",
@@ -1947,6 +1947,19 @@
 		"cities": ["Cape Town"]
 	},
 	{
+		"name": "Kampala",
+		"adjective": ["Kampalan"],
+		"cityStateType": "Maritime",
+		"startBias": ["Lakes"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [188, 43, 40],
+		"cities": ["Kampala"]
+	},
+	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
 		"cityStateType": "Maritime",
@@ -2019,18 +2032,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 163, 181],
 		"cities": ["Ragusa"]
-	},
-	{
-		"name": "Toronto",
-		"adjective": ["Torontonian"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [188, 43, 40],
-		"cities": ["Toronto"],
 	},
 	{
 		"name": "Vancouver",
@@ -2118,6 +2119,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [52, 97, 242],
 		"cities": ["Hong Kong"]
+	},
+	{
+		"name": "La Habana",
+		"adjective": ["Cuban"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "We will do everything for the revolution. To arms, comrades!",
+		"attacked": "I will use everything to stop you!",
+		"defeated": "We will fight against your imperialism until death.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [52, 97, 242],
+		"cities": ["La Habana"],
 	},
 	{
 		"name": "Singapore",
@@ -2230,17 +2244,17 @@
 		"cities": ["Hanoi"]
 	},
 	{
-		"name": "La Habana",
-		"adjective": ["Cuban"],
+		"name": "Kumasi",
+		"adjective": ["Kumasian"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
+		"startBias": ["Forest"],
 
-		"declaringWar": "We will do everything for the revolution. To arms, comrades!",
-		"attacked": "I will use everything to stop you!",
-		"defeated": "We will fight against your imperialism until death.",
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [246, 253, 160],
-		"cities": ["La Habana"],
+		"cities": ["Kumasi"],
 	},
 	{
 		"name": "Sidon",
