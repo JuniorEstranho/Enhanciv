@@ -56,7 +56,7 @@ NationIcons/The Tupi
 NationIcons/Portugal
   rotate: false
   xy: 1231, 24
-  size: 137, 157
+  size: 157, 177
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -361,7 +361,7 @@ UnitIcons/Pracinha
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Shieldman
+UnitIcons/Shield Bearer
   rotate: false
   xy: 100, 400
   size: 100, 100
