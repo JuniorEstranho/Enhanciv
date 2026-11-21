@@ -298,7 +298,7 @@
 		"uniqueTo": "Sumer",
 		"replaces": "Chariot Archer",
 		"unitType": "Archery",
-		"movement": 4,
+		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
 		"range": 1,
@@ -308,7 +308,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking"],
-		"promotions": ["[War-Cart] ability"],
+		"promotions": ["Cover I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -457,6 +457,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
+		"promotions": ["War Apostle II"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -567,7 +568,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Shieldman",
+		"name": "Shield Bearer",
 		"uniqueTo": "Kongo",
 		"replaces": "Swordsman",
 		"unitType": "Sword",
@@ -603,14 +604,16 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
+		"strength": 15,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"promotions": ["[Maccabee] ability"],
+		"uniques": ["Can be purchased with [Faith] [in all cities]",
+			"Can build [Pasture] improvements on tiles"],
+		"promotions": ["War Apostle I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -822,22 +825,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Paladin",
-		"uniqueTo": "The Franks",
-		"replaces": "Knight",
-		"unitType": "Sword", // changed to Sword (immune to anti-cavalry units)
-		"movement": 5,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["March"],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -1046,7 +1033,6 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+15]% Strength <vs [Sword] units>"],
 		"promotions": ["[Janissary] ability", "Besiege"],
 		"attackSound": "shot"
 	},
@@ -1154,12 +1140,12 @@
 		"uniqueTo": "Gran Colombia",
 		"replaces": "Lancer",
 		"unitType": "Mounted",
-		"movement": 4,
+		"movement": 5,
 		"strength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Formation I", "[Llaneiro] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1326,17 +1312,18 @@
 		"name": "Rurales",
 		"uniqueTo": "Mexico",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Gunpowder", // immune to  anti-cavalry units 
 		"movement": 4,
-		"strength": 34,
+		"strength": 30,
+		"rangedStrength": 34,
+		"range": 1,
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Police Guard", "Highway Patrol"],
-		"attackSound": "cavalry"
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Berber Cavalry",
@@ -1467,7 +1454,8 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"promotions": ["[Digger] ability"],
+		"uniques": ["[+100]% Strength <when [Embarked]>"],
+		"promotions": ["[Digger] ability", "Sentry"],
 		"attackSound": "shot"
 	},
 	{
