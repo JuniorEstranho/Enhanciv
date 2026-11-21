@@ -55,7 +55,7 @@ NationIcons/The Tupi
   index: -1
 NationIcons/Portugal
   rotate: false
-  xy: 1231, 24
+  xy: 1200, 0
   size: 157, 177
   orig: 100, 100
   offset: 0, 0
