@@ -764,6 +764,14 @@
 		"uniques": ["Earn [200]% of the damage done to [City] units as [Gold]"]
 	},
 	{
+		"name": "War Apostle I",
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Faith]"]
+	},
+	{
+		"name": "War Apostle II",
+		"uniques": ["Earn [100]% of the damage done to [City] units as [Faith]"]
+	},
+	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
@@ -784,25 +792,13 @@
 		"uniques": ["[+1] Movement"]
 	},
 	{
-		"name": "Police Guard", //Only for Rurales and subsequent upgrades
-		"uniques": ["[+15]% Strength bonus for [Land] units within [2] tiles"]
-	},
-	{
-		"name": "Highway Patrol", //Only for Rurales and subsequent upgrades
-		"uniques": ["[+25]% Strength <when fighting in [All Road] tiles>"]
-	},
-	{
 		"name": "Heavy Charge", //Only for Winged Hussar and subsequent upgrades
-		"uniques": ["Comment [Attacking give all the damage without damage penalty and stun the unit attacked for 2 turns]",
-			"No damage penalty for wounded units <hidden from users>", "[Target Unit] gains the [Stunned] status for [2] turn(s) <upon damaging a [Land] unit> <when attacking> <hidden from users>"]
-	},
-	{
-		"name": "[Maccabee] ability",
-		"uniques": ["[This Unit] upgrades for free <upon conquering a city>", "[This Unit] heals [50] HP <upon conquering a city>"]
+		"uniques": ["Comment [Attacking give all the damage without damage penalty and stun the unit attacked for 3 turns]",
+			"No damage penalty for wounded units <hidden from users>", "[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [Land] unit> <when attacking> <hidden from users>"]
 	},
 	{
 		"name": "[Buccaneer] ability",
-		"uniques": ["[+100]% Strength <vs [Land] units>", "Heals [25] damage if it kills a unit", "Invisible to non-adjacent units"]
+		"uniques": ["[+50]% Strength <vs [Land] units>", "Heals [25] damage if it kills a unit", "Invisible to non-adjacent units"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -813,16 +809,12 @@
 		"uniques": ["[+10] HP when healing"]
 	},
 	{
-		"name": "[War-Cart] ability",
-		"uniques": ["Withdraws before melee combat <with [40]% chance>"]
-	},
-	{
 		"name": "[Conquistador] ability",
 		"uniques": ["May attack when embarked", "[+100]% Strength <when [Embarked]> <when defending>"]
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit"]
+		"uniques": ["Heals [50] damage if it kills a unit", "[This Unit] heals [100] HP <upon conquering a city>"]
 	},
 	{
 		"name": "[Jagas Warrior] ability",
@@ -855,7 +847,7 @@
 	},
 	{
 		"name": "[Digger] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+100]% Strength <when [Embarked]> <when defending>"]
+		"uniques": ["Double movement in [Plains]"]
 	},
 	{
 		"name": "[Foreign Legion] ability",
@@ -871,7 +863,7 @@
 	},
 	{
 		"name": "[Llaneiro] ability",
-		"uniques": ["[+20]% Strength <when fighting in [Farm] tiles>", "[+20]% Strength <when fighting in [Pasture] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles>", "Can pass through impassable tiles"]
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
