@@ -26,7 +26,7 @@
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
 		"culture": 2,
-		"faith": 2,
+		"faith": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -355,7 +355,7 @@
 		"happiness": 3,
 		"cost": 75,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Happiness] <on foreign continents>"],
+		"uniques": ["[+3 Happiness] <on foreign continents>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -1043,7 +1043,7 @@
 		"replaces": "Windmill",
 		"production": 2,
 		"gold": 2,
-		"percentStatBonus": {"gold": 20},
+		"percentStatBonus": {"gold": 15},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
@@ -1053,7 +1053,7 @@
 		"name": "Outback Station",
 		"uniqueTo": "Australia",
 		"replaces": "Windmill",
-		"production": 2,
+		"production": 3,
 		"food": 2,
 		"percentStatBonus": {"food": 10},
 		"specialistSlots": {"Engineer": 1},
@@ -1204,10 +1204,10 @@
 	{
 		"name": "Hotel", // BNW building (adapted)
 		"cost": 300,
-		"maintenance": 0,
+		"maintenance": 1,
 		"requiredBuilding": "Museum",
 		"requiredTech": "Refrigeration",
-		"uniques": ["[+2 Culture] from [Landmark] tiles [in this city]", "Must have an owned [Landmark] within [3] tiles"]
+		"uniques": ["[+2 Culture] from [Landmark] tiles [in this city]"]
 	},
     {
 		"name": "Broadcast Tower",
@@ -1418,10 +1418,12 @@
 	},
 	{
 		"name": "National Visitor Center", // BNW national wonder (adapted)
+		"culture": 1,
 		"cost": 400,
 		"isNationalWonder": true,
-		"uniques": ["[2] Free Social Policies", "[+25]% [Culture] from every [Hotel]",
-		"Cost increases by [30] per owned city", "Only available <when number of [Owned [Landmark] Tiles] is more than [4]>"],
+		"uniques": ["Free Social Policy", "[+25]% [Culture] from every [Hotel]",
+		"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>",
+		"Cost increases by [30] per owned city"],
 		"requiredTech": "Telecommunications",
 	},
 	{
