@@ -160,7 +160,7 @@
 		"uniqueName": "Dreamtime",
 		"uniques": ["[Settler] units gain the [Ignore terrain cost] promotion",
 			"[+1 Faith] for every known Natural Wonder",
-			"[Great Engineer] is earned [50]% faster <during a Golden Age>"],
+			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
 		"cities": ["Canberra","Sydney","Melbourne","Brinsbane","Adelaide","Perth","Darwin","Hobart","Newcastle","Laucnceston",
 			"Balladonia","Kalgoorlie","Minilya","Carnarvon","Cooktown","Georgetown","Townsville","Gladstone","Bundaberg","Rockhampton",
 			"Alice Springs","Kulgera","Tennant Creek","Halls Creek","Charlesville","Cunnamulla","Broken Hills"]
@@ -1700,6 +1700,38 @@
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar"],
 		"spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+	},
+	{
+		"name": "The Soviets",
+		"leaderName": "Joseph Stalin",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"personality": "Joseph Stalin",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "It's too late for peace treaties. Our comrades will reduces you nation to misery!",
+		"attacked": "Our comrades will not surrender. Let's show the world our power!",
+		"denounced": "You are not our comrade, you are just a traitor trotskyist!",
+		"defeated": "Even after all, I not recognize you as a legitimate leader. My comrades never will accept you!",
+		"introduction": "Greetings. I am your comrade Joseph Stalin. Come here let's drink something and talk more about you.",
+
+		"neutralHello": "Hello, again.",
+		"hateHello": "Ahh... you...",
+
+		"tradeRequest": "Hey comrade, let's do this pact?",
+
+		"outerColor": [255, 11, 23],
+		"innerColor": [108, 23, 23],
+		"favoredReligion": "Orthodoxy",
+		"uniqueName": "Iron Curtain",
+		"uniques": ["[Great Engineer] is earned [50]% faster",
+			"Can build [all] improvements at a [+25] rate",
+			"Comment [Enemy Land units must spend [1] extra movement point when inside in a allied City-State territory]"],
+		"cities": ["Moscow","Leningrad","Stalingrad","Vladimir","Kiev","Kursk","Kaliningrad","Molotov","Ulyanosk","Leninsk","Kirovsk","Stalin",
+			"Marksshtadt","Sverdlovak","Marx","Stalinsk","Leninabad","Leninogorsk","Stalinabad","Voroshilov","Shalkhty","Staingrad","Kuybishev"]
 	},
 	{
 		"name": "The Tupi",
