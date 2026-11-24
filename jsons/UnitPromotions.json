@@ -780,6 +780,14 @@
 		"uniques": ["No movement cost to pillage","[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
+		"name": "Winter Infantry", //Only for Red Army Infantry and subsequent upgrades
+		"uniques": ["[+33]% Strength <when fighting in [Tundra] tiles>","[+33]% Strength <when fighting in [Snow] tiles>"]
+	},
+	{
+		"name": "Comrade", //Only for Red Army Infantry and subsequent upgrades
+		"uniques": ["[+10]% Strength bonus for [Melee] units within [2] tiles"]
+	},
+	{
 		"name": "Slinger Withdraw", //Only for Slinger units and subsequent upgrades
 		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
