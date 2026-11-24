@@ -1142,7 +1142,7 @@
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 25,
-		"cost": 185,
+		"cost": 175,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
@@ -1312,7 +1312,7 @@
 		"name": "Rurales",
 		"uniqueTo": "Mexico",
 		"replaces": "Cavalry",
-		"unitType": "Gunpowder", // immune to  anti-cavalry units 
+		"unitType": "Ranged Gunpowder", // immune to  anti-cavalry units 
 		"movement": 4,
 		"strength": 30,
 		"rangedStrength": 34,
@@ -1524,6 +1524,20 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["[Pracinha] ability", "Grand Champion"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Red Army Infantry",
+		"replaces": "The Soviets",
+		"uniqueTo": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"promotions": ["Winter Infantry","Comrade"],
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
