@@ -385,6 +385,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Hypaspists",
+		"uniqueTo": "Macedonia",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Impossible to be flank"],
+		"promotions": ["Drill I", "Great Generals I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Persian Immortal",
 		"uniqueTo": "Persia",
 		"replaces": "Spearman",
@@ -479,7 +494,7 @@
 	},
 	{
 		"name": "Companion Cavalry",
-		"uniqueTo": "Greece",
+		"uniqueTo": "Macedonia",
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -549,6 +564,20 @@
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Psiloi",
+		"uniqueTo": "Greece",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 60,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
