@@ -1723,12 +1723,12 @@
 
 		"tradeRequest": "Hey comrade, let's do this pact?",
 
-		"outerColor": [255, 11, 23],
-		"innerColor": [108, 23, 23],
+		"outerColor": [203, 11, 5],
+		"innerColor": [255, 247, 146],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Iron Curtain",
 		"uniques": ["[Great Engineer] is earned [50]% faster",
-			"Can build [all] improvements at a [+25] rate",
+			"Can build [All] improvements at a [+25]% rate",
 			"Comment [Enemy Land units must spend [1] extra movement point when inside in a allied City-State territory]"],
 		"cities": ["Moscow","Leningrad","Stalingrad","Vladimir","Kiev","Kursk","Kaliningrad","Molotov","Ulyanosk","Leninsk","Kirovsk","Stalin",
 			"Marksshtadt","Sverdlovak","Marx","Stalinsk","Leninabad","Leninogorsk","Stalinabad","Voroshilov","Shalkhty","Staingrad","Kuybishev"]
