@@ -1528,8 +1528,8 @@
 	},
 	{
 		"name": "Red Army Infantry",
-		"replaces": "The Soviets",
-		"uniqueTo": "Infantry",
+		"uniqueTo": "The Soviets",
+		"replaces": "Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
