@@ -716,25 +716,25 @@
 	},
 	{
 		"name": "Greece",
-		"leaderName": "Alexander",
+		"leaderName": "Pericles",
 		"adjective": ["Greek"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-		"personality": "Alexander",
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Pericles",
 
-		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
-		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "Great Greece, the cradle of the West. Great Pericles of Athens, through his knowledge, secured great victories against the Persians and the forces of the East, establishing the power of Athens as the world’s first democracy. Sparta, a city of disciplined warriors. The Elysian fields of philosophy and literature, home to great thinkers like Socrates. The wisdom of the Greek people compelled various empires to seek the conquest of these lands.",
+		"startIntroPart2": "Magnificent Pericles, may the gods grant us victory. Our mighty hoplites shall brandish their spears and fight by your side until the end. Might we see the Athenian Golden Age return once more?",
 
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+		"declaringWar": "Ah, how should I break this news to you... the Greek city-states are officially declaring war on you!",
+		"attacked": "You are messing with a wrong man!",
+		"denounced": "That’s great - you’ve revealed yourself.",
+		"defeated": "The dark age has arrived, well...we will obey you for now.",
+		"introduction": "Greetings, foreigner. Athens are exciting for sharing our knowledge with you.",
 
-		"neutralHello": "Hail.",
-		"hateHello": "Ahh... you...",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want now?",
 
-		"tradeRequest": "My friend, does this seem reasonable to you?",
+		"tradeRequest": "Greetings, again. Join here, the league needs your help.",
 
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
@@ -745,8 +745,8 @@
 			"City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
-			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
-			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis"],
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Naxos","Larissa",
+			"Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis"],
 		"spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
 	},
 	{
@@ -1016,6 +1016,39 @@
 		"spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
 	},
 	{
+		"name": "Macedonia",
+		"leaderName": "Alexander",
+		"adjective": ["Macedonian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Alexander",
+
+		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
+		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Hail.",
+		"hateHello": "Ahh... you...",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [251, 227, 35],
+		"innerColor": [78, 54, 37],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "World Conqueror",
+		"uniques": ["[+100]% Strength <for [{Water} {Melee}] units>",
+			"Units are [+100]% more effective at intimidating City-States",
+			"[+50]% Production when constructing [Siege] units [in all cities]"],
+		"cities": ["Pella","Alexandria","Halicarnassus","Parsetonium","Granicus","Carchemish","Marakanda","Gordium","Taxica","Arbela","Sardis","Cunaxa",
+			"Antioch","Ephesus","Ipsus","Side","Aneyra","Nisibis","Susia","Memphis","Bactra","Gaugamela","Pura","Gaza","Persepolis","Athens","Sparta"],
+		"spyNames": ["Hephaestion", "Parmenion", "Ptolemy", "Attalus", "Perdiccas", "Seleucus", "Balacrus" ,"Arybba" ,"Leonnatus" ,"Olympias", "Heraclides", "Philip", "Peithon"]
+	},
+	{
 		"name": "Mexico",
 		"leaderName": "Benito Juárez",
 		"adjective": "Mexican",
@@ -1175,7 +1208,7 @@
 		"tradeRequest": "How do you like my offer?",
 
 		"outerColor": [245, 0, 0],
-		"innerColor": [16, 16, 16],
+		"innerColor": [255, 200, 200],
 		"favoredReligion": "Catholicism",
 		"uniqueName": "Solidarity",
 		"uniques": ["[+1 Culture] per [1] social policies adopted",
@@ -1706,7 +1739,7 @@
 		"leaderName": "Joseph Stalin",
 		"adjective": ["Soviet"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 		"personality": "Joseph Stalin",
 
 		"startIntroPart1": "",
@@ -1724,11 +1757,11 @@
 		"tradeRequest": "Hey comrade, let's do this pact?",
 
 		"outerColor": [203, 11, 5],
-		"innerColor": [255, 247, 146],
+		"innerColor": [63, 11, 5],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Iron Curtain",
 		"uniques": ["[Great Engineer] is earned [50]% faster",
-			"Can build [All] improvements at a [+25]% rate",
+			"Gain [10] Influence per turn with City-States you could demand tribute from",
 			"Comment [Enemy Land units must spend [1] extra movement point when inside in a allied City-State territory]"],
 		"cities": ["Moscow","Leningrad","Stalingrad","Vladimir","Kiev","Kursk","Kaliningrad","Molotov","Ulyanosk","Leninsk","Kirovsk","Stalin",
 			"Marksshtadt","Sverdlovak","Marx","Stalinsk","Leninabad","Leninogorsk","Stalinabad","Voroshilov","Shalkhty","Staingrad","Kuybishev"]
