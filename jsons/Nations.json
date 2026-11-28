@@ -304,25 +304,24 @@
 	},
 	{
 		"name": "Byzantium",
-		"leaderName": "Basil II",
+		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-		"personality": "Basil II",
+		"preferredVictoryType": "Cultural",
+		"personality": "Theodora",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Magnificent Empress Theodora, beloved of Byzantium and of Rome, your people salute you! With your beauty and intelligence, you rose up from actress and courtesan to the rank of the most powerful woman in the Roman Empire, as wife of Justinian I. In the late 520's AD, you helped your husband engage in spiritual and legal reforms, promugalting numerous laws to improve women's status and treatment in the empire. You also made of Constantinople the jewel of the Eastern Roman Empire with the restoration and construction of many aqueducts, bridges, and churches, its beauty culminating with the creation of the Hagia Sophia, one of the most splendid pieces of architecture in the world.",
+		"startIntroPart2": "Beautiful Empress,the Byzantine Empire's magnificence is intact in all memories, and ready to reborn as the new jewel of humankind. Will your new empire shine through the ages of history?",
 
-		"declaringWar": "I heard that some my believers are living in your cities, We need put our cross on above your cities.",
-		"attacked": "I was already expecting this war before you even considered the possibility!",
-		"denounced": "No more kindness with you!",
-		"defeated": "Oh, great Constantinople! Now sunk by these infernal beasts!",
-		"introduction": "Welcome, I'm Basil II, the Greatest. You come here to convert to our lord, or you come here to see my wonders?",
+		"declaringWar": "It is always a shame to destroy a thing of beauty. Happily, you are not one.",
+		"attacked": "Now darling, tantrums are most unbecoming. I shall have to teach you a lesson.",
+		"denounced": "I don’t have time for silly complaints.",
+		"defeated": "Like a child playing with toys you are. My people will never love you, nor suffer this indignation gracefully.",
+		"introduction": "My, isn't this a pleasant surprise - what may I call you, oh mysterious stranger? I am Theodora, beloved of Byzantium.",
 
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you.",
+		"neutralHello": "Hello, again.",
 
-		"tradeRequest": "I have a idea but I'll need your opinion about it. This is rightfull for you?",
+		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions. Show me.",
 
 		"outerColor": [70, 0, 118],
 		"innerColor": [254, 234, 102],
@@ -334,7 +333,7 @@
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
 			"Tyana","Gaza","Kerkyra", "Phoenice","Selymbria","Sillyon", "Chrysopolis","Vodena","Caesarea", "Traianoupoli","Constantia","Athens", 
 			"Patra","Korinthos"],
-		"spyNames": ["Theodora", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
+		"spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
 	},
 	{
 		"name": "Caribbean", // likes Polynesia, represents all Caribbean Sea
@@ -1020,7 +1019,7 @@
 		"name": "Macedonia",
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Alexander",
 
