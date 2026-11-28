@@ -9,7 +9,7 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
-        "[-33]% [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
+        "[-50]% [Faith] [in all cities] <when below [-10] [Happiness]> <when [Religious] Victory is enabled>",
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
         "[-50]% Natural religion spread [in enemy cities] <when [Religious] Victory is enabled>",
         // Romania
@@ -22,6 +22,8 @@
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
+        // parameters
+        "[-200]% to Flank Attack bonuses <vs [Impossible to be flank] units> <hidden from users>",
         // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations> <hidden from users>",
         // Romania
