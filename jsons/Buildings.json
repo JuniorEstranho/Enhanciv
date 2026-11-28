@@ -355,7 +355,6 @@
 		"happiness": 3,
 		"cost": 75,
 		"hurryCostModifier": 25,
-		"uniques": ["[+3 Happiness] <on foreign continents>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -590,7 +589,7 @@
 		"uniqueTo": "Romania",
 		"replaces": "Garden",
 		"faith": 2,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Hill]"],
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 25,
@@ -1523,11 +1522,11 @@
 		"cost": 0,
 		"faith": 2,
 		"culture": 2,
-		"percentStatBonus": {"science": 5},
+		"percentStatBonus": {"science": 10},
 		"uniques": ["[+2 Science] from [Oasis] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
-	{ //Indonesia Exclusive luxury resources buildings
+	{ //Indonesia exclusive luxury resources buildings
 		"name": "Nutmeg Seeds",
 		"uniqueTo": "Indonesia",
 		"cost": 0,
